@@ -1,0 +1,32 @@
+{
+  "slug": "sombras-hojas",
+  "type": "video",
+  "status": "draft",
+  "title": "Una pausa de luz",
+  "description": "Una pared de yeso crema con sombras de hojas de una planta fuera de cuadro. Una propuesta de movimiento para fondo animado para una pieza con texto superpuesto después.",
+  "category": "Fondos",
+  "tags": ["fondos", "movimiento", "editorial"],
+  "audience": "Diseñadores y creadores de contenido",
+  "use": "Fondo animado para una pieza con texto superpuesto después",
+  "prompt": "Video de 8 segundos sugeridos, relación de aspecto 9:16. Escena: Una pared de yeso crema con sombras de hojas de una planta fuera de cuadro. Acción: Las sombras oscilan suavemente como con una brisa ligera, sin aparecer elementos nuevos. Cámara: Cámara completamente fija, sin cambio de foco. Tratamiento visual: Luz de tarde estable, centro despejado y contraste bajo para texto posterior. Una sola toma continua con identidad, geometría y luz consistentes durante todo el plano. Movimiento contenido y físicamente creíble. Sin texto, logotipos, marcas de agua, cortes ni transiciones. Sin diálogo; si la herramienta genera audio, buscar ambiente suave y registrarlo en las notas. La duración y el formato dependen de las opciones disponibles en el modelo: registrar los valores reales después de generar.",
+  "aspectRatio": "9:16",
+  "video": {
+    "action": "Las sombras oscilan suavemente como con una brisa ligera, sin aparecer elementos nuevos",
+    "camera": "Cámara completamente fija, sin cambio de foco",
+    "durationSeconds": 8
+  },
+  "customizable": ["Color de pared", "Tipo de hojas", "Intensidad de sombra"],
+  "proposedFilename": "miga-sombras-hojas.mp4",
+  "result": {
+    "file": null,
+    "poster": null,
+    "exactPrompt": null,
+    "tool": null,
+    "model": null,
+    "settings": {},
+    "notes": null,
+    "alt": null,
+    "testedAt": null,
+    "rightsConfirmed": false
+  }
+}

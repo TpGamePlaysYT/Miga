@@ -1,0 +1,13 @@
+---
+// Intentionally disabled. Do not add an AdSense loader until account, real slots,
+// privacy disclosures and applicable consent handling have been configured.
+const { slot = 'catalog-bottom' } = Astro.props;
+---
+
+<div
+  class="ad-slot container"
+  data-ad-slot={slot}
+  data-ad-enabled="false"
+  aria-hidden="true"
+  hidden
+></div>

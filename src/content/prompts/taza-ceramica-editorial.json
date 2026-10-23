@@ -1,0 +1,27 @@
+{
+  "slug": "taza-ceramica-editorial",
+  "type": "image",
+  "status": "draft",
+  "title": "Tu café, protagonista",
+  "description": "Taza de cerámica artesanal color lavanda con asa redonda. Una propuesta para catálogo de cerámica y publicaciones de marca.",
+  "category": "Productos",
+  "tags": ["productos", "editorial", "fotografía"],
+  "audience": "Ceramistas y tiendas de objetos",
+  "use": "Catálogo de cerámica y publicaciones de marca",
+  "prompt": "Taza de cerámica artesanal color lavanda con asa redonda, vacía y apoyada sobre una mesa crema. Escenario: fondo durazno mate, una servilleta de lino plegada a un lado, composición con mucho aire. Tratamiento visual: Objetivo de 70 mm, luz difusa de estudio, textura de esmalte visible, sombra corta y suave. Composición en relación 1:1, con un sujeto principal claramente reconocible. Mantén proporciones físicas creíbles y una composición limpia. Sin texto, marcas de agua ni logotipos. Si se usa una referencia autorizada, conserva sus rasgos esenciales sin añadir detalles que no estén presentes.",
+  "aspectRatio": "1:1",
+  "customizable": ["Forma de taza", "Color del esmalte", "Textil"],
+  "proposedFilename": "miga-taza-ceramica-editorial.webp",
+  "result": {
+    "file": null,
+    "poster": null,
+    "exactPrompt": null,
+    "tool": null,
+    "model": null,
+    "settings": {},
+    "notes": null,
+    "alt": null,
+    "testedAt": null,
+    "rightsConfirmed": false
+  }
+}

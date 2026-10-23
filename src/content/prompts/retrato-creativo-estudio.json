@@ -1,0 +1,27 @@
+{
+  "slug": "retrato-creativo-estudio",
+  "type": "image",
+  "status": "draft",
+  "title": "Una marca con rostro",
+  "description": "Persona adulta creativa sentada en un taburete. Una propuesta para biografía de portafolio y presentación de servicios.",
+  "category": "Retratos",
+  "tags": ["retratos", "editorial", "fotografía"],
+  "audience": "Diseñadores, ilustradores y profesionales creativos",
+  "use": "Biografía de portafolio y presentación de servicios",
+  "prompt": "Persona adulta creativa sentada en un taburete, con chaqueta lavanda y una libreta cerrada en las manos. Escenario: estudio minimalista color menta, composición asimétrica con espacio a la derecha para diseño posterior. Tratamiento visual: Plano medio con objetivo de 50 mm, luz grande y difusa lateral, tonos pastel y detalle en el tejido. Composición en relación 4:5, con un sujeto principal claramente reconocible. Mantén proporciones físicas creíbles y una composición limpia. Sin texto, marcas de agua ni logotipos. Si se usa una referencia autorizada, conserva sus rasgos esenciales sin añadir detalles que no estén presentes.",
+  "aspectRatio": "4:5",
+  "customizable": ["Persona", "Accesorio de trabajo", "Paleta"],
+  "proposedFilename": "miga-retrato-creativo-estudio.webp",
+  "result": {
+    "file": null,
+    "poster": null,
+    "exactPrompt": null,
+    "tool": null,
+    "model": null,
+    "settings": {},
+    "notes": null,
+    "alt": null,
+    "testedAt": null,
+    "rightsConfirmed": false
+  }
+}

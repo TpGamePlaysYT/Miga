@@ -1,0 +1,40 @@
+---
+import InfoLayout from '../layouts/InfoLayout.astro';
+import OwnerInfo from '../components/OwnerInfo.astro';
+---
+
+<InfoLayout
+  title="Tu privacidad, sin letra pequeña."
+  description="Qué guarda esta versión de Miga y para qué."
+>
+  <h2>Guardados en tu navegador</h2>
+  <p>
+    Al guardar un prompt, almacenamos su identificador en el almacenamiento local de tu navegador,
+    bajo la clave <code>miga:saved:v1</code>. No pedimos registro ni enviamos esa lista a un
+    servidor. Puedes quitar cada favorito o borrar los datos del sitio en tu navegador.
+  </p>
+  <h2>Búsquedas y navegación</h2>
+  <p>
+    Los filtros funcionan en tu dispositivo. El texto de búsqueda se refleja en la dirección de la
+    página para poder compartirla. Evita introducir información privada: una dirección puede quedar
+    en el historial del navegador o en registros del proveedor de alojamiento al abrirla.
+  </p>
+  <h2>Servicios externos</h2>
+  <p>
+    Esta versión sirve fuentes e ilustraciones desde el propio sitio. No incorpora analítica,
+    anuncios activos ni reproductores externos. Los videos publicados se cargan cuando decides
+    reproducirlos.
+  </p>
+  <h2>Alojamiento</h2>
+  <p>
+    El proveedor que aloje esta web puede procesar datos técnicos, como dirección IP y registros de
+    acceso, para entregar y proteger el servicio.
+  </p>
+  <OwnerInfo />
+  <h2>Publicidad desactivada</h2>
+  <p>
+    Los espacios publicitarios están preparados pero desactivados. Antes de activar AdSense se
+    actualizará esta información y se configurará la gestión de consentimiento que corresponda. No
+    se realizan solicitudes a Google AdSense en esta versión.
+  </p>
+</InfoLayout>

@@ -1,0 +1,32 @@
+{
+  "slug": "serum-giro-producto",
+  "type": "video",
+  "status": "draft",
+  "title": "Un giro para descubrirlo",
+  "description": "Un frasco verde de sérum sin marca sobre una plataforma crema y fondo menta. Una propuesta de movimiento para video de ficha de producto.",
+  "category": "Productos",
+  "tags": ["productos", "movimiento", "editorial"],
+  "audience": "Marcas de cosmética",
+  "use": "Video de ficha de producto",
+  "prompt": "Video de 8 segundos sugeridos, relación de aspecto 4:5. Escena: Un frasco verde de sérum sin marca sobre una plataforma crema y fondo menta. Acción: La plataforma gira lentamente un cuarto de vuelta, manteniendo el frasco rígido y centrado. Cámara: Cámara fija a la altura del producto, enfoque constante y sin zoom. Tratamiento visual: Iluminación de estudio difusa, reflejos controlados y vidrio consistente. Una sola toma continua con identidad, geometría y luz consistentes durante todo el plano. Movimiento contenido y físicamente creíble. Sin texto, logotipos, marcas de agua, cortes ni transiciones. Sin diálogo; si la herramienta genera audio, buscar ambiente suave y registrarlo en las notas. La duración y el formato dependen de las opciones disponibles en el modelo: registrar los valores reales después de generar.",
+  "aspectRatio": "4:5",
+  "video": {
+    "action": "La plataforma gira lentamente un cuarto de vuelta, manteniendo el frasco rígido y centrado",
+    "camera": "Cámara fija a la altura del producto, enfoque constante y sin zoom",
+    "durationSeconds": 8
+  },
+  "customizable": ["Envase", "Color", "Plataforma"],
+  "proposedFilename": "miga-serum-giro-producto.mp4",
+  "result": {
+    "file": null,
+    "poster": null,
+    "exactPrompt": null,
+    "tool": null,
+    "model": null,
+    "settings": {},
+    "notes": null,
+    "alt": null,
+    "testedAt": null,
+    "rightsConfirmed": false
+  }
+}

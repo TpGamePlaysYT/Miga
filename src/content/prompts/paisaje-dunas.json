@@ -1,0 +1,27 @@
+{
+  "slug": "paisaje-dunas",
+  "type": "image",
+  "status": "draft",
+  "title": "Un respiro en la pantalla",
+  "description": "Dunas suaves de arena marfil con una pequeña luna pálida sobre el horizonte. Una propuesta para fondo de pantalla y diapositivas.",
+  "category": "Fondos",
+  "tags": ["fondos", "editorial", "diseño"],
+  "audience": "Creadores y profesionales",
+  "use": "Fondo de pantalla y diapositivas",
+  "prompt": "Dunas suaves de arena marfil con una pequeña luna pálida sobre el horizonte. Escenario: cielo degradado lavanda y durazno al amanecer, escena vacía y serena sin edificios. Tratamiento visual: Panorámica de 35 mm, luz rasante muy suave, grano fino y sombras delicadas. Composición en relación 16:9, con un sujeto principal claramente reconocible. Mantén proporciones físicas creíbles y una composición limpia. Sin texto, marcas de agua ni logotipos. Si se usa una referencia autorizada, conserva sus rasgos esenciales sin añadir detalles que no estén presentes.",
+  "aspectRatio": "16:9",
+  "customizable": ["Paleta del cielo", "Relieve", "Momento del día"],
+  "proposedFilename": "miga-paisaje-dunas.webp",
+  "result": {
+    "file": null,
+    "poster": null,
+    "exactPrompt": null,
+    "tool": null,
+    "model": null,
+    "settings": {},
+    "notes": null,
+    "alt": null,
+    "testedAt": null,
+    "rightsConfirmed": false
+  }
+}

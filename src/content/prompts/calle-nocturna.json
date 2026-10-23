@@ -1,0 +1,32 @@
+{
+  "slug": "calle-nocturna",
+  "type": "video",
+  "status": "draft",
+  "title": "Después de la lluvia",
+  "description": "Una calle estrecha vacía de noche con asfalto húmedo y un farol ámbar. Una propuesta de movimiento para prueba de atmósfera para un cortometraje.",
+  "category": "Cine",
+  "tags": ["cine", "movimiento", "editorial"],
+  "audience": "Guionistas y realizadores",
+  "use": "Prueba de atmósfera para un cortometraje",
+  "prompt": "Video de 8 segundos sugeridos, relación de aspecto 16:9. Escena: Una calle estrecha vacía de noche con asfalto húmedo y un farol ámbar. Acción: Una lluvia muy fina cae de forma constante y crea pequeñas ondas en un charco; ningún vehículo entra en escena. Cámara: Travelling hacia delante muy lento y a baja altura, una única toma. Tratamiento visual: Contraste azul y ámbar, reflejos coherentes, sin carteles legibles ni parpadeos. Una sola toma continua con identidad, geometría y luz consistentes durante todo el plano. Movimiento contenido y físicamente creíble. Sin texto, logotipos, marcas de agua, cortes ni transiciones. Sin diálogo; si la herramienta genera audio, buscar ambiente suave y registrarlo en las notas. La duración y el formato dependen de las opciones disponibles en el modelo: registrar los valores reales después de generar.",
+  "aspectRatio": "16:9",
+  "video": {
+    "action": "Una lluvia muy fina cae de forma constante y crea pequeñas ondas en un charco; ningún vehículo entra en escena",
+    "camera": "Travelling hacia delante muy lento y a baja altura, una única toma",
+    "durationSeconds": 8
+  },
+  "customizable": ["Calle", "Clima", "Paleta de luz"],
+  "proposedFilename": "miga-calle-nocturna.mp4",
+  "result": {
+    "file": null,
+    "poster": null,
+    "exactPrompt": null,
+    "tool": null,
+    "model": null,
+    "settings": {},
+    "notes": null,
+    "alt": null,
+    "testedAt": null,
+    "rightsConfirmed": false
+  }
+}

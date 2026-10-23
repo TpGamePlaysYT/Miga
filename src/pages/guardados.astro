@@ -1,0 +1,14 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Catalog from '../components/Catalog.astro';
+import { getCatalog } from '../lib/catalog.js';
+---
+
+<Layout title="Tus prompts guardados | Miga" noindex={true}>
+  <div class="container saved-intro">
+    <span class="pill lavender">UN RINCÓN PARA TUS FAVORITOS</span>
+    <h1>Ideas para volver.</h1>
+    <p>Todo eso que te hizo pensar «esto lo quiero probar».</p>
+  </div>
+  <Catalog entries={getCatalog()} saved={true} />
+</Layout>

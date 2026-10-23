@@ -1,0 +1,27 @@
+{
+  "slug": "zapatilla-pastel",
+  "type": "image",
+  "status": "draft",
+  "title": "Un paso de color",
+  "description": "Una zapatilla deportiva sin logotipo en tonos crema y menta. Una propuesta para banner de colección y catálogo de calzado.",
+  "category": "Productos",
+  "tags": ["productos", "editorial", "fotografía"],
+  "audience": "Tiendas de calzado y marcas deportivas",
+  "use": "Banner de colección y catálogo de calzado",
+  "prompt": "Una zapatilla deportiva sin logotipo en tonos crema y menta, de perfil y apoyada sobre un bloque lavanda. Escenario: fondo durazno continuo, composición horizontal con espacio libre a la izquierda. Tratamiento visual: Objetivo de 85 mm, luz de estudio suave con contorno lateral, textura de malla visible y suela realista. Composición en relación 3:2, con un sujeto principal claramente reconocible. Mantén proporciones físicas creíbles y una composición limpia. Sin texto, marcas de agua ni logotipos. Si se usa una referencia autorizada, conserva sus rasgos esenciales sin añadir detalles que no estén presentes.",
+  "aspectRatio": "3:2",
+  "customizable": ["Modelo de calzado", "Paleta", "Posición del bloque"],
+  "proposedFilename": "miga-zapatilla-pastel.webp",
+  "result": {
+    "file": null,
+    "poster": null,
+    "exactPrompt": null,
+    "tool": null,
+    "model": null,
+    "settings": {},
+    "notes": null,
+    "alt": null,
+    "testedAt": null,
+    "rightsConfirmed": false
+  }
+}

@@ -1,0 +1,117 @@
+---
+import PromptCard from './PromptCard.astro';
+import Icon from './Icon.astro';
+import { categories } from '../lib/catalog.js';
+const { entries, saved = false } = Astro.props;
+---
+
+<section
+  class="catalog container"
+  id="explorar"
+  data-catalog
+  data-saved-only={saved ? 'true' : 'false'}
+>
+  <div class="section-heading">
+    <div>
+      <span class="eyebrow">{saved ? 'TUS IDEAS, A MANO' : 'UN POCO DE INSPIRACIÓN'}</span>
+      <h2>
+        {saved ? 'Tu colección personal' : 'Explora lo que puedes crear'}
+        <span class="tiny-star" aria-hidden="true">
+          ✳︎
+        </span>
+      </h2>
+    </div>
+    <p>
+      {saved ? 'Guardada en este navegador. Sin cuentas.' : 'Encuentra una idea. Dale tu toque.'}
+    </p>
+  </div>
+  <form class="search-form" role="search">
+    <Icon name="search" size={22} />
+    <label class="sr-only" for="search">
+      Buscar prompts
+    </label>
+    <input
+      id="search"
+      name="q"
+      type="search"
+      placeholder="Prueba con «retrato», «café» o «producto»…"
+      autocomplete="off"
+    />
+    <kbd aria-hidden="true">/</kbd>
+    <button class="button dark search-submit" type="submit">
+      Buscar <Icon name="arrow" size={17} />
+    </button>
+  </form>
+  <div class="filter-row">
+    <div class="type-filters" role="group" aria-label="Tipo de contenido">
+      <button data-type-filter="all" aria-pressed="true">
+        <Icon name="grid" size={16} />
+        Todo <span>{entries.length}</span>
+      </button>
+      <button data-type-filter="image" aria-pressed="false">
+        <Icon name="image" size={17} />
+        Imágenes <span>{entries.filter((e) => e.type === 'image').length}</span>
+      </button>
+      <button data-type-filter="video" aria-pressed="false">
+        <Icon name="video" size={17} />
+        Videos <span>{entries.filter((e) => e.type === 'video').length}</span>
+      </button>
+    </div>
+    <div class="sort-control">
+      <label for="sort">Ordenar:</label>
+      <select id="sort">
+        <option value="editorial">Selección editorial</option>
+        <option value="az">Título: A–Z</option>
+        <option value="za">Título: Z–A</option>
+      </select>
+    </div>
+  </div>
+  <div class="category-filters" role="group" aria-label="Categorías">
+    <button data-category="all" aria-pressed="true">
+      Todas las ideas
+    </button>
+    {categories.map((category, i) => (
+      <button data-category={category} aria-pressed="false">
+        <span aria-hidden="true">{['◉', '◇', '♧', '◔', '▧', '✧'][i]}</span>
+        {category}
+      </button>
+    ))}
+  </div>
+  <div class="results-bar">
+    <p data-results role="status" aria-live="polite">
+      {entries.length} ideas para empezar
+    </p>
+    <button data-clear class="text-button" hidden>
+      Limpiar filtros <Icon name="close" size={14} />
+    </button>
+    <span class="editorial-note">Hechas para inspirar, listas para adaptar.</span>
+  </div>
+  <div class="prompt-grid">
+    {entries.map((entry, index) => (
+      <PromptCard entry={entry} index={index} />
+    ))}
+  </div>
+  <div class="empty-state" data-empty hidden={entries.length > 0}>
+    <span class="empty-symbol" aria-hidden="true">
+      ✳︎
+    </span>
+    <h3 data-empty-title>
+      {saved ? 'Tu próxima idea merece un lugar aquí' : 'Las primeras migas están en el horno'}
+    </h3>
+    <p data-empty-description>
+      {saved
+        ? 'Toca el marcador de cualquier ficha para guardarla. No necesitas registrarte.'
+        : 'Estamos preparando y probando los primeros prompts. Aquí aparecerán cuando tengamos sus resultados reales.'}
+    </p>
+    <a class="button dark" href={saved ? '/#explorar' : '/como-funciona/'}>
+      {saved ? 'Explorar ideas' : 'Conoce cómo funciona'}
+      <Icon name="arrow" size={17} />
+    </a>
+  </div>
+  <noscript>
+    <p class="notice">
+      Activa JavaScript para buscar, filtrar y usar guardados. Las fichas y sus prompts siguen
+      disponibles en sus enlaces.
+    </p>
+  </noscript>
+</section>

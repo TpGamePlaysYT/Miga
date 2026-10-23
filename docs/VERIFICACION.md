@@ -1,0 +1,66 @@
+# Verificación de esta entrega
+
+La primera versión está implementada y funciona en el entorno de desarrollo. No se ha desplegado a un alojamiento externo ni se han generado resultados en Google Flow.
+
+## Comprobaciones completadas
+
+| Comprobación                          | Resultado                                                                                      |
+| ------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| Instalación reproducible con `npm ci` | Correcta con el lockfile incluido                                                              |
+| Validación editorial                  | 30 fichas: 20 imágenes y 10 videos, todas en borrador                                          |
+| Pruebas de contenido                  | 8 aprobadas, 0 fallidas, 0 omitidas                                                            |
+| Pruebas de navegador en Chromium      | 10 aprobadas, 0 fallidas, 0 omitidas                                                           |
+| Construcción estática                 | Correcta; 7 páginas HTML, sitemap y robots; sin rutas de borradores                            |
+| Publicación de prueba                 | Ruta, canonical, sitemap y prompt exacto verificados con una ficha sintética temporal          |
+| Video bajo demanda                    | Sin solicitud de MP4 antes del clic; después se verificó reproducción real y controles nativos |
+| Archivos de borradores                | Se comprobó que los archivos asociados únicamente a borradores no permanecen en `dist/media/`  |
+| AdSense                               | Espacios ocultos; no se carga publicidad                                                       |
+
+Las pruebas de navegador comprueban búsqueda sin distinción de acentos, combinación de filtros, orden, estado en la URL, guardados persistentes y sincronizados entre pestañas, errores de almacenamiento, copia exacta al portapapeles, las 30 rutas de detalle, navegación móvil y páginas informativas.
+
+Se ejecutó axe con reglas WCAG 2 A/AA y 2.1 AA en portada, detalle y guardados a 1440 y 390 px: sin infracciones detectadas en esas comprobaciones. Esto no equivale a una certificación completa ni sustituye pruebas con usuarios o lectores de pantalla reales.
+
+## Revisión visual
+
+Se revisaron capturas reales de Chromium. Se corrigió un desbordamiento a 320 px y se comprobó que portada y detalle no desbordan a 320, 390, 768, 1024 y 1440 px. El público y el uso de cada idea también se muestran en móvil.
+
+- [Portada de escritorio](capturas/portada-escritorio.png)
+- [Detalle de escritorio](capturas/detalle-escritorio.png)
+- [Portada móvil](capturas/portada-movil.png)
+- [Catálogo móvil](capturas/catalogo-movil.png)
+- [Detalle móvil](capturas/detalle-movil.png)
+
+Las capturas muestran el modo de desarrollo con borradores e ilustraciones de demostración. No representan una biblioteca de resultados de Flow ya publicados.
+
+## Rendimiento
+
+Lighthouse local sobre la portada de producción, con el catálogo aún vacío y sin archivos de Flow:
+
+| Medida                   | Resultado |
+| ------------------------ | --------- |
+| Rendimiento              | 100       |
+| Accesibilidad            | 100       |
+| Buenas prácticas         | 100       |
+| SEO                      | 69        |
+| First Contentful Paint   | 1,2 s     |
+| Largest Contentful Paint | 1,4 s     |
+| Total Blocking Time      | 0 ms      |
+| Cumulative Layout Shift  | 0,005     |
+
+El resultado SEO refleja el bloqueo de indexación deliberado del dominio `miga.example`. Hay canonical, metadatos, sitemap y robots; antes del lanzamiento se debe configurar `SITE_URL` con el dominio real. Las medidas son una prueba local, no datos de usuarios reales ni una garantía para el alojamiento definitivo. Repite la medición cuando añadas tus archivos.
+
+El JavaScript de interacción compilado ocupa aproximadamente 6,8 KB sin comprimir (2,6 KB con gzip); el CSS, unos 29 KB (6,9 KB con gzip). Las fuentes son locales y los videos solo se solicitan tras una acción del visitante.
+
+## Pendiente para lanzar al público
+
+`npm run check:release` informa correctamente de estos datos aún pendientes:
+
+- Dominio real en `SITE_URL`.
+- Identidad, contacto, proveedor de alojamiento, conservación de registros y jurisdicción en `src/config/site.json`.
+- Al menos una ficha con un resultado realmente probado y documentado en Flow.
+
+La comprobación de lanzamiento pendiente no impide desarrollar ni compilar. Producción muestra un catálogo en preparación mientras no se publiquen resultados reales.
+
+El diseño de Figma no pudo consultarse: no había un conector disponible y el enlace devolvió un bloqueo 403. La interfaz sigue la identidad escrita por el propietario, pero no se ha contrastado con las pantallas del archivo. Las ilustraciones son originales de demostración, no imágenes extraídas de Figma ni generaciones de Flow.
+
+Se guardaron `install_script` y `start_skill` como borrador de la configuración del entorno. Guardar ese borrador no despliega la web ni publica una versión del entorno. Para reutilizarlo, revisa y guarda los cambios en ajustes y publica el entorno desde el producto.

@@ -1,0 +1,27 @@
+{
+  "slug": "perro-parque-dorado",
+  "type": "image",
+  "status": "draft",
+  "title": "Un paseo para recordar",
+  "description": "Perro mestizo adulto sentado tranquilo en un sendero. Una propuesta para recuerdo de mascota y portada de un servicio.",
+  "category": "Mascotas",
+  "tags": ["mascotas", "editorial", "fotografía"],
+  "audience": "Familias con perros y paseadores",
+  "use": "Recuerdo de mascota y portada de un servicio",
+  "prompt": "Perro mestizo adulto sentado tranquilo en un sendero, mirando ligeramente fuera de cámara. Escenario: parque con vegetación al fondo y luz de última hora, sin otras personas ni animales. Tratamiento visual: Objetivo de 70 mm a la altura del animal, fondo desenfocado, luz de contorno cálida y ojos nítidos. Composición en relación 4:5, con un sujeto principal claramente reconocible. Mantén proporciones físicas creíbles y una composición limpia. Sin texto, marcas de agua ni logotipos. Si se usa una referencia autorizada, conserva sus rasgos esenciales sin añadir detalles que no estén presentes.",
+  "aspectRatio": "4:5",
+  "customizable": ["Tamaño y pelaje", "Entorno", "Hora del día"],
+  "proposedFilename": "miga-perro-parque-dorado.webp",
+  "result": {
+    "file": null,
+    "poster": null,
+    "exactPrompt": null,
+    "tool": null,
+    "model": null,
+    "settings": {},
+    "notes": null,
+    "alt": null,
+    "testedAt": null,
+    "rightsConfirmed": false
+  }
+}

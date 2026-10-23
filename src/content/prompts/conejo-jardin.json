@@ -1,0 +1,27 @@
+{
+  "slug": "conejo-jardin",
+  "type": "image",
+  "status": "draft",
+  "title": "Pequeño explorador",
+  "description": "Conejo doméstico blanco y gris quieto junto a una maceta de barro. Una propuesta para ilustración fotográfica de una guía de cuidado.",
+  "category": "Mascotas",
+  "tags": ["mascotas", "editorial", "fotografía"],
+  "audience": "Familias y tiendas especializadas",
+  "use": "Ilustración fotográfica de una guía de cuidado",
+  "prompt": "Conejo doméstico blanco y gris quieto junto a una maceta de barro, en postura cómoda. Escenario: jardín doméstico tranquilo con hierba corta y flores desenfocadas, sin objetos peligrosos. Tratamiento visual: Plano bajo de 50 mm, luz nublada suave, pelaje natural y ojos brillantes sin exageración. Composición en relación 1:1, con un sujeto principal claramente reconocible. Mantén proporciones físicas creíbles y una composición limpia. Sin texto, marcas de agua ni logotipos. Si se usa una referencia autorizada, conserva sus rasgos esenciales sin añadir detalles que no estén presentes.",
+  "aspectRatio": "1:1",
+  "customizable": ["Pelaje", "Maceta", "Fondo vegetal"],
+  "proposedFilename": "miga-conejo-jardin.webp",
+  "result": {
+    "file": null,
+    "poster": null,
+    "exactPrompt": null,
+    "tool": null,
+    "model": null,
+    "settings": {},
+    "notes": null,
+    "alt": null,
+    "testedAt": null,
+    "rightsConfirmed": false
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "invernadero-lunar",
+  "type": "image",
+  "status": "draft",
+  "title": "Otro mundo, otra historia",
+  "description": "Pequeño invernadero de cristal lleno de plantas sobre un paisaje lunar. Una propuesta para concepto visual para una historia.",
+  "category": "Cine",
+  "tags": ["cine", "editorial", "fotografía"],
+  "audience": "Creadores de ciencia ficción y artistas conceptuales",
+  "use": "Concepto visual para una historia",
+  "prompt": "Pequeño invernadero de cristal lleno de plantas sobre un paisaje lunar, una astronauta adulta observándolo desde fuera. Escenario: horizonte rocoso bajo un cielo negro con un planeta pequeño y distante, escala arquitectónica creíble. Tratamiento visual: Plano general de 28 mm, luz cálida del interior y fría del terreno, detalle realista sin estética de videojuego. Composición en relación 16:9, con un sujeto principal claramente reconocible. Mantén proporciones físicas creíbles y una composición limpia. Sin texto, marcas de agua ni logotipos. Si se usa una referencia autorizada, conserva sus rasgos esenciales sin añadir detalles que no estén presentes.",
+  "aspectRatio": "16:9",
+  "customizable": ["Arquitectura", "Personaje", "Planeta al fondo"],
+  "proposedFilename": "miga-invernadero-lunar.webp",
+  "result": {
+    "file": null,
+    "poster": null,
+    "exactPrompt": null,
+    "tool": null,
+    "model": null,
+    "settings": {},
+    "notes": null,
+    "alt": null,
+    "testedAt": null,
+    "rightsConfirmed": false
+  }
+}

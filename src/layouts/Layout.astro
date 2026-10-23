@@ -1,0 +1,139 @@
+---
+import '@fontsource/plus-jakarta-sans/latin-400.css';
+import '@fontsource/plus-jakarta-sans/latin-500.css';
+import '@fontsource/plus-jakarta-sans/latin-600.css';
+import '@fontsource/plus-jakarta-sans/latin-700.css';
+import '@fontsource/plus-jakarta-sans/latin-800.css';
+import '../styles/global.css';
+import Icon from '../components/Icon.astro';
+const {
+  title = 'Miga — Un buen prompt, mil posibilidades',
+  description = 'Tu biblioteca de prompts para imágenes y videos. Encuentra una idea, hazla tuya y empieza a crear.',
+  noindex = false,
+  image = '/social.png',
+  schema,
+} = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const isDev = import.meta.env.DEV;
+const path = Astro.url.pathname;
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#faf8f2" />
+    <meta name="description" content={description} />
+    <meta
+      name="robots"
+      content={
+        noindex || isDev || Astro.site.hostname === 'miga.example'
+          ? 'noindex, nofollow'
+          : 'index, follow'
+      }
+    />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:site_name" content="Miga" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={new URL(image, Astro.site)} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <title>{title}</title>
+    {schema && (
+      <script
+        type="application/ld+json"
+        set:html={JSON.stringify(schema).replace(/</g, '\\u003c')}
+      />
+    )}
+  </head>
+  <body>
+    <a class="skip-link" href="#main">
+      Saltar al contenido
+    </a>
+    <header class="site-header">
+      <div class="header-inner container">
+        <a class="logo" href="/" aria-label="Miga, inicio">
+          miga<span class="logo-dot">✳︎</span>
+        </a>
+        <nav class="main-nav" aria-label="Navegación principal">
+          <a href="/#explorar" aria-current={path === '/' ? 'page' : undefined}>
+            Explorar
+          </a>
+          <a href="/?type=image#explorar">Imágenes</a>
+          <a href="/?type=video#explorar">Videos</a>
+          <a href="/como-funciona/" aria-current={path === '/como-funciona/' ? 'page' : undefined}>
+            Cómo funciona
+          </a>
+        </nav>
+        <a class="saved-link" href="/guardados/">
+          <Icon name="bookmark" size={17} />
+          <span>Guardados</span>
+          <span class="saved-count" data-saved-count>
+            0
+          </span>
+        </a>
+        <button
+          class="mobile-menu icon-button"
+          aria-label="Abrir menú"
+          aria-controls="mobile-nav"
+          aria-expanded="false"
+        >
+          <Icon name="menu" />
+        </button>
+      </div>
+      <nav id="mobile-nav" class="mobile-nav container" aria-label="Navegación móvil" hidden>
+        <a href="/#explorar">Explorar</a>
+        <a href="/?type=image#explorar">Imágenes</a>
+        <a href="/?type=video#explorar">Videos</a>
+        <a href="/como-funciona/">Cómo funciona</a>
+        <a href="/guardados/">Guardados</a>
+      </nav>
+    </header>
+    {isDev && (
+      <div class="dev-notice">
+        Modo desarrollo <span>·</span> Las propuestas sin probar son borradores y no se publican.
+      </div>
+    )}
+    <main id="main">
+      <slot />
+    </main>
+    <footer class="site-footer container">
+      <div class="footer-top">
+        <div>
+          <a class="logo" href="/">
+            miga<span class="logo-dot">✳︎</span>
+          </a>
+          <p>
+            Una pequeña idea.
+            <br />
+            Todo un mundo por crear.
+          </p>
+        </div>
+        <div class="footer-links">
+          <a href="/como-funciona/">Cómo funciona</a>
+          <a href="/acerca/">Acerca de Miga</a>
+          <a href="/privacidad/">Privacidad</a>
+          <a href="/terminos/">Términos de uso</a>
+        </div>
+        <p class="footer-note">
+          Hecho para gente con ideas.
+          <br />
+          <span>Y para quienes están por encontrarlas.</span>
+        </p>
+      </div>
+      <div class="footer-bottom">
+        <span>© {new Date().getFullYear()} Miga</span>
+        <span>
+          Un buen prompt, mil posibilidades <span aria-hidden="true">↗</span>
+        </span>
+      </div>
+    </footer>
+    <div class="toast" role="status" aria-live="polite" data-toast hidden></div>
+    <script src="../scripts/client.js"></script>
+  </body>
+</html>

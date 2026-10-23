@@ -1,0 +1,32 @@
+{
+  "slug": "miel-tostada",
+  "type": "video",
+  "status": "draft",
+  "title": "El toque final",
+  "description": "Una tostada con yogur y fresas sobre un plato crema. Una propuesta de movimiento para clip de preparación de desayuno.",
+  "category": "Gastronomía",
+  "tags": ["gastronomía", "movimiento", "editorial"],
+  "audience": "Cafeterías y creadores de recetas",
+  "use": "Clip de preparación de desayuno",
+  "prompt": "Video de 8 segundos sugeridos, relación de aspecto 9:16. Escena: Una tostada con yogur y fresas sobre un plato crema. Acción: Un hilo de miel cae sobre las fresas durante unos segundos y se detiene; los ingredientes permanecen en su posición. Cámara: Plano detalle fijo en ángulo de 45 grados. Tratamiento visual: Luz lateral difusa, miel translúcida y movimiento físico natural. Una sola toma continua con identidad, geometría y luz consistentes durante todo el plano. Movimiento contenido y físicamente creíble. Sin texto, logotipos, marcas de agua, cortes ni transiciones. Sin diálogo; si la herramienta genera audio, buscar ambiente suave y registrarlo en las notas. La duración y el formato dependen de las opciones disponibles en el modelo: registrar los valores reales después de generar.",
+  "aspectRatio": "9:16",
+  "video": {
+    "action": "Un hilo de miel cae sobre las fresas durante unos segundos y se detiene; los ingredientes permanecen en su posición",
+    "camera": "Plano detalle fijo en ángulo de 45 grados",
+    "durationSeconds": 8
+  },
+  "customizable": ["Fruta", "Salsa", "Plato"],
+  "proposedFilename": "miga-miel-tostada.mp4",
+  "result": {
+    "file": null,
+    "poster": null,
+    "exactPrompt": null,
+    "tool": null,
+    "model": null,
+    "settings": {},
+    "notes": null,
+    "alt": null,
+    "testedAt": null,
+    "rightsConfirmed": false
+  }
+}

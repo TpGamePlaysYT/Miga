@@ -1,0 +1,43 @@
+{
+  "name": "miga",
+  "version": "1.0.0",
+  "description": "Biblioteca pública de prompts para imágenes y videos",
+  "scripts": {
+    "dev": "node scripts/astro.mjs dev",
+    "build": "node scripts/content.mjs check && node scripts/astro.mjs build && node scripts/prune-media.mjs",
+    "preview": "node scripts/astro.mjs preview --host 0.0.0.0",
+    "content": "node scripts/content.mjs",
+    "test": "node --test tests/content.test.mjs",
+    "test:e2e": "playwright test",
+    "check:release": "node scripts/release.mjs",
+    "test:production": "node tests/production.mjs",
+    "catalog:export": "node scripts/export-catalog.mjs",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TpGamePlaysYT/Miga.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/TpGamePlaysYT/Miga/issues"
+  },
+  "homepage": "https://github.com/TpGamePlaysYT/Miga#readme",
+  "dependencies": {
+    "@fontsource/plus-jakarta-sans": "^5.3.0",
+    "astro": "^7.4.2"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "@playwright/test": "^1.64.1",
+    "prettier": "^3.9.10",
+    "prettier-plugin-astro": "^1.1.1"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

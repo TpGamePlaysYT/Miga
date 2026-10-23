@@ -1,0 +1,27 @@
+{
+  "slug": "fondo-arcos-pastel",
+  "type": "image",
+  "status": "draft",
+  "title": "Espacio para tus ideas",
+  "description": "Composición arquitectónica abstracta de tres arcos suaves color crema. Una propuesta para fondo para presentaciones con texto añadido después.",
+  "category": "Fondos",
+  "tags": ["fondos", "editorial", "diseño"],
+  "audience": "Diseñadores y pequeños negocios",
+  "use": "Fondo para presentaciones con texto añadido después",
+  "prompt": "Composición arquitectónica abstracta de tres arcos suaves color crema, lavanda y menta con un pequeño sol durazno. Escenario: escena tridimensional minimalista mate, centro despejado para incorporar texto en edición. Tratamiento visual: Cámara frontal ortográfica, luz difusa desde arriba a la izquierda, sombras largas suaves y textura fina de yeso. Composición en relación 16:9, con un sujeto principal claramente reconocible. Mantén proporciones físicas creíbles y una composición limpia. Sin texto, marcas de agua ni logotipos. Si se usa una referencia autorizada, conserva sus rasgos esenciales sin añadir detalles que no estén presentes.",
+  "aspectRatio": "16:9",
+  "customizable": ["Paleta", "Número de arcos", "Zona libre"],
+  "proposedFilename": "miga-fondo-arcos-pastel.webp",
+  "result": {
+    "file": null,
+    "poster": null,
+    "exactPrompt": null,
+    "tool": null,
+    "model": null,
+    "settings": {},
+    "notes": null,
+    "alt": null,
+    "testedAt": null,
+    "rightsConfirmed": false
+  }
+}

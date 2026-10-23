@@ -1,0 +1,27 @@
+{
+  "slug": "serum-luz-de-manana",
+  "type": "image",
+  "status": "draft",
+  "title": "Menos ruido, más producto",
+  "description": "Un frasco de sérum de vidrio verde translúcido sin marca. Una propuesta para ficha de producto y anuncio visual.",
+  "category": "Productos",
+  "tags": ["productos", "editorial", "fotografía"],
+  "audience": "Marcas pequeñas de cosmética",
+  "use": "Ficha de producto y anuncio visual",
+  "prompt": "Un frasco de sérum de vidrio verde translúcido sin marca, con cuentagotas crema, sobre un pedestal cilíndrico de piedra clara. Escenario: fondo menta continuo, una hoja fuera de foco proyecta una sombra delicada; etiqueta lisa sin texto. Tratamiento visual: Fotografía de producto de 90 mm, luz lateral de mañana, reflejos controlados, vidrio realista y foco en el frasco. Composición en relación 4:5, con un sujeto principal claramente reconocible. Mantén proporciones físicas creíbles y una composición limpia. Sin texto, marcas de agua ni logotipos. Si se usa una referencia autorizada, conserva sus rasgos esenciales sin añadir detalles que no estén presentes.",
+  "aspectRatio": "4:5",
+  "customizable": ["Tipo de envase", "Color del producto", "Fondo y pedestal"],
+  "proposedFilename": "miga-serum-luz-de-manana.webp",
+  "result": {
+    "file": null,
+    "poster": null,
+    "exactPrompt": null,
+    "tool": null,
+    "model": null,
+    "settings": {},
+    "notes": null,
+    "alt": null,
+    "testedAt": null,
+    "rightsConfirmed": false
+  }
+}

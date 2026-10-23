@@ -1,0 +1,32 @@
+{
+  "slug": "gato-mira-ventana",
+  "type": "video",
+  "status": "draft",
+  "title": "Curiosidad en movimiento",
+  "description": "Un gato naranja sentado cómodamente en el alféizar de una ventana. Una propuesta de movimiento para pequeño retrato animado.",
+  "category": "Mascotas",
+  "tags": ["mascotas", "movimiento", "editorial"],
+  "audience": "Familias y tiendas de mascotas",
+  "use": "Pequeño retrato animado",
+  "prompt": "Video de 8 segundos sugeridos, relación de aspecto 9:16. Escena: Un gato naranja sentado cómodamente en el alféizar de una ventana. Acción: El gato mueve una oreja y gira lentamente la cabeza hacia una hoja que se mueve fuera de la ventana; el cuerpo permanece sentado. Cámara: Cámara fija a la altura de los ojos con profundidad de campo moderada. Tratamiento visual: Luz natural de tarde, pelaje estable, anatomía y número de patas constantes. Una sola toma continua con identidad, geometría y luz consistentes durante todo el plano. Movimiento contenido y físicamente creíble. Sin texto, logotipos, marcas de agua, cortes ni transiciones. Sin diálogo; si la herramienta genera audio, buscar ambiente suave y registrarlo en las notas. La duración y el formato dependen de las opciones disponibles en el modelo: registrar los valores reales después de generar.",
+  "aspectRatio": "9:16",
+  "video": {
+    "action": "El gato mueve una oreja y gira lentamente la cabeza hacia una hoja que se mueve fuera de la ventana; el cuerpo permanece sentado",
+    "camera": "Cámara fija a la altura de los ojos con profundidad de campo moderada",
+    "durationSeconds": 8
+  },
+  "customizable": ["Gato", "Entorno", "Luz"],
+  "proposedFilename": "miga-gato-mira-ventana.mp4",
+  "result": {
+    "file": null,
+    "poster": null,
+    "exactPrompt": null,
+    "tool": null,
+    "model": null,
+    "settings": {},
+    "notes": null,
+    "alt": null,
+    "testedAt": null,
+    "rightsConfirmed": false
+  }
+}

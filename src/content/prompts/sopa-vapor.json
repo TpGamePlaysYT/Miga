@@ -1,0 +1,32 @@
+{
+  "slug": "sopa-vapor",
+  "type": "video",
+  "status": "draft",
+  "title": "Calor de hogar",
+  "description": "Un cuenco de sopa de calabaza con una pequeña hoja verde en el centro. Una propuesta de movimiento para video de carta de temporada.",
+  "category": "Gastronomía",
+  "tags": ["gastronomía", "movimiento", "editorial"],
+  "audience": "Restaurantes y creadores de cocina",
+  "use": "Video de carta de temporada",
+  "prompt": "Video de 8 segundos sugeridos, relación de aspecto 4:5. Escena: Un cuenco de sopa de calabaza con una pequeña hoja verde en el centro. Acción: El vapor sube de forma delicada y dispersa; la superficie de la sopa permanece casi inmóvil. Cámara: Acercamiento frontal muy lento, una sola toma. Tratamiento visual: Luz cálida lateral, fondo de cocina desenfocado, textura cremosa sin burbujas excesivas. Una sola toma continua con identidad, geometría y luz consistentes durante todo el plano. Movimiento contenido y físicamente creíble. Sin texto, logotipos, marcas de agua, cortes ni transiciones. Sin diálogo; si la herramienta genera audio, buscar ambiente suave y registrarlo en las notas. La duración y el formato dependen de las opciones disponibles en el modelo: registrar los valores reales después de generar.",
+  "aspectRatio": "4:5",
+  "video": {
+    "action": "El vapor sube de forma delicada y dispersa; la superficie de la sopa permanece casi inmóvil",
+    "camera": "Acercamiento frontal muy lento, una sola toma",
+    "durationSeconds": 8
+  },
+  "customizable": ["Sopa", "Recipiente", "Decoración"],
+  "proposedFilename": "miga-sopa-vapor.mp4",
+  "result": {
+    "file": null,
+    "poster": null,
+    "exactPrompt": null,
+    "tool": null,
+    "model": null,
+    "settings": {},
+    "notes": null,
+    "alt": null,
+    "testedAt": null,
+    "rightsConfirmed": false
+  }
+}

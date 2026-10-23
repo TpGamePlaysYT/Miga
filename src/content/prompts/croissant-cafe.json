@@ -1,0 +1,27 @@
+{
+  "slug": "croissant-cafe",
+  "type": "image",
+  "status": "draft",
+  "title": "La pausa perfecta",
+  "description": "Croissant de mantequilla recién horneado con capas crujientes junto a una taza de café con leche sobre un plato crema. Una propuesta para carta visual de desayuno y publicación de cafetería.",
+  "category": "Gastronomía",
+  "tags": ["gastronomía", "editorial", "fotografía"],
+  "audience": "Cafeterías y panaderías",
+  "use": "Carta visual de desayuno y publicación de cafetería",
+  "prompt": "Croissant de mantequilla recién horneado con capas crujientes junto a una taza de café con leche sobre un plato crema. Escenario: mesa de madera clara junto a una ventana, servilleta beige y composición sencilla. Tratamiento visual: Ángulo de 45 grados con objetivo de 50 mm, luz natural lateral, textura del hojaldre y vapor apenas visible. Composición en relación 4:5, con un sujeto principal claramente reconocible. Mantén proporciones físicas creíbles y una composición limpia. Sin texto, marcas de agua ni logotipos. Si se usa una referencia autorizada, conserva sus rasgos esenciales sin añadir detalles que no estén presentes.",
+  "aspectRatio": "4:5",
+  "customizable": ["Bollería", "Bebida", "Vajilla"],
+  "proposedFilename": "miga-croissant-cafe.webp",
+  "result": {
+    "file": null,
+    "poster": null,
+    "exactPrompt": null,
+    "tool": null,
+    "model": null,
+    "settings": {},
+    "notes": null,
+    "alt": null,
+    "testedAt": null,
+    "rightsConfirmed": false
+  }
+}

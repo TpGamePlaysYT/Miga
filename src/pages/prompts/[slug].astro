@@ -1,0 +1,249 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Icon from '../../components/Icon.astro';
+import PromptCard from '../../components/PromptCard.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import { getCatalog, cover, isDemo, typeLabel } from '../../lib/catalog.js';
+export function getStaticPaths() {
+  return getCatalog().map((entry) => ({ params: { slug: entry.slug }, props: { entry } }));
+}
+const { entry: e } = Astro.props;
+const related = getCatalog()
+  .filter((p) => p.slug !== e.slug && p.category === e.category)
+  .slice(0, 3);
+const draft = e.status === 'draft';
+const prompt = !draft ? e.result.exactPrompt : e.result.exactPrompt || e.prompt;
+const schema = !draft
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'CreativeWork',
+      name: e.title,
+      description: e.description,
+      inLanguage: 'es',
+      url: new URL(`/prompts/${e.slug}/`, Astro.site).href,
+      image: new URL(cover(e), Astro.site).href,
+      dateModified: e.result.testedAt,
+      genre: e.category,
+    }
+  : undefined;
+---
+
+<Layout
+  title={`${e.title} — Prompt de ${typeLabel(e.type).toLowerCase()} | Miga`}
+  description={e.description}
+  noindex={draft}
+  image={cover(e)}
+  schema={schema}
+>
+  <div class="container detail-wrap">
+    <nav class="breadcrumbs" aria-label="Ruta de navegación">
+      <a href="/#explorar">Explorar</a>
+      <Icon name="chevron" size={13} />
+      <a href={`/?category=${encodeURIComponent(e.category)}#explorar`}>{e.category}</a>
+      <Icon name="chevron" size={13} />
+      <span aria-current="page">{e.title}</span>
+    </nav>
+    <div class="detail-grid">
+      <div class="detail-left">
+        <div class="detail-visual" data-player>
+          <img
+            src={cover(e)}
+            alt={
+              isDemo(e)
+                ? `Ilustración de muestra de ${e.category.toLowerCase()}; no representa un resultado de este prompt.`
+                : e.result.alt
+            }
+            width="640"
+            height="520"
+            fetchpriority="high"
+            data-poster
+          />
+          <span class="media-badge">
+            <Icon name={e.type} size={14} />
+            {typeLabel(e.type)}
+          </span>
+          {e.type === 'video' && e.result.file && (
+            <button
+              class="video-play"
+              data-video-src={e.result.file}
+              data-video-poster={cover(e)}
+              aria-label={`Reproducir ${e.title}`}
+            >
+              <Icon name="play" size={25} />
+              <span>Reproducir video</span>
+            </button>
+          )}
+          {e.type === 'video' && !e.result.file && (
+            <span class="video-pending">
+              <Icon name="video" />
+              Video pendiente de generar
+            </span>
+          )}
+          {isDemo(e) && (
+            <span class="detail-demo">Ilustración de demostración · no creada en Flow</span>
+          )}
+        </div>
+        <div class="visual-caption">
+          <Icon name={draft ? 'sparkle' : 'check'} size={17} />
+          <p>
+            {draft
+              ? 'Propuesta editorial sin probar. Esta ilustración no fue producida por el prompt.'
+              : `Resultado probado en ${e.result.tool} · ${e.result.model}. Los resultados pueden variar.`}
+          </p>
+        </div>
+        <div class="use-card">
+          <span class="eyebrow">UNA IDEA QUE PUEDE SERVIRTE</span>
+          <h2>¿Para quién y para qué?</h2>
+          <dl>
+            <dt>Pensado para</dt>
+            <dd>{e.audience}</dd>
+            <dt>Úsalo como punto de partida para</dt>
+            <dd>{e.use}</dd>
+          </dl>
+        </div>
+      </div>
+      <div class="detail-info">
+        <div class="detail-tags">
+          <a href={`/?category=${encodeURIComponent(e.category)}#explorar`} class="pill">
+            {e.category}
+          </a>
+          <span class={`pill ${draft ? 'lavender' : 'mint'}`}>
+            {draft ? 'Borrador · sin probar' : 'Resultado probado'}
+          </span>
+        </div>
+        <h1>{e.title}</h1>
+        <p class="detail-description">{e.description}</p>
+        <div class="specs">
+          <div>
+            <span>Formato {draft ? 'sugerido' : 'real'}</span>
+            <strong>{draft ? e.aspectRatio : e.result.settings.aspectRatio}</strong>
+          </div>
+          <div>
+            <span>{draft ? 'Para probar en' : 'Herramienta utilizada'}</span>
+            <strong>{draft ? 'Google Flow' : e.result.tool}</strong>
+          </div>
+          {e.type === 'video' && (
+            <div>
+              <span>Duración {draft ? 'sugerida' : 'real'}</span>
+              <strong>
+                {draft ? e.video.durationSeconds : e.result.settings.durationSeconds} segundos
+              </strong>
+            </div>
+          )}
+        </div>
+        <section class="prompt-panel" aria-labelledby="prompt-heading">
+          <div class="prompt-heading">
+            <h2 id="prompt-heading">
+              <Icon name="sparkle" size={17} />
+              {draft && !e.result.exactPrompt ? 'Tu punto de partida' : 'Prompt exacto utilizado'}
+            </h2>
+            <span>ES</span>
+          </div>
+          <p id="prompt-text" class="prompt-text" tabindex="0">
+            {prompt}
+          </p>
+          <button class="button dark copy-button" data-copy="prompt-text">
+            <Icon name="copy" size={17} />
+            <span>Copiar prompt</span>
+          </button>
+          <p class="copy-note">Pégalo en Flow y adapta los detalles a tu idea.</p>
+        </section>
+        <button
+          class="button save-detail"
+          data-save={e.slug}
+          data-label={e.title}
+          aria-pressed="false"
+        >
+          <Icon name="bookmark" size={18} />
+          <span data-save-text>Guardar para después</span>
+        </button>
+        <section class="customize">
+          <h2>
+            Hazlo tuyo <span aria-hidden="true">↗</span>
+          </h2>
+          <p>Prueba cambiando estas partes del prompt:</p>
+          <ul>
+            {e.customizable.map((part) => (
+              <li>
+                <Icon name="check" size={14} />
+                {part}
+              </li>
+            ))}
+          </ul>
+        </section>
+        {e.type === 'video' && (
+          <section class="motion-notes">
+            <h2>La escena en movimiento</h2>
+            <dl>
+              <dt>Acción sugerida</dt>
+              <dd>{e.video.action}</dd>
+              <dt>Movimiento de cámara sugerido</dt>
+              <dd>{e.video.camera}</dd>
+            </dl>
+            <p class="muted">
+              Elige la duración y el formato disponibles en tu modelo. No todas las opciones
+              sugeridas están disponibles en todas las versiones de Flow.
+            </p>
+          </section>
+        )}
+        <details class="result-record">
+          <summary>
+            Ficha del resultado {draft ? '· pendiente de validar' : '· ver ajustes'}
+          </summary>
+          <dl>
+            <dt>Archivo final</dt>
+            <dd>{e.result.file || 'Pendiente'}</dd>
+            <dt>Archivo propuesto</dt>
+            <dd>
+              <code>{e.proposedFilename}</code>
+            </dd>
+            <dt>Herramienta / modelo</dt>
+            <dd>
+              {e.result.tool || 'Sin registrar'} / {e.result.model || 'Sin registrar'}
+            </dd>
+            <dt>Fecha de prueba</dt>
+            <dd>{e.result.testedAt || 'Sin probar'}</dd>
+            <dt>Ajustes reales</dt>
+            <dd>
+              {Object.keys(e.result.settings).length ? (
+                <ul>
+                  {Object.entries(e.result.settings).map(([key, value]) => (
+                    <li>
+                      {key}: {String(value)}
+                    </li>
+                  ))}
+                </ul>
+              ) : (
+                'Sin registrar'
+              )}
+            </dd>
+            <dt>Notas del resultado</dt>
+            <dd>
+              {e.result.notes ||
+                'Pendientes. Esta idea no representa una tendencia verificada ni garantiza un resultado concreto.'}
+            </dd>
+          </dl>
+        </details>
+      </div>
+    </div>
+  </div>
+  <AdSlot slot="prompt-bottom" />
+  {related.length > 0 && (
+    <section class="container related">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">SIGUE TIRANDO DEL HILO</span>
+          <h2>Más ideas para ti</h2>
+        </div>
+        <a class="text-link" href={`/?category=${encodeURIComponent(e.category)}#explorar`}>
+          Ver categoría <Icon name="arrow" size={17} />
+        </a>
+      </div>
+      <div class="prompt-grid">
+        {related.map((entry) => (
+          <PromptCard entry={entry} />
+        ))}
+      </div>
+    </section>
+  )}
+</Layout>

@@ -1,0 +1,32 @@
+{
+  "slug": "invernadero-espacial",
+  "type": "video",
+  "status": "draft",
+  "title": "Un lugar por descubrir",
+  "description": "Un pequeño invernadero iluminado sobre una superficie lunar rocosa. Una propuesta de movimiento para plano de establecimiento de una historia.",
+  "category": "Cine",
+  "tags": ["cine", "movimiento", "editorial"],
+  "audience": "Creadores de ciencia ficción",
+  "use": "Plano de establecimiento de una historia",
+  "prompt": "Video de 8 segundos sugeridos, relación de aspecto 16:9. Escena: Un pequeño invernadero iluminado sobre una superficie lunar rocosa. Acción: Una astronauta adulta quieta frente al invernadero levanta lentamente la cabeza hacia las plantas; el paisaje permanece estable. Cámara: Desplazamiento lateral muy lento que revela el invernadero, plano general continuo. Tratamiento visual: Luz cálida interior y suelo frío, escala coherente, sin cambios de traje o arquitectura. Una sola toma continua con identidad, geometría y luz consistentes durante todo el plano. Movimiento contenido y físicamente creíble. Sin texto, logotipos, marcas de agua, cortes ni transiciones. Sin diálogo; si la herramienta genera audio, buscar ambiente suave y registrarlo en las notas. La duración y el formato dependen de las opciones disponibles en el modelo: registrar los valores reales después de generar.",
+  "aspectRatio": "16:9",
+  "video": {
+    "action": "Una astronauta adulta quieta frente al invernadero levanta lentamente la cabeza hacia las plantas; el paisaje permanece estable",
+    "camera": "Desplazamiento lateral muy lento que revela el invernadero, plano general continuo",
+    "durationSeconds": 8
+  },
+  "customizable": ["Edificio", "Personaje", "Iluminación"],
+  "proposedFilename": "miga-invernadero-espacial.mp4",
+  "result": {
+    "file": null,
+    "poster": null,
+    "exactPrompt": null,
+    "tool": null,
+    "model": null,
+    "settings": {},
+    "notes": null,
+    "alt": null,
+    "testedAt": null,
+    "rightsConfirmed": false
+  }
+}

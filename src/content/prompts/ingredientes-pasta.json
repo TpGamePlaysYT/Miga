@@ -1,0 +1,27 @@
+{
+  "slug": "ingredientes-pasta",
+  "type": "image",
+  "status": "draft",
+  "title": "Ingredientes con historia",
+  "description": "Nidos de pasta fresca sin cocinar. Una propuesta para cabecera de receta y blog gastronómico.",
+  "category": "Gastronomía",
+  "tags": ["gastronomía", "editorial", "fotografía"],
+  "audience": "Creadores de recetas y marcas de alimentos",
+  "use": "Cabecera de receta y blog gastronómico",
+  "prompt": "Nidos de pasta fresca sin cocinar, dos tomates maduros, albahaca y un pequeño cuenco de harina. Escenario: mesa de madera oscura, elementos agrupados a la derecha y espacio vacío a la izquierda. Tratamiento visual: Toma cenital, luz suave de ventana, textura artesanal y contraste moderado. Composición en relación 16:9, con un sujeto principal claramente reconocible. Mantén proporciones físicas creíbles y una composición limpia. Sin texto, marcas de agua ni logotipos. Si se usa una referencia autorizada, conserva sus rasgos esenciales sin añadir detalles que no estén presentes.",
+  "aspectRatio": "16:9",
+  "customizable": ["Tipo de pasta", "Ingredientes", "Superficie"],
+  "proposedFilename": "miga-ingredientes-pasta.webp",
+  "result": {
+    "file": null,
+    "poster": null,
+    "exactPrompt": null,
+    "tool": null,
+    "model": null,
+    "settings": {},
+    "notes": null,
+    "alt": null,
+    "testedAt": null,
+    "rightsConfirmed": false
+  }
+}

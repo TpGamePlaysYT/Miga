@@ -1,0 +1,32 @@
+{
+  "slug": "perro-camino",
+  "type": "video",
+  "status": "draft",
+  "title": "Un paseo en calma",
+  "description": "Un perro adulto mestizo caminando por un sendero seguro de parque. Una propuesta de movimiento para video de presentación de paseos.",
+  "category": "Mascotas",
+  "tags": ["mascotas", "movimiento", "editorial"],
+  "audience": "Paseadores y familias",
+  "use": "Video de presentación de paseos",
+  "prompt": "Video de 8 segundos sugeridos, relación de aspecto 16:9. Escena: Un perro adulto mestizo caminando por un sendero seguro de parque. Acción: El perro da pocos pasos tranquilos hacia delante, olfatea brevemente y sigue caminando. Cámara: Travelling lateral lento paralelo al perro, plano entero sin recortar las patas. Tratamiento visual: Luz suave de mañana, pasos naturales y fondo sin cambios abruptos. Una sola toma continua con identidad, geometría y luz consistentes durante todo el plano. Movimiento contenido y físicamente creíble. Sin texto, logotipos, marcas de agua, cortes ni transiciones. Sin diálogo; si la herramienta genera audio, buscar ambiente suave y registrarlo en las notas. La duración y el formato dependen de las opciones disponibles en el modelo: registrar los valores reales después de generar.",
+  "aspectRatio": "16:9",
+  "video": {
+    "action": "El perro da pocos pasos tranquilos hacia delante, olfatea brevemente y sigue caminando",
+    "camera": "Travelling lateral lento paralelo al perro, plano entero sin recortar las patas",
+    "durationSeconds": 8
+  },
+  "customizable": ["Perro", "Parque", "Hora"],
+  "proposedFilename": "miga-perro-camino.mp4",
+  "result": {
+    "file": null,
+    "poster": null,
+    "exactPrompt": null,
+    "tool": null,
+    "model": null,
+    "settings": {},
+    "notes": null,
+    "alt": null,
+    "testedAt": null,
+    "rightsConfirmed": false
+  }
+}

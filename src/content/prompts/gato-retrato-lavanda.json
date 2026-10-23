@@ -1,0 +1,27 @@
+{
+  "slug": "gato-retrato-lavanda",
+  "type": "image",
+  "status": "draft",
+  "title": "Su lado más elegante",
+  "description": "Gato doméstico de pelo corto color naranja sentado de frente. Una propuesta para recuerdo personal y pieza de comunicación de una tienda.",
+  "category": "Mascotas",
+  "tags": ["mascotas", "editorial", "fotografía"],
+  "audience": "Familias con gatos y negocios de mascotas",
+  "use": "Recuerdo personal y pieza de comunicación de una tienda",
+  "prompt": "Gato doméstico de pelo corto color naranja sentado de frente, ojos atentos, orejas naturales y expresión curiosa. Escenario: fondo lavanda liso, base crema y ningún accesorio en el animal. Tratamiento visual: Retrato a la altura de los ojos con objetivo de 85 mm, luz suave frontal, bigotes definidos y pelaje detallado. Composición en relación 4:5, con un sujeto principal claramente reconocible. Mantén proporciones físicas creíbles y una composición limpia. Sin texto, marcas de agua ni logotipos. Si se usa una referencia autorizada, conserva sus rasgos esenciales sin añadir detalles que no estén presentes.",
+  "aspectRatio": "4:5",
+  "customizable": ["Pelaje", "Color del fondo", "Pose"],
+  "proposedFilename": "miga-gato-retrato-lavanda.webp",
+  "result": {
+    "file": null,
+    "poster": null,
+    "exactPrompt": null,
+    "tool": null,
+    "model": null,
+    "settings": {},
+    "notes": null,
+    "alt": null,
+    "testedAt": null,
+    "rightsConfirmed": false
+  }
+}

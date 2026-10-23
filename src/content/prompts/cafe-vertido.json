@@ -1,0 +1,32 @@
+{
+  "slug": "cafe-vertido",
+  "type": "video",
+  "status": "draft",
+  "title": "El ritual del café",
+  "description": "Una taza de cerámica lavanda sobre una mesa de madera clara. Una propuesta de movimiento para clip de producto para redes.",
+  "category": "Productos",
+  "tags": ["productos", "movimiento", "editorial"],
+  "audience": "Cafeterías y marcas de cerámica",
+  "use": "Clip de producto para redes",
+  "prompt": "Video de 8 segundos sugeridos, relación de aspecto 9:16. Escena: Una taza de cerámica lavanda sobre una mesa de madera clara. Acción: Un hilo fino de café cae desde una jarra parcialmente fuera de cuadro, sube lentamente el nivel y aparece un poco de vapor. Cámara: Plano cercano fijo a 45 grados, sin cortes ni movimientos bruscos. Tratamiento visual: Luz cálida de mañana, fluido natural sin salpicaduras exageradas. Una sola toma continua con identidad, geometría y luz consistentes durante todo el plano. Movimiento contenido y físicamente creíble. Sin texto, logotipos, marcas de agua, cortes ni transiciones. Sin diálogo; si la herramienta genera audio, buscar ambiente suave y registrarlo en las notas. La duración y el formato dependen de las opciones disponibles en el modelo: registrar los valores reales después de generar.",
+  "aspectRatio": "9:16",
+  "video": {
+    "action": "Un hilo fino de café cae desde una jarra parcialmente fuera de cuadro, sube lentamente el nivel y aparece un poco de vapor",
+    "camera": "Plano cercano fijo a 45 grados, sin cortes ni movimientos bruscos",
+    "durationSeconds": 8
+  },
+  "customizable": ["Taza", "Bebida", "Superficie"],
+  "proposedFilename": "miga-cafe-vertido.mp4",
+  "result": {
+    "file": null,
+    "poster": null,
+    "exactPrompt": null,
+    "tool": null,
+    "model": null,
+    "settings": {},
+    "notes": null,
+    "alt": null,
+    "testedAt": null,
+    "rightsConfirmed": false
+  }
+}

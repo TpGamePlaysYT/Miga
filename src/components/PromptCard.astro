@@ -1,0 +1,63 @@
+---
+import Icon from './Icon.astro';
+import { cover, isDemo, typeLabel } from '../lib/catalog.js';
+const { entry: e, index = 0 } = Astro.props;
+---
+
+<article
+  class="prompt-card"
+  data-card
+  data-slug={e.slug}
+  data-type={e.type}
+  data-category={e.category}
+  data-title={e.title}
+  data-search={[e.title, e.description, e.category, e.audience, e.use, ...e.tags].join(' ')}
+>
+  <div class="card-visual">
+    <a href={`/prompts/${e.slug}/`} tabindex="-1" aria-hidden="true">
+      <img src={cover(e)} alt="" width="640" height="520" loading="lazy" decoding="async" />
+    </a>
+    <span class="media-badge">
+      <Icon name={e.type} size={13} />
+      {typeLabel(e.type)}
+    </span>
+    <button
+      class="save-button"
+      data-save={e.slug}
+      aria-label={`Guardar ${e.title}`}
+      aria-pressed="false"
+      data-label={e.title}
+    >
+      <Icon name="bookmark" size={19} />
+    </button>
+    {e.type === 'video' && (
+      <a
+        class="card-play"
+        href={`/prompts/${e.slug}/`}
+        aria-label={`Ver ficha del video ${e.title}`}
+      >
+        <Icon name="play" size={20} />
+      </a>
+    )}
+    {isDemo(e) && <span class="demo-badge">Ilustración de muestra</span>}
+    <span class="aspect-badge">
+      {e.status === 'published' ? e.result.settings.aspectRatio : e.aspectRatio}
+      {e.type === 'video'
+        ? ` · ${e.status === 'published' ? e.result.settings.durationSeconds : e.video.durationSeconds} s${e.status === 'draft' ? ' sugeridos' : ''}`
+        : ''}
+    </span>
+  </div>
+  <div class="card-body">
+    <div class="card-kicker">
+      <span>{e.category}</span>
+      {e.status === 'draft' && <span class="draft-label">Borrador</span>}
+    </div>
+    <h3>
+      <a href={`/prompts/${e.slug}/`}>{e.title}</a>
+    </h3>
+    <p>{e.description}</p>
+    <a class="card-link" href={`/prompts/${e.slug}/`}>
+      Ver prompt <Icon name="arrow" size={17} />
+    </a>
+  </div>
+</article>

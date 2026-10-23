@@ -1,0 +1,27 @@
+{
+  "slug": "bowl-mediterraneo",
+  "type": "image",
+  "status": "draft",
+  "title": "Fresco por naturaleza",
+  "description": "Bowl de cerámica menta con garbanzos. Una propuesta para carta de almuerzos y receta editorial.",
+  "category": "Gastronomía",
+  "tags": ["gastronomía", "editorial", "fotografía"],
+  "audience": "Restaurantes y proyectos de cocina",
+  "use": "Carta de almuerzos y receta editorial",
+  "prompt": "Bowl de cerámica menta con garbanzos, tomate, pepino, hojas verdes y un pequeño toque de hummus, ingredientes claramente separados. Escenario: mesa marfil con cubiertos sencillos y un limón cortado en un borde. Tratamiento visual: Toma cenital de 50 mm, luz difusa, colores naturales y alimentos de tamaño realista. Composición en relación 1:1, con un sujeto principal claramente reconocible. Mantén proporciones físicas creíbles y una composición limpia. Sin texto, marcas de agua ni logotipos. Si se usa una referencia autorizada, conserva sus rasgos esenciales sin añadir detalles que no estén presentes.",
+  "aspectRatio": "1:1",
+  "customizable": ["Ingredientes", "Recipiente", "Textil"],
+  "proposedFilename": "miga-bowl-mediterraneo.webp",
+  "result": {
+    "file": null,
+    "poster": null,
+    "exactPrompt": null,
+    "tool": null,
+    "model": null,
+    "settings": {},
+    "notes": null,
+    "alt": null,
+    "testedAt": null,
+    "rightsConfirmed": false
+  }
+}

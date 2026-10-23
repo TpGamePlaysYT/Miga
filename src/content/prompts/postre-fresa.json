@@ -1,0 +1,27 @@
+{
+  "slug": "postre-fresa",
+  "type": "image",
+  "status": "draft",
+  "title": "Un pequeño capricho",
+  "description": "Una pequeña tarta individual de vainilla con crema y tres fresas frescas. Una propuesta para catálogo de postres por encargo.",
+  "category": "Gastronomía",
+  "tags": ["gastronomía", "editorial", "fotografía"],
+  "audience": "Pastelerías y reposteros",
+  "use": "Catálogo de postres por encargo",
+  "prompt": "Una pequeña tarta individual de vainilla con crema y tres fresas frescas, sobre un plato de cerámica rosa pálido. Escenario: fondo crema, composición limpia con espacio negativo arriba. Tratamiento visual: Plano cercano de 85 mm, luz lateral muy suave, detalles de semillas y crema, color apetecible sin saturación excesiva. Composición en relación 4:5, con un sujeto principal claramente reconocible. Mantén proporciones físicas creíbles y una composición limpia. Sin texto, marcas de agua ni logotipos. Si se usa una referencia autorizada, conserva sus rasgos esenciales sin añadir detalles que no estén presentes.",
+  "aspectRatio": "4:5",
+  "customizable": ["Fruta", "Sabor", "Vajilla"],
+  "proposedFilename": "miga-postre-fresa.webp",
+  "result": {
+    "file": null,
+    "poster": null,
+    "exactPrompt": null,
+    "tool": null,
+    "model": null,
+    "settings": {},
+    "notes": null,
+    "alt": null,
+    "testedAt": null,
+    "rightsConfirmed": false
+  }
+}

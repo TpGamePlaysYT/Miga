@@ -1,0 +1,27 @@
+{
+  "slug": "retrato-profesional-natural",
+  "type": "image",
+  "status": "draft",
+  "title": "Tu mejor primera impresión",
+  "description": "Retrato de una persona adulta con camisa de lino color marfil. Una propuesta para perfil profesional, presentación y página personal.",
+  "category": "Retratos",
+  "tags": ["retratos", "editorial", "fotografía"],
+  "audience": "Profesionales independientes y personas que buscan empleo",
+  "use": "Perfil profesional, presentación y página personal",
+  "prompt": "Retrato de una persona adulta con camisa de lino color marfil, expresión amable y postura relajada, mirando a cámara. Escenario: estudio cálido con fondo beige liso, encuadre de pecho hacia arriba y espacio libre alrededor de la cabeza. Tratamiento visual: Objetivo de 85 mm, luz suave de una ventana a 45 grados, sombras sutiles, textura natural de la piel sin retoque plástico. Composición en relación 4:5, con un sujeto principal claramente reconocible. Mantén proporciones físicas creíbles y una composición limpia. Sin texto, marcas de agua ni logotipos. Si se usa una referencia autorizada, conserva sus rasgos esenciales sin añadir detalles que no estén presentes.",
+  "aspectRatio": "4:5",
+  "customizable": ["Persona y rasgos", "Vestuario", "Color del fondo"],
+  "proposedFilename": "miga-retrato-profesional-natural.webp",
+  "result": {
+    "file": null,
+    "poster": null,
+    "exactPrompt": null,
+    "tool": null,
+    "model": null,
+    "settings": {},
+    "notes": null,
+    "alt": null,
+    "testedAt": null,
+    "rightsConfirmed": false
+  }
+}

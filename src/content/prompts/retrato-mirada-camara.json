@@ -1,0 +1,32 @@
+{
+  "slug": "retrato-mirada-camara",
+  "type": "video",
+  "status": "draft",
+  "title": "Una mirada que conecta",
+  "description": "Una persona adulta con camisa marfil sentada en un estudio crema. Una propuesta de movimiento para cabecera breve de presentación.",
+  "category": "Retratos",
+  "tags": ["retratos", "movimiento", "editorial"],
+  "audience": "Profesionales y creadores",
+  "use": "Cabecera breve de presentación",
+  "prompt": "Video de 8 segundos sugeridos, relación de aspecto 4:5. Escena: Una persona adulta con camisa marfil sentada en un estudio crema. Acción: La persona gira suavemente la mirada hacia la cámara y termina con una sonrisa discreta; hombros estables y manos fuera de cuadro. Cámara: Acercamiento muy lento y recto, sin cortes ni cambio de ángulo. Tratamiento visual: Luz de ventana suave y constante, piel natural, fondo inmóvil. Una sola toma continua con identidad, geometría y luz consistentes durante todo el plano. Movimiento contenido y físicamente creíble. Sin texto, logotipos, marcas de agua, cortes ni transiciones. Sin diálogo; si la herramienta genera audio, buscar ambiente suave y registrarlo en las notas. La duración y el formato dependen de las opciones disponibles en el modelo: registrar los valores reales después de generar.",
+  "aspectRatio": "4:5",
+  "video": {
+    "action": "La persona gira suavemente la mirada hacia la cámara y termina con una sonrisa discreta; hombros estables y manos fuera de cuadro",
+    "camera": "Acercamiento muy lento y recto, sin cortes ni cambio de ángulo",
+    "durationSeconds": 8
+  },
+  "customizable": ["Persona", "Vestuario", "Fondo"],
+  "proposedFilename": "miga-retrato-mirada-camara.mp4",
+  "result": {
+    "file": null,
+    "poster": null,
+    "exactPrompt": null,
+    "tool": null,
+    "model": null,
+    "settings": {},
+    "notes": null,
+    "alt": null,
+    "testedAt": null,
+    "rightsConfirmed": false
+  }
+}

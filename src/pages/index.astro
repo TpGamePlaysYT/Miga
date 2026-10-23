@@ -1,0 +1,131 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Catalog from '../components/Catalog.astro';
+import AdSlot from '../components/AdSlot.astro';
+import Icon from '../components/Icon.astro';
+import { getCatalog } from '../lib/catalog.js';
+const entries = getCatalog();
+---
+
+<Layout>
+  <section class="hero container">
+    <div class="hero-copy">
+      <span class="hero-label">
+        <span></span>Un lugar para tus próximas ideas
+      </span>
+      <h1>
+        Un buen prompt,
+        <br />
+        <span class="highlight">mil posibilidades.</span>
+        <svg class="hero-spark" viewBox="0 0 50 50" aria-hidden="true">
+          <path d="M25 3v44M3 25h44M9 9l32 32M9 41 41 9" stroke="currentColor" stroke-width="5" />
+        </svg>
+      </h1>
+      <p>
+        Ideas para crear imágenes y videos que dicen algo.
+        <br class="desktop-break" /> Explora, copia un prompt y hazlo tuyo.
+      </p>
+      <div class="hero-actions">
+        <a href="#explorar" class="button dark">
+          Encuentra tu inspiración <Icon name="arrow" size={18} />
+        </a>
+        <a class="how-link" href="/como-funciona/">
+          ¿Cómo funciona? <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+      <div class="hero-footnote">
+        <span class="mini-spark" aria-hidden="true">
+          ✦
+        </span>{' '}
+        Sin registro. Con mucha imaginación.
+      </div>
+    </div>
+    <div
+      class="hero-art"
+      aria-label="Composición con ilustraciones de muestra, no generadas en Flow"
+    >
+      <div class="hero-orbit"></div>
+      <span class="floating-star star-one" aria-hidden="true">
+        ✳︎
+      </span>
+      <span class="floating-star star-two" aria-hidden="true">
+        ✧
+      </span>
+      <div class="hero-mini mini-left">
+        <img
+          src="/demo/product.svg"
+          alt="Ilustración de un frasco verde sobre un pedestal"
+          width="640"
+          height="520"
+          fetchpriority="high"
+        />
+        <span>
+          <Icon name="image" size={13} /> Un toque de magia
+        </span>
+      </div>
+      <div class="hero-mini mini-main">
+        <img
+          src="/demo/cat.svg"
+          alt="Ilustración de un gato sobre fondo lavanda"
+          width="640"
+          height="520"
+          fetchpriority="high"
+        />
+        <span>
+          <span class="mini-dot"></span>Ideas con personalidad <Icon name="sparkle" size={15} />
+        </span>
+      </div>
+      <div class="hero-mini mini-right">
+        <img
+          src="/demo/cinema.svg"
+          alt="Ilustración de un invernadero en la luna"
+          width="640"
+          height="520"
+        />
+        <span>
+          <Icon name="video" size={13} /> Historias por imaginar
+        </span>
+      </div>
+      <span class="art-caption">Ilustraciones de muestra · no son resultados de Flow</span>
+      <span class="art-note" aria-hidden="true">
+        empieza con una idea{' '}
+        <svg viewBox="0 0 80 45">
+          <path
+            d="M3 5q52 0 54 30m-12-6 13 9 12-13"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          />
+        </svg>
+      </span>
+    </div>
+  </section>
+  <div class="value-strip">
+    <div class="container">
+      <span>
+        <Icon name="sparkle" size={17} /> Ideas que puedes hacer tuyas
+      </span>
+      <span>
+        <Icon name="copy" size={17} /> Copia, adapta, crea
+      </span>
+      <span>
+        <Icon name="bookmark" size={17} /> Guarda para después
+      </span>
+    </div>
+  </div>
+  <Catalog entries={entries} />
+  <AdSlot />
+  <section class="bottom-banner container">
+    <div class="banner-symbol" aria-hidden="true">
+      ✳︎
+    </div>
+    <div>
+      <span class="eyebrow">LA MEJOR PARTE LA PONES TÚ</span>
+      <h2>El prompt es solo el principio.</h2>
+      <p>Cambia un color, una luz, una historia. Haz espacio para tu versión.</p>
+    </div>
+    <a href="/como-funciona/" class="button light">
+      Empieza a crear <Icon name="arrow" size={18} />
+    </a>
+  </section>
+</Layout>

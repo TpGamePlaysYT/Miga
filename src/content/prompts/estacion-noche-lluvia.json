@@ -1,0 +1,27 @@
+{
+  "slug": "estacion-noche-lluvia",
+  "type": "image",
+  "status": "draft",
+  "title": "La última parada",
+  "description": "Una persona adulta con abrigo oscuro vista de espaldas bajo el techo de una estación de tren vacía. Una propuesta para moodboard de cortometraje y storyboard.",
+  "category": "Cine",
+  "tags": ["cine", "editorial", "fotografía"],
+  "audience": "Guionistas y creadores audiovisuales",
+  "use": "Moodboard de cortometraje y storyboard",
+  "prompt": "Una persona adulta con abrigo oscuro vista de espaldas bajo el techo de una estación de tren vacía. Escenario: noche de lluvia, reflejos ámbar sobre el andén y luces suaves a lo lejos, sin letreros legibles. Tratamiento visual: Plano general de 35 mm, composición con punto de fuga central, luz cinematográfica azul y ámbar, grano discreto. Composición en relación 16:9, con un sujeto principal claramente reconocible. Mantén proporciones físicas creíbles y una composición limpia. Sin texto, marcas de agua ni logotipos. Si se usa una referencia autorizada, conserva sus rasgos esenciales sin añadir detalles que no estén presentes.",
+  "aspectRatio": "16:9",
+  "customizable": ["Personaje", "Clima", "Colores de luz"],
+  "proposedFilename": "miga-estacion-noche-lluvia.webp",
+  "result": {
+    "file": null,
+    "poster": null,
+    "exactPrompt": null,
+    "tool": null,
+    "model": null,
+    "settings": {},
+    "notes": null,
+    "alt": null,
+    "testedAt": null,
+    "rightsConfirmed": false
+  }
+}

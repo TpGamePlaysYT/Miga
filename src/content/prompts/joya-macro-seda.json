@@ -1,0 +1,27 @@
+{
+  "slug": "joya-macro-seda",
+  "type": "image",
+  "status": "draft",
+  "title": "Pequeñas cosas, gran detalle",
+  "description": "Un par de pendientes dorados de formas orgánicas sobre un pliegue de seda marfil. Una propuesta para detalle de tienda y catálogo de joyería.",
+  "category": "Productos",
+  "tags": ["productos", "editorial", "fotografía"],
+  "audience": "Diseñadores de accesorios",
+  "use": "Detalle de tienda y catálogo de joyería",
+  "prompt": "Un par de pendientes dorados de formas orgánicas sobre un pliegue de seda marfil. Escenario: fondo neutro despejado, solo dos piezas completas y sus sombras naturales. Tratamiento visual: Macro de 100 mm, luz grande difusa y reflector blanco, metal con reflejos delicados y bordes definidos. Composición en relación 1:1, con un sujeto principal claramente reconocible. Mantén proporciones físicas creíbles y una composición limpia. Sin texto, marcas de agua ni logotipos. Si se usa una referencia autorizada, conserva sus rasgos esenciales sin añadir detalles que no estén presentes.",
+  "aspectRatio": "1:1",
+  "customizable": ["Metal", "Forma de joya", "Color de tela"],
+  "proposedFilename": "miga-joya-macro-seda.webp",
+  "result": {
+    "file": null,
+    "poster": null,
+    "exactPrompt": null,
+    "tool": null,
+    "model": null,
+    "settings": {},
+    "notes": null,
+    "alt": null,
+    "testedAt": null,
+    "rightsConfirmed": false
+  }
+}

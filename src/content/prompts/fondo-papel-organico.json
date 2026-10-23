@@ -1,0 +1,27 @@
+{
+  "slug": "fondo-papel-organico",
+  "type": "image",
+  "status": "draft",
+  "title": "Texturas que abrazan",
+  "description": "Capas de papel artesanal de bordes orgánicos en tonos crema. Una propuesta para fondo de piezas editoriales y redes.",
+  "category": "Fondos",
+  "tags": ["fondos", "editorial", "diseño"],
+  "audience": "Diseñadores de contenido",
+  "use": "Fondo de piezas editoriales y redes",
+  "prompt": "Capas de papel artesanal de bordes orgánicos en tonos crema, menta y durazno, agrupadas en los bordes. Escenario: centro liso y amplio, composición abstracta sin objetos reconocibles. Tratamiento visual: Toma cenital, iluminación uniforme, fibras de papel sutiles y pequeñas sombras entre capas. Composición en relación 4:5, con un sujeto principal claramente reconocible. Mantén proporciones físicas creíbles y una composición limpia. Sin texto, marcas de agua ni logotipos. Si se usa una referencia autorizada, conserva sus rasgos esenciales sin añadir detalles que no estén presentes.",
+  "aspectRatio": "4:5",
+  "customizable": ["Colores", "Textura", "Distribución"],
+  "proposedFilename": "miga-fondo-papel-organico.webp",
+  "result": {
+    "file": null,
+    "poster": null,
+    "exactPrompt": null,
+    "tool": null,
+    "model": null,
+    "settings": {},
+    "notes": null,
+    "alt": null,
+    "testedAt": null,
+    "rightsConfirmed": false
+  }
+}
