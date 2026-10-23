@@ -36,7 +36,7 @@ Después, cada actualización de `main` vuelve a publicar automáticamente. Si e
 
 Este proyecto contiene código fuente de Astro, no un `index.html` en la raíz de `main`. **Deploy from a branch → main → / (root)** publica el contenido equivocado. Selecciona **GitHub Actions** como Source y ejecuta el workflow anterior: la compilación genera `dist/index.html` y el workflow publica `dist/`.
 
-En la revisión del repositorio público se confirmó que Pages estaba en modo `legacy`, con `main` y `/`. La integración permite consultar ese estado, pero el intento de cambiarlo devuelve `403 Resource not accessible by integration`; el propietario debe seleccionar GitHub Actions en Settings → Pages. No hace falta crear un `index.html` manual ni mover los fuentes.
+La revisión inicial encontró Pages en modo `legacy`, con `main` y `/`. El intento de cambiarlo por la integración devolvió `403 Resource not accessible by integration`. Una consulta posterior ya confirmó `build_type: workflow` (GitHub Actions). Si vuelve a aparecer este problema, comprueba ese selector. No hace falta crear un `index.html` manual ni mover los fuentes.
 
 La versión pública mantiene los borradores ocultos: inicialmente verás portada, navegación y páginas informativas; las fichas aparecerán al publicar tus resultados reales.
 
@@ -97,3 +97,5 @@ Activa compresión Brotli/gzip en el alojamiento y caché larga para los archivo
 La prueba `npm run test:production` publica temporalmente un video sintético de test, comprueba reproducción, metadatos y exclusión de borradores, retira todo y reconstruye. No representa un resultado de Flow ni deja una ficha ficticia publicada.
 
 El workflow deja automatizado el despliegue a GitHub Pages. Su éxito remoto no está confirmado desde este entorno; compruébalo en Actions. Para otro alojamiento, conecta el repositorio y configura las variables indicadas.
+
+Despliegue confirmado: [ejecución 39901885815](https://github.com/TpGamePlaysYT/Miga/actions/runs/39901885815), trabajos build y deploy correctos. La portada pública https://tpgameplaysyt.github.io/Miga/ respondió HTTP 200 con el diseño actualizado.

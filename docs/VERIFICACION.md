@@ -83,4 +83,6 @@ Se adaptaron la paleta crema/lavanda/menta/durazno, marca, anuncio superior, por
 
 Validación: 8 pruebas de contenido y 10 pruebas de navegador correctas, incluida accesibilidad. Compilación correcta para `https://tpgameplaysyt.github.io/Miga/`. Revisión visual en 1440 y 390 px.
 
-El repositorio ya es público. La consulta de Pages devuelve `build_type: legacy`, rama `main`, carpeta `/`: sirve los fuentes y explica el 404 al no existir un index.html allí. El cambio por API a `workflow` está bloqueado por permisos de la integración (403). El propietario debe elegir GitHub Actions en Settings → Pages; consultar `PUBLICACION.md`. No se da por confirmado un despliegue público hasta terminar ese paso y comprobar el workflow.
+El repositorio ya es público. La consulta de Pages devuelve `build_type: legacy`, rama `main`, carpeta `/`: sirve los fuentes y explica el 404 al no existir un index.html allí. El cambio por API a `workflow` está bloqueado por permisos de la integración (403). Una consulta posterior ya confirmó `build_type: workflow` y el despliegue de la revisión se inició desde `main`. Consultar `PUBLICACION.md` para resolver futuras configuraciones incorrectas.
+
+Despliegue confirmado: [ejecución 39901885815](https://github.com/TpGamePlaysYT/Miga/actions/runs/39901885815), trabajos build y deploy correctos. La portada pública https://tpgameplaysyt.github.io/Miga/ respondió HTTP 200 con el diseño actualizado.
