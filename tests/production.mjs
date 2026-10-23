@@ -6,6 +6,8 @@ import http from 'node:http';
 import path from 'node:path';
 import { chromium } from '@playwright/test';
 import { readEntries } from '../src/lib/content.mjs';
+const basePath = process.env.TEST_BASE_PATH || '/';
+const basePrefix = basePath.replace(/\/$/, '');
 const fixtureDir = 'public/media/miga-test-fixture';
 const fixtureEntry = 'src/content/prompts/miga-test-video.json';
 const draftEntry = 'src/content/prompts/miga-test-draft.json';
@@ -51,9 +53,14 @@ try {
   draft.result.file = '/media/miga-test-fixture/unpublished.png';
   draft.result.poster = null;
   fs.writeFileSync(draftEntry, JSON.stringify(draft, null, 2));
-  build({ SITE_URL: 'https://miga.test' });
+  build({ SITE_URL: 'https://miga.test', BASE_PATH: basePath });
   const sitemap = fs.readFileSync('dist/sitemap.xml', 'utf8');
-  assert.ok(sitemap.includes('/prompts/miga-test-video/'));
+  assert.ok(sitemap.includes(`https://miga.test${basePrefix}/prompts/miga-test-video/`));
+  assert.ok(
+    fs
+      .readFileSync('dist/robots.txt', 'utf8')
+      .includes(`https://miga.test${basePrefix}/sitemap.xml`),
+  );
   assert.ok(!sitemap.includes('/prompts/miga-test-draft/'));
   assert.ok(!fs.existsSync('dist/prompts/miga-test-draft'));
   assert.ok(!fs.existsSync('dist/media/miga-test-fixture/unpublished.png'));
@@ -73,7 +80,12 @@ try {
     '.woff2': 'font/woff2',
   };
   server = http.createServer((req, res) => {
-    let file = path.resolve('dist', '.' + new URL(req.url, 'http://localhost').pathname);
+    const pathname = new URL(req.url, 'http://localhost').pathname;
+    if (basePrefix && !pathname.startsWith(basePrefix + '/')) {
+      res.writeHead(404).end();
+      return;
+    }
+    let file = path.resolve('dist', '.' + pathname.slice(basePrefix.length));
     if (!file.startsWith(path.resolve('dist') + path.sep) && file !== path.resolve('dist')) {
       res.writeHead(403).end();
       return;
@@ -102,17 +114,42 @@ try {
   page.on('request', (r) => {
     if (r.url().endsWith('.mp4')) requests.push(r.url());
   });
-  await page.goto('http://127.0.0.1:4322/prompts/miga-test-video/');
+  await page.goto(`http://127.0.0.1:4322${basePrefix}/prompts/miga-test-video/`);
+  await page.evaluate(() => document.fonts.ready);
+  assert.ok(
+    await page.locator('[data-poster]').evaluate((img) => img.complete && img.naturalWidth > 0),
+  );
+  assert.equal(
+    await page.locator('link[rel=icon]').getAttribute('href'),
+    `${basePrefix}/favicon.svg`,
+  );
+  const localLinks = await page
+    .locator('a[href^="/"]')
+    .evaluateAll((nodes) => nodes.map((n) => n.getAttribute('href')));
+  assert.ok(localLinks.every((link) => link.startsWith(basePrefix + '/')));
+  const styles = await page
+    .locator('link[rel=stylesheet]')
+    .evaluateAll((nodes) => nodes.map((n) => n.href));
+  for (const url of styles)
+    assert.ok((await fetch(url)).ok, 'La hoja de estilos debe cargar en la subruta.');
   assert.equal(await page.locator('video').count(), 0);
   assert.equal(requests.length, 0, 'No debe descargar el video antes de la acción.');
   assert.equal(await page.locator('#prompt-text').textContent(), e.result.exactPrompt);
   assert.equal(
     await page.locator('link[rel=canonical]').getAttribute('href'),
-    'https://miga.test/prompts/miga-test-video/',
+    `https://miga.test${basePrefix}/prompts/miga-test-video/`,
   );
   await page.getByRole('button', { name: 'Reproducir Fixture sintética de reproducción' }).click();
   await page.waitForFunction(() => document.querySelector('video')?.currentTime > 0);
   assert.ok(requests.length > 0, 'Se solicitó el video después del clic.');
+  assert.ok(requests.every((url) => url.includes(`${basePrefix}/media/`)));
+  await page.locator('.save-detail').click();
+  await page.goto(`http://127.0.0.1:4322${basePrefix}/guardados/`);
+  await page.waitForFunction(() => document.querySelector('[data-card]:not([hidden])'));
+  assert.equal(await page.locator('[data-card]:visible').count(), 1);
+  await page.locator('.card-link').click();
+  await page.getByRole('button', { name: 'Reproducir Fixture sintética de reproducción' }).click();
+  await page.waitForFunction(() => document.querySelector('video')?.currentTime > 0);
   assert.ok(await page.locator('video').evaluate((v) => v.controls && v.videoWidth === 320));
   console.log(
     'PUBLICACIÓN: ruta, prompt exacto, canonical, sitemap, exclusión de borradores/archivos y reproducción real verificados.',

@@ -1,4 +1,5 @@
 ---
+import { sitePath } from '../lib/paths.js';
 import Icon from './Icon.astro';
 import { cover, isDemo, typeLabel } from '../lib/catalog.js';
 const { entry: e, index = 0 } = Astro.props;
@@ -14,7 +15,7 @@ const { entry: e, index = 0 } = Astro.props;
   data-search={[e.title, e.description, e.category, e.audience, e.use, ...e.tags].join(' ')}
 >
   <div class="card-visual">
-    <a href={`/prompts/${e.slug}/`} tabindex="-1" aria-hidden="true">
+    <a href={sitePath(`/prompts/${e.slug}/`)} tabindex="-1" aria-hidden="true">
       <img src={cover(e)} alt="" width="640" height="520" loading="lazy" decoding="async" />
     </a>
     <span class="media-badge">
@@ -33,7 +34,7 @@ const { entry: e, index = 0 } = Astro.props;
     {e.type === 'video' && (
       <a
         class="card-play"
-        href={`/prompts/${e.slug}/`}
+        href={sitePath(`/prompts/${e.slug}/`)}
         aria-label={`Ver ficha del video ${e.title}`}
       >
         <Icon name="play" size={20} />
@@ -53,10 +54,10 @@ const { entry: e, index = 0 } = Astro.props;
       {e.status === 'draft' && <span class="draft-label">Borrador</span>}
     </div>
     <h3>
-      <a href={`/prompts/${e.slug}/`}>{e.title}</a>
+      <a href={sitePath(`/prompts/${e.slug}/`)}>{e.title}</a>
     </h3>
     <p>{e.description}</p>
-    <a class="card-link" href={`/prompts/${e.slug}/`}>
+    <a class="card-link" href={sitePath(`/prompts/${e.slug}/`)}>
       Ver prompt <Icon name="arrow" size={17} />
     </a>
   </div>

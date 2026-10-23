@@ -64,3 +64,15 @@ La comprobación de lanzamiento pendiente no impide desarrollar ni compilar. Pro
 El diseño de Figma no pudo consultarse: no había un conector disponible y el enlace devolvió un bloqueo 403. La interfaz sigue la identidad escrita por el propietario, pero no se ha contrastado con las pantallas del archivo. Las ilustraciones son originales de demostración, no imágenes extraídas de Figma ni generaciones de Flow.
 
 Se guardaron `install_script` y `start_skill` como borrador de la configuración del entorno. Guardar ese borrador no despliega la web ni publica una versión del entorno. Para reutilizarlo, revisa y guarda los cambios en ajustes y publica el entorno desde el producto.
+
+## Actualización: referencias y GitHub Pages
+
+- Reescritas las 30 propuestas con referencias explícitas y dirección fotográfica más detallada. Los cuatro retratos de imagen cubren estudio profesional, verano mediterráneo, ciudad nocturna y montaña; se recopilan en `docs/RETRATOS.md`.
+- Cámara, óptica, exposición y resolución se describen como objetivos visuales, no como metadatos reales ni garantías de la herramienta. Todos los resultados siguen pendientes y las fichas conservan `draft`.
+- Añadido soporte de `BASE_PATH=/Miga/` para enlaces, imágenes, videos, recursos, sitemap, robots, canonical y Open Graph.
+- Prueba de publicación ejecutada con la subruta `/Miga/`: carga de estilos y portada, navegación, canonical, sitemap, guardados y reproducción real de un MP4 sintético correctos. Las fixtures se retiraron y la salida se reconstruyó.
+- Las 8 pruebas de contenido y las 10 pruebas de navegador volvieron a pasar. Se corrigió el arranque de Playwright desde cero: su servidor ahora usa la API de Astro en primer plano, independientemente del modo de segundo plano de la CLI. La tanda se ejecutó con `CI=1`.
+- Preparado `.github/workflows/pages.yml` para desplegar `main` mediante las acciones oficiales de Pages. La activación remota y el éxito de ese workflow no están confirmados: el proxy bloquea la API de GitHub y el subdominio público. El propietario debe seleccionar **GitHub Actions** en **Settings → Pages** y comprobar el resultado en Actions.
+- El prototipo de Figma volvió a responder con un 403 del proxy antes de alcanzar Figma; no había herramientas para acceder a la pestaña compartida. No se afirma que esta revisión haya contrastado el archivo visual.
+
+Las capturas y la medición de Lighthouse de las secciones anteriores documentan la primera entrega; no se presentan como mediciones nuevas tras esta actualización de textos y rutas.

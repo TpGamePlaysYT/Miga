@@ -3,12 +3,12 @@
   "type": "image",
   "status": "draft",
   "title": "La última parada",
-  "description": "Una persona adulta con abrigo oscuro vista de espaldas bajo el techo de una estación de tren vacía. Una propuesta para moodboard de cortometraje y storyboard.",
+  "description": "La persona de referencia con abrigo oscuro vista de espaldas bajo el techo de una estación de tren vacía. Una propuesta para moodboard de cortometraje y storyboard.",
   "category": "Cine",
   "tags": ["cine", "editorial", "fotografía"],
   "audience": "Guionistas y creadores audiovisuales",
   "use": "Moodboard de cortometraje y storyboard",
-  "prompt": "Una persona adulta con abrigo oscuro vista de espaldas bajo el techo de una estación de tren vacía. Escenario: noche de lluvia, reflejos ámbar sobre el andén y luces suaves a lo lejos, sin letreros legibles. Tratamiento visual: Plano general de 35 mm, composición con punto de fuga central, luz cinematográfica azul y ámbar, grano discreto. Composición en relación 16:9, con un sujeto principal claramente reconocible. Mantén proporciones físicas creíbles y una composición limpia. Sin texto, marcas de agua ni logotipos. Si se usa una referencia autorizada, conserva sus rasgos esenciales sin añadir detalles que no estén presentes.",
+  "prompt": "REFERENCIAS E IDENTIDAD\nUsa la imagen o imágenes adjuntas como referencia de personaje y entorno. Si aparece un personaje, la referencia 1 fija su identidad y rasgos; otras vistas de esa misma persona solo completan información. Las referencias de localización, vestuario o iluminación guían esos elementos sin cambiar el rostro. No mezcles identidades, no modifiques edad aparente ni proporciones faciales. Conserva los detalles importantes del escenario y la escala de los objetos. Si la toma requiere un personaje reconocible y no se adjuntó su referencia, solicítala antes de inventarlo.\n\nDIRECCIÓN DE LA TOMA\nLa persona de referencia con abrigo oscuro vista de espaldas bajo el techo de una estación de tren vacía. Escenario: noche de lluvia, reflejos ámbar sobre el andén y luces suaves a lo lejos, sin letreros legibles.\n\nCÁMARA, ÓPTICA Y LUZ\nBusca la apariencia de una captura con Sony A7R V con objetivo de 35 mm, f/4, 1/125 s, ISO 400. Estos valores describen una intención fotográfica, no metadatos reales de la generación. Iluminación y enfoque: composición con capas de profundidad, luces motivadas por la escena y separación suave entre sujeto y fondo; conservar detalle en luces y sombras. Mantén el plano de cámara coherente con la escena, sin perspectiva extrema que deforme al sujeto. Separa el fondo de forma natural y evita desenfoque artificial sobre contornos, cabello o detalles finos.\n\nCOMPOSICIÓN Y ENTREGA\nRelación de aspecto 16:9. Resolución objetivo 3840 × 2160 píxeles, si la herramienta la permite; en caso contrario selecciona la mayor resolución nativa disponible y registra el tamaño real. No afirmes que un archivo tiene esa resolución solo porque figure en el prompt. Deja márgenes útiles para recorte y respeta la orientación de las referencias cuando sea relevante. Acabado fotográfico limpio, rango tonal equilibrado, textura natural y color sRGB para publicación web.\n\nCONTROL DE CALIDAD\nSin rasgos faciales reconstruidos o embellecidos, manos o extremidades adicionales, geometría incoherente, texturas plásticas, halos de enfoque, fondos duplicados, texto inventado ni marcas de agua añadidas. Conserva los detalles del sujeto de referencia y cambia únicamente los elementos expresamente indicados. Si hay instrucciones incompatibles entre referencias, prioriza identidad y forma del sujeto principal.",
   "aspectRatio": "16:9",
   "customizable": ["Personaje", "Clima", "Colores de luz"],
   "proposedFilename": "miga-estacion-noche-lluvia.webp",
@@ -23,5 +23,7 @@
     "alt": null,
     "testedAt": null,
     "rightsConfirmed": false
-  }
+  },
+  "referenceNotes": "Usa la imagen o imágenes adjuntas como referencia de personaje y entorno. Si aparece un personaje, la referencia 1 fija su identidad y rasgos; otras vistas de esa misma persona solo completan información. Las referencias de localización, vestuario o iluminación guían esos elementos sin cambiar el rostro. No mezcles identidades, no modifiques edad aparente ni proporciones faciales. Conserva los detalles importantes del escenario y la escala de los objetos. Si la toma requiere un personaje reconocible y no se adjuntó su referencia, solicítala antes de inventarlo.",
+  "technicalNote": "Cámara, óptica, exposición y resolución son objetivos visuales sugeridos; no certifican equipo usado ni opciones disponibles en Flow. Registra siempre el modelo, los ajustes y las dimensiones reales."
 }

@@ -19,7 +19,31 @@ npm run preview
 
 `check:release` avisará hasta que añadas tu dominio, tus datos y al menos un resultado probado. Esto no impide desarrollar ni compilar la primera versión con catálogo vacío.
 
-## Alojamiento estático
+## GitHub Pages para este repositorio
+
+La URL prevista es **https://tpgameplaysyt.github.io/Miga/**. El repositorio incluye `.github/workflows/pages.yml`, que compila con `SITE_URL=https://tpgameplaysyt.github.io` y `BASE_PATH=/Miga/`, sube `dist/` y despliega con las acciones oficiales de Pages. Los enlaces, recursos, videos, canonical y sitemap respetan esa subruta.
+
+Para la activación inicial:
+
+1. Abre [Settings → Pages](https://github.com/TpGamePlaysYT/Miga/settings/pages).
+2. En **Build and deployment → Source**, selecciona **GitHub Actions**.
+3. Abre [Actions → Publicar Miga en GitHub Pages](https://github.com/TpGamePlaysYT/Miga/actions/workflows/pages.yml) y pulsa **Run workflow** si la ejecución anterior ocurrió antes de activar Pages.
+4. Espera a que los trabajos `build` y `deploy` terminen en verde. La ejecución de despliegue muestra la URL del sitio.
+
+Después, cada actualización de `main` vuelve a publicar automáticamente. Si el repositorio es privado y tu plan no ofrece Pages para repositorios privados, GitHub indicará esa limitación; revisa las opciones del plan o la visibilidad sin cambiarla automáticamente.
+
+El envío del workflow a GitHub no demuestra que Pages esté habilitado. Desde este entorno el proxy bloquea la API de GitHub y el subdominio del sitio, así que la activación y el estado remoto del despliegue deben comprobarse en esas pantallas. La versión pública mantiene los borradores ocultos: inicialmente verás portada, navegación y páginas informativas; las fichas aparecerán al publicar tus resultados reales.
+
+Para comprobar la compilación de Pages localmente:
+
+```sh
+SITE_URL=https://tpgameplaysyt.github.io BASE_PATH=/Miga/ npm run build
+SITE_URL=https://tpgameplaysyt.github.io BASE_PATH=/Miga/ npm run preview
+```
+
+La ruta de entrada de esa compilación es `/Miga/`. No añadas `/Miga/` a los campos `result.file` o `result.poster` del catálogo: siguen siendo `/media/archivo.webp`; la aplicación añade la base una sola vez. En GitHub Pages de proyecto, `robots.txt` queda bajo `/Miga/`; los buscadores consultan `robots.txt` en la raíz del dominio. El control de indexación de cada página también está en su etiqueta meta y puedes registrar el sitemap completo `/Miga/sitemap.xml` en Search Console.
+
+## Otros alojamientos estáticos
 
 En Netlify, Cloudflare Pages o un proveedor equivalente:
 
@@ -33,7 +57,7 @@ En Netlify, Cloudflare Pages o un proveedor equivalente:
 
 No hace falta un adaptador de servidor ni una base de datos. No habilites una reescritura de SPA hacia `index.html`: cada página ya tiene su propio HTML. `dist/404.html` es la página de error; comprueba que tu proveedor responda **404**, no 200, cuando falte una ruta. En un despliegue manual, sube exclusivamente `dist/`, reemplazando la versión anterior. No subas `.env`, `src`, `tests` ni `node_modules`.
 
-El despliegue con subcarpeta (por ejemplo, GitHub Pages bajo `/Miga/`) necesita adaptar `base` y los enlaces absolutos. La configuración actual se publica en la raíz de un dominio.
+Para un dominio propio en la raíz, usa `BASE_PATH=/`. La implementación admite tanto esa raíz como la subcarpeta de GitHub Pages.
 
 Comprueba después del despliegue:
 
@@ -66,4 +90,4 @@ Activa compresión Brotli/gzip en el alojamiento y caché larga para los archivo
 
 La prueba `npm run test:production` publica temporalmente un video sintético de test, comprueba reproducción, metadatos y exclusión de borradores, retira todo y reconstruye. No representa un resultado de Flow ni deja una ficha ficticia publicada.
 
-No se ha publicado un sitio externo desde esta sesión. Debes conectar tu alojamiento y configurar el dominio antes de ese paso.
+El workflow deja automatizado el despliegue a GitHub Pages. Su éxito remoto no está confirmado desde este entorno; compruébalo en Actions. Para otro alojamiento, conecta el repositorio y configura las variables indicadas.

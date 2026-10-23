@@ -2,6 +2,25 @@
 
 El catálogo vive en `src/content/prompts/`. Cada JSON es una ficha y su nombre coincide con `slug`. Es una edición en archivos: se puede usar cualquier editor o la interfaz de archivos de GitHub, sin montar un CMS.
 
+## Dónde subir tus imágenes y videos
+
+Los resultados finales van en **`public/media/`**. Puedes hacerlo desde GitHub:
+
+1. Abre [la carpeta public/media](https://github.com/TpGamePlaysYT/Miga/tree/main/public/media).
+2. Pulsa **Add file → Upload files** y arrastra tus imágenes optimizadas, videos y portadas. Guarda el cambio en `main`.
+3. Abre la ficha correspondiente en `src/content/prompts/`, pulsa el lápiz y completa `result`: archivo, prompt exacto, modelo, ajustes, descripción alternativa, fecha y notas. Si ya está comprobada, cambia `status` a `published`.
+4. Guarda el cambio. El workflow valida el catálogo y, con Pages activado, vuelve a desplegar.
+
+No subas tus fotos personales de referencia al repositorio salvo que quieras hacerlas públicas. Las referencias se adjuntan en Flow; en `public/media/` solo hacen falta los resultados finales que quieras mostrar. Los archivos presentes en el repositorio pueden ser visibles allí aunque su ficha siga en borrador; la exclusión de borradores protege la web compilada, no la visibilidad del repositorio de GitHub.
+
+La carpeta ya contiene `.gitkeep` para que aparezca en GitHub antes de la primera subida. Ejemplo de rutas:
+
+- Archivo del repositorio: `public/media/miga-retrato-verano-mediterraneo.webp`.
+- Valor de `result.file`: `/media/miga-retrato-verano-mediterraneo.webp`.
+- La web añade `/Miga/` al servirlo en Pages; no lo escribas en el JSON.
+
+Los cuatro retratos ampliados están reunidos en [RETRATOS.md](RETRATOS.md): verano, ciudad nocturna, estudio profesional y montaña. Usan la identidad de la imagen o imágenes de referencia y especifican cámara orientativa, óptica, exposición, iluminación, enfoque, formato y resolución objetivo. Son propuestas por probar; ninguna garantiza reproducir exactamente un rostro.
+
 ## Probar una de las 30 ideas
 
 1. Ejecuta `npm run dev` y abre una ficha. También tienes todos los textos en [CATALOGO.md](CATALOGO.md).

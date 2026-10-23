@@ -52,6 +52,10 @@ Para los tests del navegador: `npx playwright install chromium`. En esta máquin
 
 ## Publicar
 
+GitHub Pages está preparado mediante `.github/workflows/pages.yml`. La URL prevista es **https://tpgameplaysyt.github.io/Miga/**. Activa **Settings → Pages → Source: GitHub Actions** y comprueba la ejecución en Actions. Esta URL no se da por activa hasta que `deploy` termine correctamente. La portada pública mantiene ocultos los borradores.
+
+Los cuatro prompts de retrato ampliados están en [docs/RETRATOS.md](docs/RETRATOS.md). Para incorporar tus resultados, súbelos a `public/media/` y completa la ficha JSON; en [docs/CONTENIDO.md](docs/CONTENIDO.md) se explica también cómo hacerlo directamente desde GitHub.
+
 Consulta **[docs/PUBLICACION.md](docs/PUBLICACION.md)**: dominio, alojamiento estático, metadatos, sitemap, páginas informativas y espacios de AdSense. La web está preparada para desplegar; esta entrega no crea una cuenta de alojamiento ni realiza un despliegue externo.
 
 ## Estructura

@@ -15,3 +15,14 @@ for (const type of ['image', 'video']) {
 }
 fs.writeFileSync('docs/CATALOGO.md', text);
 console.log('Exportado docs/CATALOGO.md');
+const portraits = entries.filter((e) => e.type === 'image' && e.category === 'Retratos');
+const portraitDoc =
+  '# Cuatro retratos con tus imágenes de referencia\n\nAdjunta una fotografía nítida del rostro como referencia principal. Si usas varias imágenes, identifica cuál fija la identidad y cuáles muestran la ropa, la pose o el entorno. Cámara, lente y resolución son indicaciones visuales: no garantizan las opciones del modelo ni una conservación perfecta de identidad. Revisa cada resultado y registra los ajustes reales. Estas propuestas siguen en borrador.\n\n' +
+  portraits
+    .map(
+      (e) =>
+        `## ${e.title}\n\nFicha: \`src/content/prompts/${e.slug}.json\`\n\nArchivo propuesto: \`${e.proposedFilename}\`\n\n${e.prompt}\n`,
+    )
+    .join('\n');
+fs.writeFileSync('docs/RETRATOS.md', portraitDoc);
+console.log('Exportado docs/RETRATOS.md');

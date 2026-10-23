@@ -1,4 +1,5 @@
 ---
+import { sitePath } from '../lib/paths.js';
 import '@fontsource/plus-jakarta-sans/latin-400.css';
 import '@fontsource/plus-jakarta-sans/latin-500.css';
 import '@fontsource/plus-jakarta-sans/latin-600.css';
@@ -15,7 +16,7 @@ const {
 } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const isDev = import.meta.env.DEV;
-const path = Astro.url.pathname;
+const path = Astro.url.pathname.slice(import.meta.env.BASE_URL.replace(/\/$/, '').length) || '/';
 ---
 
 <!doctype html>
@@ -34,14 +35,14 @@ const path = Astro.url.pathname;
       }
     />
     <link rel="canonical" href={canonical} />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href={sitePath('/favicon.svg')} />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="es_ES" />
     <meta property="og:site_name" content="Miga" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
-    <meta property="og:image" content={new URL(image, Astro.site)} />
+    <meta property="og:image" content={new URL(sitePath(image), Astro.site)} />
     <meta name="twitter:card" content="summary_large_image" />
     <title>{title}</title>
     {schema && (
@@ -57,20 +58,23 @@ const path = Astro.url.pathname;
     </a>
     <header class="site-header">
       <div class="header-inner container">
-        <a class="logo" href="/" aria-label="Miga, inicio">
+        <a class="logo" href={sitePath('/')} aria-label="Miga, inicio">
           miga<span class="logo-dot">✳︎</span>
         </a>
         <nav class="main-nav" aria-label="Navegación principal">
-          <a href="/#explorar" aria-current={path === '/' ? 'page' : undefined}>
+          <a href={sitePath('/#explorar')} aria-current={path === '/' ? 'page' : undefined}>
             Explorar
           </a>
-          <a href="/?type=image#explorar">Imágenes</a>
-          <a href="/?type=video#explorar">Videos</a>
-          <a href="/como-funciona/" aria-current={path === '/como-funciona/' ? 'page' : undefined}>
+          <a href={sitePath('/?type=image#explorar')}>Imágenes</a>
+          <a href={sitePath('/?type=video#explorar')}>Videos</a>
+          <a
+            href={sitePath('/como-funciona/')}
+            aria-current={path === '/como-funciona/' ? 'page' : undefined}
+          >
             Cómo funciona
           </a>
         </nav>
-        <a class="saved-link" href="/guardados/">
+        <a class="saved-link" href={sitePath('/guardados/')}>
           <Icon name="bookmark" size={17} />
           <span>Guardados</span>
           <span class="saved-count" data-saved-count>
@@ -87,11 +91,11 @@ const path = Astro.url.pathname;
         </button>
       </div>
       <nav id="mobile-nav" class="mobile-nav container" aria-label="Navegación móvil" hidden>
-        <a href="/#explorar">Explorar</a>
-        <a href="/?type=image#explorar">Imágenes</a>
-        <a href="/?type=video#explorar">Videos</a>
-        <a href="/como-funciona/">Cómo funciona</a>
-        <a href="/guardados/">Guardados</a>
+        <a href={sitePath('/#explorar')}>Explorar</a>
+        <a href={sitePath('/?type=image#explorar')}>Imágenes</a>
+        <a href={sitePath('/?type=video#explorar')}>Videos</a>
+        <a href={sitePath('/como-funciona/')}>Cómo funciona</a>
+        <a href={sitePath('/guardados/')}>Guardados</a>
       </nav>
     </header>
     {isDev && (
@@ -105,7 +109,7 @@ const path = Astro.url.pathname;
     <footer class="site-footer container">
       <div class="footer-top">
         <div>
-          <a class="logo" href="/">
+          <a class="logo" href={sitePath('/')}>
             miga<span class="logo-dot">✳︎</span>
           </a>
           <p>
@@ -115,10 +119,10 @@ const path = Astro.url.pathname;
           </p>
         </div>
         <div class="footer-links">
-          <a href="/como-funciona/">Cómo funciona</a>
-          <a href="/acerca/">Acerca de Miga</a>
-          <a href="/privacidad/">Privacidad</a>
-          <a href="/terminos/">Términos de uso</a>
+          <a href={sitePath('/como-funciona/')}>Cómo funciona</a>
+          <a href={sitePath('/acerca/')}>Acerca de Miga</a>
+          <a href={sitePath('/privacidad/')}>Privacidad</a>
+          <a href={sitePath('/terminos/')}>Términos de uso</a>
         </div>
         <p class="footer-note">
           Hecho para gente con ideas.

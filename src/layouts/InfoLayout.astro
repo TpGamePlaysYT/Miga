@@ -1,4 +1,5 @@
 ---
+import { sitePath } from '../lib/paths.js';
 import Layout from './Layout.astro';
 const { title, description, eyebrow = 'UN POCO MÁS SOBRE MIGA' } = Astro.props;
 ---
@@ -11,7 +12,7 @@ const { title, description, eyebrow = 'UN POCO MÁS SOBRE MIGA' } = Astro.props;
     <div class="prose">
       <slot />
     </div>
-    <a class="button dark" href="/#explorar">
+    <a class="button dark" href={sitePath('/#explorar')}>
       Volver a explorar <span aria-hidden="true">↗</span>
     </a>
   </article>

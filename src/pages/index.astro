@@ -1,4 +1,5 @@
 ---
+import { sitePath } from '../lib/paths.js';
 import Layout from '../layouts/Layout.astro';
 import Catalog from '../components/Catalog.astro';
 import AdSlot from '../components/AdSlot.astro';
@@ -29,7 +30,7 @@ const entries = getCatalog();
         <a href="#explorar" class="button dark">
           Encuentra tu inspiración <Icon name="arrow" size={18} />
         </a>
-        <a class="how-link" href="/como-funciona/">
+        <a class="how-link" href={sitePath('/como-funciona/')}>
           ¿Cómo funciona? <span aria-hidden="true">↗</span>
         </a>
       </div>
@@ -53,7 +54,7 @@ const entries = getCatalog();
       </span>
       <div class="hero-mini mini-left">
         <img
-          src="/demo/product.svg"
+          src={sitePath('/demo/product.svg')}
           alt="Ilustración de un frasco verde sobre un pedestal"
           width="640"
           height="520"
@@ -65,7 +66,7 @@ const entries = getCatalog();
       </div>
       <div class="hero-mini mini-main">
         <img
-          src="/demo/cat.svg"
+          src={sitePath('/demo/cat.svg')}
           alt="Ilustración de un gato sobre fondo lavanda"
           width="640"
           height="520"
@@ -77,7 +78,7 @@ const entries = getCatalog();
       </div>
       <div class="hero-mini mini-right">
         <img
-          src="/demo/cinema.svg"
+          src={sitePath('/demo/cinema.svg')}
           alt="Ilustración de un invernadero en la luna"
           width="640"
           height="520"
@@ -124,7 +125,7 @@ const entries = getCatalog();
       <h2>El prompt es solo el principio.</h2>
       <p>Cambia un color, una luz, una historia. Haz espacio para tu versión.</p>
     </div>
-    <a href="/como-funciona/" class="button light">
+    <a href={sitePath('/como-funciona/')} class="button light">
       Empieza a crear <Icon name="arrow" size={18} />
     </a>
   </section>

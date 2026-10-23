@@ -19,4 +19,8 @@ jobs:
       - run: npm test
       - run: npm run test:e2e
       - run: npm run test:production
+      - name: Verificar la subruta de GitHub Pages
+        run: npm run test:production
+        env:
+          TEST_BASE_PATH: /Miga/
       - run: npm run build

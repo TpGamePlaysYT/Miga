@@ -20,23 +20,49 @@ Las ideas iniciales son propuestas sin probar, no tendencias verificadas. Ningun
 
 **Prompt para probar en Flow**
 
-Bowl de cerámica menta con garbanzos, tomate, pepino, hojas verdes y un pequeño toque de hummus, ingredientes claramente separados. Escenario: mesa marfil con cubiertos sencillos y un limón cortado en un borde. Tratamiento visual: Toma cenital de 50 mm, luz difusa, colores naturales y alimentos de tamaño realista. Composición en relación 1:1, con un sujeto principal claramente reconocible. Mantén proporciones físicas creíbles y una composición limpia. Sin texto, marcas de agua ni logotipos. Si se usa una referencia autorizada, conserva sus rasgos esenciales sin añadir detalles que no estén presentes.
+REFERENCIAS E IDENTIDAD
+Usa la imagen o imágenes adjuntas como referencia del plato, bebida o ingredientes. La referencia 1 define los elementos que deben conservarse; las imágenes adicionales de vajilla, composición o luz solo guían esos aspectos y no sustituyen la receta. Mantén ingredientes reconocibles, proporciones realistas, cocción, color y textura fieles al alimento mostrado. Si se adjuntan varias preparaciones distintas, toma la primera como plato principal y no las mezcles sin indicación. Si no hay referencia, solicita una foto del plato o de los ingredientes previstos.
+
+DIRECCIÓN DE LA TOMA
+La escena siguiente orienta la composición: si el sujeto adjunto tiene otro color, material o apariencia, conserva los de la referencia y adapta el entorno. Bowl de cerámica menta con garbanzos, tomate, pepino, hojas verdes y un pequeño toque de hummus, ingredientes claramente separados. Escenario: mesa marfil con cubiertos sencillos y un limón cortado en un borde.
+
+CÁMARA, ÓPTICA Y LUZ
+Busca la apariencia de una captura con Sony A7R V con objetivo macro de 90 mm, f/5.6, 1/200 s, ISO 100. Estos valores describen una intención fotográfica, no metadatos reales de la generación. Iluminación y enfoque: luz grande lateral y reflector tenue; foco en el alimento principal, texturas comestibles realistas y balance de blancos neutro. Utiliza un encuadre cenital perpendicular a la mesa. Mantén el plano de cámara coherente con la escena, sin perspectiva extrema que deforme al sujeto. Separa el fondo de forma natural y evita desenfoque artificial sobre contornos, cabello o detalles finos.
+
+COMPOSICIÓN Y ENTREGA
+Relación de aspecto 1:1. Resolución objetivo 2048 × 2048 píxeles, si la herramienta la permite; en caso contrario selecciona la mayor resolución nativa disponible y registra el tamaño real. No afirmes que un archivo tiene esa resolución solo porque figure en el prompt. Deja márgenes útiles para recorte y respeta la orientación de las referencias cuando sea relevante. Acabado fotográfico limpio, rango tonal equilibrado, textura natural y color sRGB para publicación web.
+
+CONTROL DE CALIDAD
+Sin rasgos faciales reconstruidos o embellecidos, manos o extremidades adicionales, geometría incoherente, texturas plásticas, halos de enfoque, fondos duplicados, texto inventado ni marcas de agua añadidas. Conserva los detalles del sujeto de referencia y cambia únicamente los elementos expresamente indicados. Si hay instrucciones incompatibles entre referencias, prioriza identidad y forma del sujeto principal.
 
 ### Pequeño explorador
 
 - Ficha: `src/content/prompts/conejo-jardin.json`
 - Estado: draft
 - Categoría: Mascotas
-- Descripción: Conejo doméstico blanco y gris quieto junto a una maceta de barro. Una propuesta para ilustración fotográfica de una guía de cuidado.
+- Descripción: El conejo de la imagen de referencia quieto junto a una maceta de barro. Una propuesta para ilustración fotográfica de una guía de cuidado.
 - Público: Familias y tiendas especializadas
 - Uso: Ilustración fotográfica de una guía de cuidado
 - Relación sugerida: 1:1
 - Archivo propuesto: `miga-conejo-jardin.webp`
-- Partes personalizables: Pelaje; Maceta; Fondo vegetal.
+- Partes personalizables: Fondo y composición; Maceta; Fondo vegetal.
 
 **Prompt para probar en Flow**
 
-Conejo doméstico blanco y gris quieto junto a una maceta de barro, en postura cómoda. Escenario: jardín doméstico tranquilo con hierba corta y flores desenfocadas, sin objetos peligrosos. Tratamiento visual: Plano bajo de 50 mm, luz nublada suave, pelaje natural y ojos brillantes sin exageración. Composición en relación 1:1, con un sujeto principal claramente reconocible. Mantén proporciones físicas creíbles y una composición limpia. Sin texto, marcas de agua ni logotipos. Si se usa una referencia autorizada, conserva sus rasgos esenciales sin añadir detalles que no estén presentes.
+REFERENCIAS E IDENTIDAD
+Usa la imagen o imágenes adjuntas de la mascota como referencia de identidad. La referencia 1 define al animal; otras vistas de esa misma mascota permiten confirmar patrones del pelaje, color de ojos, hocico, orejas, tamaño y proporciones. Una referencia de entorno no debe cambiar esos rasgos. Conserva su apariencia individual, sin convertirla en otra raza, humanizarla ni exagerar ojos o expresiones. Respeta una anatomía natural. Si no hay referencia de la mascota, solicítala antes de inventar otra.
+
+DIRECCIÓN DE LA TOMA
+La escena siguiente orienta la composición: si el sujeto adjunto tiene otro color, material o apariencia, conserva los de la referencia y adapta el entorno. El conejo de la imagen de referencia quieto junto a una maceta de barro, en postura cómoda. Escenario: jardín doméstico tranquilo con hierba corta y flores desenfocadas, sin objetos peligrosos.
+
+CÁMARA, ÓPTICA Y LUZ
+Busca la apariencia de una captura con Canon EOS R5 Mark II con objetivo de 85 mm, f/4, 1/800 s, ISO 200. Estos valores describen una intención fotográfica, no metadatos reales de la generación. Iluminación y enfoque: cámara a la altura de los ojos del animal, luz difusa, foco en ambos ojos y detalle del pelaje sin sobresaturación. Mantén el plano de cámara coherente con la escena, sin perspectiva extrema que deforme al sujeto. Separa el fondo de forma natural y evita desenfoque artificial sobre contornos, cabello o detalles finos.
+
+COMPOSICIÓN Y ENTREGA
+Relación de aspecto 1:1. Resolución objetivo 2048 × 2048 píxeles, si la herramienta la permite; en caso contrario selecciona la mayor resolución nativa disponible y registra el tamaño real. No afirmes que un archivo tiene esa resolución solo porque figure en el prompt. Deja márgenes útiles para recorte y respeta la orientación de las referencias cuando sea relevante. Acabado fotográfico limpio, rango tonal equilibrado, textura natural y color sRGB para publicación web.
+
+CONTROL DE CALIDAD
+Sin rasgos faciales reconstruidos o embellecidos, manos o extremidades adicionales, geometría incoherente, texturas plásticas, halos de enfoque, fondos duplicados, texto inventado ni marcas de agua añadidas. Conserva los detalles del sujeto de referencia y cambia únicamente los elementos expresamente indicados. Si hay instrucciones incompatibles entre referencias, prioriza identidad y forma del sujeto principal.
 
 ### La pausa perfecta
 
@@ -52,14 +78,27 @@ Conejo doméstico blanco y gris quieto junto a una maceta de barro, en postura c
 
 **Prompt para probar en Flow**
 
-Croissant de mantequilla recién horneado con capas crujientes junto a una taza de café con leche sobre un plato crema. Escenario: mesa de madera clara junto a una ventana, servilleta beige y composición sencilla. Tratamiento visual: Ángulo de 45 grados con objetivo de 50 mm, luz natural lateral, textura del hojaldre y vapor apenas visible. Composición en relación 4:5, con un sujeto principal claramente reconocible. Mantén proporciones físicas creíbles y una composición limpia. Sin texto, marcas de agua ni logotipos. Si se usa una referencia autorizada, conserva sus rasgos esenciales sin añadir detalles que no estén presentes.
+REFERENCIAS E IDENTIDAD
+Usa la imagen o imágenes adjuntas como referencia del plato, bebida o ingredientes. La referencia 1 define los elementos que deben conservarse; las imágenes adicionales de vajilla, composición o luz solo guían esos aspectos y no sustituyen la receta. Mantén ingredientes reconocibles, proporciones realistas, cocción, color y textura fieles al alimento mostrado. Si se adjuntan varias preparaciones distintas, toma la primera como plato principal y no las mezcles sin indicación. Si no hay referencia, solicita una foto del plato o de los ingredientes previstos.
+
+DIRECCIÓN DE LA TOMA
+La escena siguiente orienta la composición: si el sujeto adjunto tiene otro color, material o apariencia, conserva los de la referencia y adapta el entorno. Croissant de mantequilla recién horneado con capas crujientes junto a una taza de café con leche sobre un plato crema. Escenario: mesa de madera clara junto a una ventana, servilleta beige y composición sencilla.
+
+CÁMARA, ÓPTICA Y LUZ
+Busca la apariencia de una captura con Sony A7R V con objetivo macro de 90 mm, f/5.6, 1/200 s, ISO 100. Estos valores describen una intención fotográfica, no metadatos reales de la generación. Iluminación y enfoque: luz grande lateral y reflector tenue; foco en el alimento principal, texturas comestibles realistas y balance de blancos neutro. Mantén el plano de cámara coherente con la escena, sin perspectiva extrema que deforme al sujeto. Separa el fondo de forma natural y evita desenfoque artificial sobre contornos, cabello o detalles finos.
+
+COMPOSICIÓN Y ENTREGA
+Relación de aspecto 4:5. Resolución objetivo 2048 × 2560 píxeles, si la herramienta la permite; en caso contrario selecciona la mayor resolución nativa disponible y registra el tamaño real. No afirmes que un archivo tiene esa resolución solo porque figure en el prompt. Deja márgenes útiles para recorte y respeta la orientación de las referencias cuando sea relevante. Acabado fotográfico limpio, rango tonal equilibrado, textura natural y color sRGB para publicación web.
+
+CONTROL DE CALIDAD
+Sin rasgos faciales reconstruidos o embellecidos, manos o extremidades adicionales, geometría incoherente, texturas plásticas, halos de enfoque, fondos duplicados, texto inventado ni marcas de agua añadidas. Conserva los detalles del sujeto de referencia y cambia únicamente los elementos expresamente indicados. Si hay instrucciones incompatibles entre referencias, prioriza identidad y forma del sujeto principal.
 
 ### La última parada
 
 - Ficha: `src/content/prompts/estacion-noche-lluvia.json`
 - Estado: draft
 - Categoría: Cine
-- Descripción: Una persona adulta con abrigo oscuro vista de espaldas bajo el techo de una estación de tren vacía. Una propuesta para moodboard de cortometraje y storyboard.
+- Descripción: La persona de referencia con abrigo oscuro vista de espaldas bajo el techo de una estación de tren vacía. Una propuesta para moodboard de cortometraje y storyboard.
 - Público: Guionistas y creadores audiovisuales
 - Uso: Moodboard de cortometraje y storyboard
 - Relación sugerida: 16:9
@@ -68,7 +107,20 @@ Croissant de mantequilla recién horneado con capas crujientes junto a una taza 
 
 **Prompt para probar en Flow**
 
-Una persona adulta con abrigo oscuro vista de espaldas bajo el techo de una estación de tren vacía. Escenario: noche de lluvia, reflejos ámbar sobre el andén y luces suaves a lo lejos, sin letreros legibles. Tratamiento visual: Plano general de 35 mm, composición con punto de fuga central, luz cinematográfica azul y ámbar, grano discreto. Composición en relación 16:9, con un sujeto principal claramente reconocible. Mantén proporciones físicas creíbles y una composición limpia. Sin texto, marcas de agua ni logotipos. Si se usa una referencia autorizada, conserva sus rasgos esenciales sin añadir detalles que no estén presentes.
+REFERENCIAS E IDENTIDAD
+Usa la imagen o imágenes adjuntas como referencia de personaje y entorno. Si aparece un personaje, la referencia 1 fija su identidad y rasgos; otras vistas de esa misma persona solo completan información. Las referencias de localización, vestuario o iluminación guían esos elementos sin cambiar el rostro. No mezcles identidades, no modifiques edad aparente ni proporciones faciales. Conserva los detalles importantes del escenario y la escala de los objetos. Si la toma requiere un personaje reconocible y no se adjuntó su referencia, solicítala antes de inventarlo.
+
+DIRECCIÓN DE LA TOMA
+La persona de referencia con abrigo oscuro vista de espaldas bajo el techo de una estación de tren vacía. Escenario: noche de lluvia, reflejos ámbar sobre el andén y luces suaves a lo lejos, sin letreros legibles.
+
+CÁMARA, ÓPTICA Y LUZ
+Busca la apariencia de una captura con Sony A7R V con objetivo de 35 mm, f/4, 1/125 s, ISO 400. Estos valores describen una intención fotográfica, no metadatos reales de la generación. Iluminación y enfoque: composición con capas de profundidad, luces motivadas por la escena y separación suave entre sujeto y fondo; conservar detalle en luces y sombras. Mantén el plano de cámara coherente con la escena, sin perspectiva extrema que deforme al sujeto. Separa el fondo de forma natural y evita desenfoque artificial sobre contornos, cabello o detalles finos.
+
+COMPOSICIÓN Y ENTREGA
+Relación de aspecto 16:9. Resolución objetivo 3840 × 2160 píxeles, si la herramienta la permite; en caso contrario selecciona la mayor resolución nativa disponible y registra el tamaño real. No afirmes que un archivo tiene esa resolución solo porque figure en el prompt. Deja márgenes útiles para recorte y respeta la orientación de las referencias cuando sea relevante. Acabado fotográfico limpio, rango tonal equilibrado, textura natural y color sRGB para publicación web.
+
+CONTROL DE CALIDAD
+Sin rasgos faciales reconstruidos o embellecidos, manos o extremidades adicionales, geometría incoherente, texturas plásticas, halos de enfoque, fondos duplicados, texto inventado ni marcas de agua añadidas. Conserva los detalles del sujeto de referencia y cambia únicamente los elementos expresamente indicados. Si hay instrucciones incompatibles entre referencias, prioriza identidad y forma del sujeto principal.
 
 ### Espacio para tus ideas
 
@@ -84,7 +136,20 @@ Una persona adulta con abrigo oscuro vista de espaldas bajo el techo de una esta
 
 **Prompt para probar en Flow**
 
-Composición arquitectónica abstracta de tres arcos suaves color crema, lavanda y menta con un pequeño sol durazno. Escenario: escena tridimensional minimalista mate, centro despejado para incorporar texto en edición. Tratamiento visual: Cámara frontal ortográfica, luz difusa desde arriba a la izquierda, sombras largas suaves y textura fina de yeso. Composición en relación 16:9, con un sujeto principal claramente reconocible. Mantén proporciones físicas creíbles y una composición limpia. Sin texto, marcas de agua ni logotipos. Si se usa una referencia autorizada, conserva sus rasgos esenciales sin añadir detalles que no estén presentes.
+REFERENCIAS E IDENTIDAD
+Usa la imagen o imágenes adjuntas como referencia de paleta, material, formas y composición. La referencia 1 determina el motivo principal; las siguientes aportan únicamente la textura, luz o distribución indicadas. Conserva los elementos que se pidan mantener sin copiar marcas ni añadir texto. Si una referencia incluye una persona que deba permanecer, conserva sus rasgos y no combines identidades. Si no hay referencias, solicita una imagen visual o una paleta antes de definir una versión personalizada.
+
+DIRECCIÓN DE LA TOMA
+Composición arquitectónica abstracta de tres arcos suaves color crema, lavanda y menta con un pequeño sol durazno. Escenario: escena tridimensional minimalista mate, centro despejado para incorporar texto en edición.
+
+CÁMARA, ÓPTICA Y LUZ
+Busca la apariencia de una captura con Hasselblad X2D 100C con objetivo de 35 mm, f/8, 1/125 s, ISO 100. Estos valores describen una intención fotográfica, no metadatos reales de la generación. Iluminación y enfoque: perspectiva limpia, profundidad de campo amplia y luz difusa; transiciones suaves sin bandas y detalle del material sin ruido artificial. Mantén el plano de cámara coherente con la escena, sin perspectiva extrema que deforme al sujeto. Separa el fondo de forma natural y evita desenfoque artificial sobre contornos, cabello o detalles finos.
+
+COMPOSICIÓN Y ENTREGA
+Relación de aspecto 16:9. Resolución objetivo 3840 × 2160 píxeles, si la herramienta la permite; en caso contrario selecciona la mayor resolución nativa disponible y registra el tamaño real. No afirmes que un archivo tiene esa resolución solo porque figure en el prompt. Deja márgenes útiles para recorte y respeta la orientación de las referencias cuando sea relevante. Acabado fotográfico limpio, rango tonal equilibrado, textura natural y color sRGB para publicación web.
+
+CONTROL DE CALIDAD
+Sin rasgos faciales reconstruidos o embellecidos, manos o extremidades adicionales, geometría incoherente, texturas plásticas, halos de enfoque, fondos duplicados, texto inventado ni marcas de agua añadidas. Conserva los detalles del sujeto de referencia y cambia únicamente los elementos expresamente indicados. Si hay instrucciones incompatibles entre referencias, prioriza identidad y forma del sujeto principal.
 
 ### Texturas que abrazan
 
@@ -100,23 +165,49 @@ Composición arquitectónica abstracta de tres arcos suaves color crema, lavanda
 
 **Prompt para probar en Flow**
 
-Capas de papel artesanal de bordes orgánicos en tonos crema, menta y durazno, agrupadas en los bordes. Escenario: centro liso y amplio, composición abstracta sin objetos reconocibles. Tratamiento visual: Toma cenital, iluminación uniforme, fibras de papel sutiles y pequeñas sombras entre capas. Composición en relación 4:5, con un sujeto principal claramente reconocible. Mantén proporciones físicas creíbles y una composición limpia. Sin texto, marcas de agua ni logotipos. Si se usa una referencia autorizada, conserva sus rasgos esenciales sin añadir detalles que no estén presentes.
+REFERENCIAS E IDENTIDAD
+Usa la imagen o imágenes adjuntas como referencia de paleta, material, formas y composición. La referencia 1 determina el motivo principal; las siguientes aportan únicamente la textura, luz o distribución indicadas. Conserva los elementos que se pidan mantener sin copiar marcas ni añadir texto. Si una referencia incluye una persona que deba permanecer, conserva sus rasgos y no combines identidades. Si no hay referencias, solicita una imagen visual o una paleta antes de definir una versión personalizada.
+
+DIRECCIÓN DE LA TOMA
+Capas de papel artesanal de bordes orgánicos en tonos crema, menta y durazno, agrupadas en los bordes. Escenario: centro liso y amplio, composición abstracta sin objetos reconocibles.
+
+CÁMARA, ÓPTICA Y LUZ
+Busca la apariencia de una captura con Hasselblad X2D 100C con objetivo de 35 mm, f/8, 1/125 s, ISO 100. Estos valores describen una intención fotográfica, no metadatos reales de la generación. Iluminación y enfoque: perspectiva limpia, profundidad de campo amplia y luz difusa; transiciones suaves sin bandas y detalle del material sin ruido artificial. Mantén el plano de cámara coherente con la escena, sin perspectiva extrema que deforme al sujeto. Separa el fondo de forma natural y evita desenfoque artificial sobre contornos, cabello o detalles finos.
+
+COMPOSICIÓN Y ENTREGA
+Relación de aspecto 4:5. Resolución objetivo 2048 × 2560 píxeles, si la herramienta la permite; en caso contrario selecciona la mayor resolución nativa disponible y registra el tamaño real. No afirmes que un archivo tiene esa resolución solo porque figure en el prompt. Deja márgenes útiles para recorte y respeta la orientación de las referencias cuando sea relevante. Acabado fotográfico limpio, rango tonal equilibrado, textura natural y color sRGB para publicación web.
+
+CONTROL DE CALIDAD
+Sin rasgos faciales reconstruidos o embellecidos, manos o extremidades adicionales, geometría incoherente, texturas plásticas, halos de enfoque, fondos duplicados, texto inventado ni marcas de agua añadidas. Conserva los detalles del sujeto de referencia y cambia únicamente los elementos expresamente indicados. Si hay instrucciones incompatibles entre referencias, prioriza identidad y forma del sujeto principal.
 
 ### Su lado más elegante
 
 - Ficha: `src/content/prompts/gato-retrato-lavanda.json`
 - Estado: draft
 - Categoría: Mascotas
-- Descripción: Gato doméstico de pelo corto color naranja sentado de frente. Una propuesta para recuerdo personal y pieza de comunicación de una tienda.
+- Descripción: El gato de la imagen de referencia sentado de frente. Una propuesta para recuerdo personal y pieza de comunicación de una tienda.
 - Público: Familias con gatos y negocios de mascotas
 - Uso: Recuerdo personal y pieza de comunicación de una tienda
 - Relación sugerida: 4:5
 - Archivo propuesto: `miga-gato-retrato-lavanda.webp`
-- Partes personalizables: Pelaje; Color del fondo; Pose.
+- Partes personalizables: Fondo y composición; Color del fondo; Pose.
 
 **Prompt para probar en Flow**
 
-Gato doméstico de pelo corto color naranja sentado de frente, ojos atentos, orejas naturales y expresión curiosa. Escenario: fondo lavanda liso, base crema y ningún accesorio en el animal. Tratamiento visual: Retrato a la altura de los ojos con objetivo de 85 mm, luz suave frontal, bigotes definidos y pelaje detallado. Composición en relación 4:5, con un sujeto principal claramente reconocible. Mantén proporciones físicas creíbles y una composición limpia. Sin texto, marcas de agua ni logotipos. Si se usa una referencia autorizada, conserva sus rasgos esenciales sin añadir detalles que no estén presentes.
+REFERENCIAS E IDENTIDAD
+Usa la imagen o imágenes adjuntas de la mascota como referencia de identidad. La referencia 1 define al animal; otras vistas de esa misma mascota permiten confirmar patrones del pelaje, color de ojos, hocico, orejas, tamaño y proporciones. Una referencia de entorno no debe cambiar esos rasgos. Conserva su apariencia individual, sin convertirla en otra raza, humanizarla ni exagerar ojos o expresiones. Respeta una anatomía natural. Si no hay referencia de la mascota, solicítala antes de inventar otra.
+
+DIRECCIÓN DE LA TOMA
+La escena siguiente orienta la composición: si el sujeto adjunto tiene otro color, material o apariencia, conserva los de la referencia y adapta el entorno. El gato de la imagen de referencia sentado de frente, ojos atentos, orejas naturales y expresión curiosa. Escenario: fondo lavanda liso, base crema y ningún accesorio en el animal.
+
+CÁMARA, ÓPTICA Y LUZ
+Busca la apariencia de una captura con Canon EOS R5 Mark II con objetivo de 85 mm, f/4, 1/800 s, ISO 200. Estos valores describen una intención fotográfica, no metadatos reales de la generación. Iluminación y enfoque: cámara a la altura de los ojos del animal, luz difusa, foco en ambos ojos y detalle del pelaje sin sobresaturación. Mantén el plano de cámara coherente con la escena, sin perspectiva extrema que deforme al sujeto. Separa el fondo de forma natural y evita desenfoque artificial sobre contornos, cabello o detalles finos.
+
+COMPOSICIÓN Y ENTREGA
+Relación de aspecto 4:5. Resolución objetivo 2048 × 2560 píxeles, si la herramienta la permite; en caso contrario selecciona la mayor resolución nativa disponible y registra el tamaño real. No afirmes que un archivo tiene esa resolución solo porque figure en el prompt. Deja márgenes útiles para recorte y respeta la orientación de las referencias cuando sea relevante. Acabado fotográfico limpio, rango tonal equilibrado, textura natural y color sRGB para publicación web.
+
+CONTROL DE CALIDAD
+Sin rasgos faciales reconstruidos o embellecidos, manos o extremidades adicionales, geometría incoherente, texturas plásticas, halos de enfoque, fondos duplicados, texto inventado ni marcas de agua añadidas. Conserva los detalles del sujeto de referencia y cambia únicamente los elementos expresamente indicados. Si hay instrucciones incompatibles entre referencias, prioriza identidad y forma del sujeto principal.
 
 ### Ingredientes con historia
 
@@ -132,7 +223,20 @@ Gato doméstico de pelo corto color naranja sentado de frente, ojos atentos, ore
 
 **Prompt para probar en Flow**
 
-Nidos de pasta fresca sin cocinar, dos tomates maduros, albahaca y un pequeño cuenco de harina. Escenario: mesa de madera oscura, elementos agrupados a la derecha y espacio vacío a la izquierda. Tratamiento visual: Toma cenital, luz suave de ventana, textura artesanal y contraste moderado. Composición en relación 16:9, con un sujeto principal claramente reconocible. Mantén proporciones físicas creíbles y una composición limpia. Sin texto, marcas de agua ni logotipos. Si se usa una referencia autorizada, conserva sus rasgos esenciales sin añadir detalles que no estén presentes.
+REFERENCIAS E IDENTIDAD
+Usa la imagen o imágenes adjuntas como referencia del plato, bebida o ingredientes. La referencia 1 define los elementos que deben conservarse; las imágenes adicionales de vajilla, composición o luz solo guían esos aspectos y no sustituyen la receta. Mantén ingredientes reconocibles, proporciones realistas, cocción, color y textura fieles al alimento mostrado. Si se adjuntan varias preparaciones distintas, toma la primera como plato principal y no las mezcles sin indicación. Si no hay referencia, solicita una foto del plato o de los ingredientes previstos.
+
+DIRECCIÓN DE LA TOMA
+La escena siguiente orienta la composición: si el sujeto adjunto tiene otro color, material o apariencia, conserva los de la referencia y adapta el entorno. Nidos de pasta fresca sin cocinar, dos tomates maduros, albahaca y un pequeño cuenco de harina. Escenario: mesa de madera oscura, elementos agrupados a la derecha y espacio vacío a la izquierda.
+
+CÁMARA, ÓPTICA Y LUZ
+Busca la apariencia de una captura con Sony A7R V con objetivo macro de 90 mm, f/5.6, 1/200 s, ISO 100. Estos valores describen una intención fotográfica, no metadatos reales de la generación. Iluminación y enfoque: luz grande lateral y reflector tenue; foco en el alimento principal, texturas comestibles realistas y balance de blancos neutro. Utiliza un encuadre cenital perpendicular a la mesa. Mantén el plano de cámara coherente con la escena, sin perspectiva extrema que deforme al sujeto. Separa el fondo de forma natural y evita desenfoque artificial sobre contornos, cabello o detalles finos.
+
+COMPOSICIÓN Y ENTREGA
+Relación de aspecto 16:9. Resolución objetivo 3840 × 2160 píxeles, si la herramienta la permite; en caso contrario selecciona la mayor resolución nativa disponible y registra el tamaño real. No afirmes que un archivo tiene esa resolución solo porque figure en el prompt. Deja márgenes útiles para recorte y respeta la orientación de las referencias cuando sea relevante. Acabado fotográfico limpio, rango tonal equilibrado, textura natural y color sRGB para publicación web.
+
+CONTROL DE CALIDAD
+Sin rasgos faciales reconstruidos o embellecidos, manos o extremidades adicionales, geometría incoherente, texturas plásticas, halos de enfoque, fondos duplicados, texto inventado ni marcas de agua añadidas. Conserva los detalles del sujeto de referencia y cambia únicamente los elementos expresamente indicados. Si hay instrucciones incompatibles entre referencias, prioriza identidad y forma del sujeto principal.
 
 ### Otro mundo, otra historia
 
@@ -148,7 +252,20 @@ Nidos de pasta fresca sin cocinar, dos tomates maduros, albahaca y un pequeño c
 
 **Prompt para probar en Flow**
 
-Pequeño invernadero de cristal lleno de plantas sobre un paisaje lunar, una astronauta adulta observándolo desde fuera. Escenario: horizonte rocoso bajo un cielo negro con un planeta pequeño y distante, escala arquitectónica creíble. Tratamiento visual: Plano general de 28 mm, luz cálida del interior y fría del terreno, detalle realista sin estética de videojuego. Composición en relación 16:9, con un sujeto principal claramente reconocible. Mantén proporciones físicas creíbles y una composición limpia. Sin texto, marcas de agua ni logotipos. Si se usa una referencia autorizada, conserva sus rasgos esenciales sin añadir detalles que no estén presentes.
+REFERENCIAS E IDENTIDAD
+Usa la imagen o imágenes adjuntas como referencia de personaje y entorno. Si aparece un personaje, la referencia 1 fija su identidad y rasgos; otras vistas de esa misma persona solo completan información. Las referencias de localización, vestuario o iluminación guían esos elementos sin cambiar el rostro. No mezcles identidades, no modifiques edad aparente ni proporciones faciales. Conserva los detalles importantes del escenario y la escala de los objetos. Si la toma requiere un personaje reconocible y no se adjuntó su referencia, solicítala antes de inventarlo.
+
+DIRECCIÓN DE LA TOMA
+Pequeño invernadero de cristal lleno de plantas sobre un paisaje lunar, el personaje de referencia con traje espacial observándolo desde fuera. Escenario: horizonte rocoso bajo un cielo negro con un planeta pequeño y distante, escala arquitectónica creíble.
+
+CÁMARA, ÓPTICA Y LUZ
+Busca la apariencia de una captura con Sony A7R V con objetivo de 35 mm, f/4, 1/125 s, ISO 400. Estos valores describen una intención fotográfica, no metadatos reales de la generación. Iluminación y enfoque: composición con capas de profundidad, luces motivadas por la escena y separación suave entre sujeto y fondo; conservar detalle en luces y sombras. Mantén el plano de cámara coherente con la escena, sin perspectiva extrema que deforme al sujeto. Separa el fondo de forma natural y evita desenfoque artificial sobre contornos, cabello o detalles finos.
+
+COMPOSICIÓN Y ENTREGA
+Relación de aspecto 16:9. Resolución objetivo 3840 × 2160 píxeles, si la herramienta la permite; en caso contrario selecciona la mayor resolución nativa disponible y registra el tamaño real. No afirmes que un archivo tiene esa resolución solo porque figure en el prompt. Deja márgenes útiles para recorte y respeta la orientación de las referencias cuando sea relevante. Acabado fotográfico limpio, rango tonal equilibrado, textura natural y color sRGB para publicación web.
+
+CONTROL DE CALIDAD
+Sin rasgos faciales reconstruidos o embellecidos, manos o extremidades adicionales, geometría incoherente, texturas plásticas, halos de enfoque, fondos duplicados, texto inventado ni marcas de agua añadidas. Conserva los detalles del sujeto de referencia y cambia únicamente los elementos expresamente indicados. Si hay instrucciones incompatibles entre referencias, prioriza identidad y forma del sujeto principal.
 
 ### Pequeñas cosas, gran detalle
 
@@ -164,7 +281,20 @@ Pequeño invernadero de cristal lleno de plantas sobre un paisaje lunar, una ast
 
 **Prompt para probar en Flow**
 
-Un par de pendientes dorados de formas orgánicas sobre un pliegue de seda marfil. Escenario: fondo neutro despejado, solo dos piezas completas y sus sombras naturales. Tratamiento visual: Macro de 100 mm, luz grande difusa y reflector blanco, metal con reflejos delicados y bordes definidos. Composición en relación 1:1, con un sujeto principal claramente reconocible. Mantén proporciones físicas creíbles y una composición limpia. Sin texto, marcas de agua ni logotipos. Si se usa una referencia autorizada, conserva sus rasgos esenciales sin añadir detalles que no estén presentes.
+REFERENCIAS E IDENTIDAD
+Usa la imagen o imágenes adjuntas como referencia del producto. La referencia 1 define el objeto; otras vistas del mismo objeto ayudan a conservar forma, escala, proporciones, materiales, color, piezas y detalles. Una referencia adicional de escenario o paleta solo guía el fondo. No mezcles diseños de productos distintos ni alteres su silueta. Si hay una etiqueta autorizada, conserva su diseño visible sin inventar texto ilegible; si no hay marca, mantén el envase sin marca. Si falta la referencia del producto, solicítala antes de inventar un reemplazo.
+
+DIRECCIÓN DE LA TOMA
+La escena siguiente orienta la composición: si el sujeto adjunto tiene otro color, material o apariencia, conserva los de la referencia y adapta el entorno. Un par de pendientes dorados de formas orgánicas sobre un pliegue de seda marfil. Escenario: fondo neutro despejado, solo dos piezas completas y sus sombras naturales.
+
+CÁMARA, ÓPTICA Y LUZ
+Busca la apariencia de una captura con Hasselblad X2D 100C con objetivo macro de 90 mm, f/8, 1/125 s, ISO 100. Estos valores describen una intención fotográfica, no metadatos reales de la generación. Iluminación y enfoque: softbox lateral amplio, reflector opuesto y banderas para controlar reflejos; foco en las superficies relevantes y bordes limpios. Mantén el plano de cámara coherente con la escena, sin perspectiva extrema que deforme al sujeto. Separa el fondo de forma natural y evita desenfoque artificial sobre contornos, cabello o detalles finos.
+
+COMPOSICIÓN Y ENTREGA
+Relación de aspecto 1:1. Resolución objetivo 2048 × 2048 píxeles, si la herramienta la permite; en caso contrario selecciona la mayor resolución nativa disponible y registra el tamaño real. No afirmes que un archivo tiene esa resolución solo porque figure en el prompt. Deja márgenes útiles para recorte y respeta la orientación de las referencias cuando sea relevante. Acabado fotográfico limpio, rango tonal equilibrado, textura natural y color sRGB para publicación web.
+
+CONTROL DE CALIDAD
+Sin rasgos faciales reconstruidos o embellecidos, manos o extremidades adicionales, geometría incoherente, texturas plásticas, halos de enfoque, fondos duplicados, texto inventado ni marcas de agua añadidas. Conserva los detalles del sujeto de referencia y cambia únicamente los elementos expresamente indicados. Si hay instrucciones incompatibles entre referencias, prioriza identidad y forma del sujeto principal.
 
 ### Un respiro en la pantalla
 
@@ -180,23 +310,49 @@ Un par de pendientes dorados de formas orgánicas sobre un pliegue de seda marfi
 
 **Prompt para probar en Flow**
 
-Dunas suaves de arena marfil con una pequeña luna pálida sobre el horizonte. Escenario: cielo degradado lavanda y durazno al amanecer, escena vacía y serena sin edificios. Tratamiento visual: Panorámica de 35 mm, luz rasante muy suave, grano fino y sombras delicadas. Composición en relación 16:9, con un sujeto principal claramente reconocible. Mantén proporciones físicas creíbles y una composición limpia. Sin texto, marcas de agua ni logotipos. Si se usa una referencia autorizada, conserva sus rasgos esenciales sin añadir detalles que no estén presentes.
+REFERENCIAS E IDENTIDAD
+Usa la imagen o imágenes adjuntas como referencia de paleta, material, formas y composición. La referencia 1 determina el motivo principal; las siguientes aportan únicamente la textura, luz o distribución indicadas. Conserva los elementos que se pidan mantener sin copiar marcas ni añadir texto. Si una referencia incluye una persona que deba permanecer, conserva sus rasgos y no combines identidades. Si no hay referencias, solicita una imagen visual o una paleta antes de definir una versión personalizada.
+
+DIRECCIÓN DE LA TOMA
+Dunas suaves de arena marfil con una pequeña luna pálida sobre el horizonte. Escenario: cielo degradado lavanda y durazno al amanecer, escena vacía y serena sin edificios.
+
+CÁMARA, ÓPTICA Y LUZ
+Busca la apariencia de una captura con Hasselblad X2D 100C con objetivo de 35 mm, f/8, 1/125 s, ISO 100. Estos valores describen una intención fotográfica, no metadatos reales de la generación. Iluminación y enfoque: perspectiva limpia, profundidad de campo amplia y luz difusa; transiciones suaves sin bandas y detalle del material sin ruido artificial. Mantén el plano de cámara coherente con la escena, sin perspectiva extrema que deforme al sujeto. Separa el fondo de forma natural y evita desenfoque artificial sobre contornos, cabello o detalles finos.
+
+COMPOSICIÓN Y ENTREGA
+Relación de aspecto 16:9. Resolución objetivo 3840 × 2160 píxeles, si la herramienta la permite; en caso contrario selecciona la mayor resolución nativa disponible y registra el tamaño real. No afirmes que un archivo tiene esa resolución solo porque figure en el prompt. Deja márgenes útiles para recorte y respeta la orientación de las referencias cuando sea relevante. Acabado fotográfico limpio, rango tonal equilibrado, textura natural y color sRGB para publicación web.
+
+CONTROL DE CALIDAD
+Sin rasgos faciales reconstruidos o embellecidos, manos o extremidades adicionales, geometría incoherente, texturas plásticas, halos de enfoque, fondos duplicados, texto inventado ni marcas de agua añadidas. Conserva los detalles del sujeto de referencia y cambia únicamente los elementos expresamente indicados. Si hay instrucciones incompatibles entre referencias, prioriza identidad y forma del sujeto principal.
 
 ### Un paseo para recordar
 
 - Ficha: `src/content/prompts/perro-parque-dorado.json`
 - Estado: draft
 - Categoría: Mascotas
-- Descripción: Perro mestizo adulto sentado tranquilo en un sendero. Una propuesta para recuerdo de mascota y portada de un servicio.
+- Descripción: El perro de la imagen de referencia sentado tranquilo en un sendero. Una propuesta para recuerdo de mascota y portada de un servicio.
 - Público: Familias con perros y paseadores
 - Uso: Recuerdo de mascota y portada de un servicio
 - Relación sugerida: 4:5
 - Archivo propuesto: `miga-perro-parque-dorado.webp`
-- Partes personalizables: Tamaño y pelaje; Entorno; Hora del día.
+- Partes personalizables: Encuadre y entorno; Entorno; Hora del día.
 
 **Prompt para probar en Flow**
 
-Perro mestizo adulto sentado tranquilo en un sendero, mirando ligeramente fuera de cámara. Escenario: parque con vegetación al fondo y luz de última hora, sin otras personas ni animales. Tratamiento visual: Objetivo de 70 mm a la altura del animal, fondo desenfocado, luz de contorno cálida y ojos nítidos. Composición en relación 4:5, con un sujeto principal claramente reconocible. Mantén proporciones físicas creíbles y una composición limpia. Sin texto, marcas de agua ni logotipos. Si se usa una referencia autorizada, conserva sus rasgos esenciales sin añadir detalles que no estén presentes.
+REFERENCIAS E IDENTIDAD
+Usa la imagen o imágenes adjuntas de la mascota como referencia de identidad. La referencia 1 define al animal; otras vistas de esa misma mascota permiten confirmar patrones del pelaje, color de ojos, hocico, orejas, tamaño y proporciones. Una referencia de entorno no debe cambiar esos rasgos. Conserva su apariencia individual, sin convertirla en otra raza, humanizarla ni exagerar ojos o expresiones. Respeta una anatomía natural. Si no hay referencia de la mascota, solicítala antes de inventar otra.
+
+DIRECCIÓN DE LA TOMA
+La escena siguiente orienta la composición: si el sujeto adjunto tiene otro color, material o apariencia, conserva los de la referencia y adapta el entorno. El perro de la imagen de referencia sentado tranquilo en un sendero, mirando ligeramente fuera de cámara. Escenario: parque con vegetación al fondo y luz de última hora, sin otras personas ni animales.
+
+CÁMARA, ÓPTICA Y LUZ
+Busca la apariencia de una captura con Canon EOS R5 Mark II con objetivo de 85 mm, f/4, 1/800 s, ISO 200. Estos valores describen una intención fotográfica, no metadatos reales de la generación. Iluminación y enfoque: cámara a la altura de los ojos del animal, luz difusa, foco en ambos ojos y detalle del pelaje sin sobresaturación. Mantén el plano de cámara coherente con la escena, sin perspectiva extrema que deforme al sujeto. Separa el fondo de forma natural y evita desenfoque artificial sobre contornos, cabello o detalles finos.
+
+COMPOSICIÓN Y ENTREGA
+Relación de aspecto 4:5. Resolución objetivo 2048 × 2560 píxeles, si la herramienta la permite; en caso contrario selecciona la mayor resolución nativa disponible y registra el tamaño real. No afirmes que un archivo tiene esa resolución solo porque figure en el prompt. Deja márgenes útiles para recorte y respeta la orientación de las referencias cuando sea relevante. Acabado fotográfico limpio, rango tonal equilibrado, textura natural y color sRGB para publicación web.
+
+CONTROL DE CALIDAD
+Sin rasgos faciales reconstruidos o embellecidos, manos o extremidades adicionales, geometría incoherente, texturas plásticas, halos de enfoque, fondos duplicados, texto inventado ni marcas de agua añadidas. Conserva los detalles del sujeto de referencia y cambia únicamente los elementos expresamente indicados. Si hay instrucciones incompatibles entre referencias, prioriza identidad y forma del sujeto principal.
 
 ### Un pequeño capricho
 
@@ -212,71 +368,136 @@ Perro mestizo adulto sentado tranquilo en un sendero, mirando ligeramente fuera 
 
 **Prompt para probar en Flow**
 
-Una pequeña tarta individual de vainilla con crema y tres fresas frescas, sobre un plato de cerámica rosa pálido. Escenario: fondo crema, composición limpia con espacio negativo arriba. Tratamiento visual: Plano cercano de 85 mm, luz lateral muy suave, detalles de semillas y crema, color apetecible sin saturación excesiva. Composición en relación 4:5, con un sujeto principal claramente reconocible. Mantén proporciones físicas creíbles y una composición limpia. Sin texto, marcas de agua ni logotipos. Si se usa una referencia autorizada, conserva sus rasgos esenciales sin añadir detalles que no estén presentes.
+REFERENCIAS E IDENTIDAD
+Usa la imagen o imágenes adjuntas como referencia del plato, bebida o ingredientes. La referencia 1 define los elementos que deben conservarse; las imágenes adicionales de vajilla, composición o luz solo guían esos aspectos y no sustituyen la receta. Mantén ingredientes reconocibles, proporciones realistas, cocción, color y textura fieles al alimento mostrado. Si se adjuntan varias preparaciones distintas, toma la primera como plato principal y no las mezcles sin indicación. Si no hay referencia, solicita una foto del plato o de los ingredientes previstos.
 
-### Una marca con rostro
+DIRECCIÓN DE LA TOMA
+La escena siguiente orienta la composición: si el sujeto adjunto tiene otro color, material o apariencia, conserva los de la referencia y adapta el entorno. Una pequeña tarta individual de vainilla con crema y tres fresas frescas, sobre un plato de cerámica rosa pálido. Escenario: fondo crema, composición limpia con espacio negativo arriba.
 
-- Ficha: `src/content/prompts/retrato-creativo-estudio.json`
+CÁMARA, ÓPTICA Y LUZ
+Busca la apariencia de una captura con Sony A7R V con objetivo macro de 90 mm, f/5.6, 1/200 s, ISO 100. Estos valores describen una intención fotográfica, no metadatos reales de la generación. Iluminación y enfoque: luz grande lateral y reflector tenue; foco en el alimento principal, texturas comestibles realistas y balance de blancos neutro. Mantén el plano de cámara coherente con la escena, sin perspectiva extrema que deforme al sujeto. Separa el fondo de forma natural y evita desenfoque artificial sobre contornos, cabello o detalles finos.
+
+COMPOSICIÓN Y ENTREGA
+Relación de aspecto 4:5. Resolución objetivo 2048 × 2560 píxeles, si la herramienta la permite; en caso contrario selecciona la mayor resolución nativa disponible y registra el tamaño real. No afirmes que un archivo tiene esa resolución solo porque figure en el prompt. Deja márgenes útiles para recorte y respeta la orientación de las referencias cuando sea relevante. Acabado fotográfico limpio, rango tonal equilibrado, textura natural y color sRGB para publicación web.
+
+CONTROL DE CALIDAD
+Sin rasgos faciales reconstruidos o embellecidos, manos o extremidades adicionales, geometría incoherente, texturas plásticas, halos de enfoque, fondos duplicados, texto inventado ni marcas de agua añadidas. Conserva los detalles del sujeto de referencia y cambia únicamente los elementos expresamente indicados. Si hay instrucciones incompatibles entre referencias, prioriza identidad y forma del sujeto principal.
+
+### Un respiro entre montañas
+
+- Ficha: `src/content/prompts/retrato-montana-natural.json`
 - Estado: draft
 - Categoría: Retratos
-- Descripción: Persona adulta creativa sentada en un taburete. Una propuesta para biografía de portafolio y presentación de servicios.
-- Público: Diseñadores, ilustradores y profesionales creativos
-- Uso: Biografía de portafolio y presentación de servicios
+- Descripción: Retrato personalizado de la persona de la imagen de referencia con chaqueta ligera verde oliva, encuadre desde la cintura y una postura relajada.
+- Público: Personas que quieren retratos propios a partir de sus fotografías
+- Uso: Recuerdo de viaje y perfil personal
 - Relación sugerida: 4:5
-- Archivo propuesto: `miga-retrato-creativo-estudio.webp`
-- Partes personalizables: Persona; Accesorio de trabajo; Paleta.
+- Archivo propuesto: `miga-retrato-montana-natural.webp`
+- Partes personalizables: Chaqueta; Paisaje; Hora del día.
 
 **Prompt para probar en Flow**
 
-Persona adulta creativa sentada en un taburete, con chaqueta lavanda y una libreta cerrada en las manos. Escenario: estudio minimalista color menta, composición asimétrica con espacio a la derecha para diseño posterior. Tratamiento visual: Plano medio con objetivo de 50 mm, luz grande y difusa lateral, tonos pastel y detalle en el tejido. Composición en relación 4:5, con un sujeto principal claramente reconocible. Mantén proporciones físicas creíbles y una composición limpia. Sin texto, marcas de agua ni logotipos. Si se usa una referencia autorizada, conserva sus rasgos esenciales sin añadir detalles que no estén presentes.
+REFERENCIAS E IDENTIDAD
+Usa la imagen o las imágenes adjuntas como referencia principal de identidad. Si hay varias, la referencia 1 define a la persona; las otras vistas de esa misma persona sirven para confirmar rasgos, mientras que una referencia de vestuario, pose o entorno solo guía ese elemento. No mezcles rostros de personas diferentes. Conserva forma del rostro, distancia entre ojos, nariz, labios, mandíbula, tono de piel, línea de cabello, edad aparente y marcas distintivas. No rejuvenezcas, afines rasgos ni apliques embellecimiento. Cambia únicamente el entorno, la ropa, la pose o la luz indicados. Si no hay referencia facial, solicítala antes de sustituirla por una identidad inventada.
 
-### En tu elemento
+DIRECCIÓN DE LA TOMA
+Retrata a la persona de la imagen de referencia con chaqueta ligera verde oliva, encuadre desde la cintura y una postura relajada. Escenario: mirador de montaña con lago al fondo, sin bordes peligrosos, paisaje reconocible y suavemente desenfocado.
 
-- Ficha: `src/content/prompts/retrato-en-taller.json`
-- Estado: draft
-- Categoría: Retratos
-- Descripción: Persona adulta ceramista en su taller sosteniendo un cuenco de barro recién terminado. Una propuesta para presentación de un oficio en redes y web.
-- Público: Artesanos y pequeños negocios
-- Uso: Presentación de un oficio en redes y web
-- Relación sugerida: 3:2
-- Archivo propuesto: `miga-retrato-en-taller.webp`
-- Partes personalizables: Oficio; Herramientas; Vestuario.
+CÁMARA, ÓPTICA Y LUZ
+Busca la apariencia de una captura con Canon EOS R6 Mark II, objetivo RF 50 mm, f/4, 1/400 s, ISO 200. Estos valores describen una intención fotográfica, no metadatos reales de la generación. Iluminación y enfoque: luz de mañana con nubosidad ligera, sombras suaves y exposición equilibrada entre el rostro, las montañas y el cielo. Mantén el plano de cámara coherente con la escena, sin perspectiva extrema que deforme al sujeto. Separa el fondo de forma natural y evita desenfoque artificial sobre contornos, cabello o detalles finos.
 
-**Prompt para probar en Flow**
+COMPOSICIÓN Y ENTREGA
+Relación de aspecto 4:5. Resolución objetivo 2048 × 2560 píxeles, si la herramienta la permite; en caso contrario selecciona la mayor resolución nativa disponible y registra el tamaño real. No afirmes que un archivo tiene esa resolución solo porque figure en el prompt. Deja márgenes útiles para recorte y respeta la orientación de las referencias cuando sea relevante. Acabado fotográfico limpio, rango tonal equilibrado, textura natural y color sRGB para publicación web.
 
-Persona adulta ceramista en su taller sosteniendo un cuenco de barro recién terminado, manos naturales y expresión concentrada. Escenario: mesa de madera con pocas herramientas, estantería de cerámica desenfocada al fondo. Tratamiento visual: Plano medio ambiental de 35 mm, luz de mañana por una ventana lateral, color cálido sin dominante naranja. Composición en relación 3:2, con un sujeto principal claramente reconocible. Mantén proporciones físicas creíbles y una composición limpia. Sin texto, marcas de agua ni logotipos. Si se usa una referencia autorizada, conserva sus rasgos esenciales sin añadir detalles que no estén presentes.
-
-### Equipo, con personalidad
-
-- Ficha: `src/content/prompts/retrato-fundador-editorial.json`
-- Estado: draft
-- Categoría: Retratos
-- Descripción: Retrato editorial de una persona adulta de pie. Una propuesta para página de equipo y dossier de prensa.
-- Público: Fundadores y equipos pequeños
-- Uso: Página de equipo y dossier de prensa
-- Relación sugerida: 4:5
-- Archivo propuesto: `miga-retrato-fundador-editorial.webp`
-- Partes personalizables: Persona; Ropa; Entorno laboral.
-
-**Prompt para probar en Flow**
-
-Retrato editorial de una persona adulta de pie, brazos relajados y ropa informal cuidada en tonos neutros. Escenario: oficina luminosa con una sola planta y pared blanca, encuadre vertical a tres cuartos. Tratamiento visual: Objetivo de 70 mm, luz natural frontal indirecta, contraste moderado y rostro nítido. Composición en relación 4:5, con un sujeto principal claramente reconocible. Mantén proporciones físicas creíbles y una composición limpia. Sin texto, marcas de agua ni logotipos. Si se usa una referencia autorizada, conserva sus rasgos esenciales sin añadir detalles que no estén presentes.
+CONTROL DE CALIDAD
+Sin rasgos faciales reconstruidos o embellecidos, manos o extremidades adicionales, geometría incoherente, texturas plásticas, halos de enfoque, fondos duplicados, texto inventado ni marcas de agua añadidas. Conserva los detalles del sujeto de referencia y cambia únicamente los elementos expresamente indicados. Si hay instrucciones incompatibles entre referencias, prioriza identidad y forma del sujeto principal.
 
 ### Tu mejor primera impresión
 
 - Ficha: `src/content/prompts/retrato-profesional-natural.json`
 - Estado: draft
 - Categoría: Retratos
-- Descripción: Retrato de una persona adulta con camisa de lino color marfil. Una propuesta para perfil profesional, presentación y página personal.
-- Público: Profesionales independientes y personas que buscan empleo
-- Uso: Perfil profesional, presentación y página personal
+- Descripción: Retrato personalizado de la persona de la imagen de referencia, con vestuario elegante en tonos neutros, encuadre desde el pecho y postura ligeramente girada hacia cámara.
+- Público: Personas que quieren retratos propios a partir de sus fotografías
+- Uso: Perfil profesional y presentación personal
 - Relación sugerida: 4:5
 - Archivo propuesto: `miga-retrato-profesional-natural.webp`
-- Partes personalizables: Persona y rasgos; Vestuario; Color del fondo.
+- Partes personalizables: Vestuario; Fondo; Pose y expresión.
 
 **Prompt para probar en Flow**
 
-Retrato de una persona adulta con camisa de lino color marfil, expresión amable y postura relajada, mirando a cámara. Escenario: estudio cálido con fondo beige liso, encuadre de pecho hacia arriba y espacio libre alrededor de la cabeza. Tratamiento visual: Objetivo de 85 mm, luz suave de una ventana a 45 grados, sombras sutiles, textura natural de la piel sin retoque plástico. Composición en relación 4:5, con un sujeto principal claramente reconocible. Mantén proporciones físicas creíbles y una composición limpia. Sin texto, marcas de agua ni logotipos. Si se usa una referencia autorizada, conserva sus rasgos esenciales sin añadir detalles que no estén presentes.
+REFERENCIAS E IDENTIDAD
+Usa la imagen o las imágenes adjuntas como referencia principal de identidad. Si hay varias, la referencia 1 define a la persona; las otras vistas de esa misma persona sirven para confirmar rasgos, mientras que una referencia de vestuario, pose o entorno solo guía ese elemento. No mezcles rostros de personas diferentes. Conserva forma del rostro, distancia entre ojos, nariz, labios, mandíbula, tono de piel, línea de cabello, edad aparente y marcas distintivas. No rejuvenezcas, afines rasgos ni apliques embellecimiento. Cambia únicamente el entorno, la ropa, la pose o la luz indicados. Si no hay referencia facial, solicítala antes de sustituirla por una identidad inventada.
+
+DIRECCIÓN DE LA TOMA
+Retrata a la persona de la imagen de referencia, con vestuario elegante en tonos neutros, encuadre desde el pecho y postura ligeramente girada hacia cámara. Escenario: estudio profesional con fondo gris cálido continuo y separación de dos metros entre sujeto y fondo.
+
+CÁMARA, ÓPTICA Y LUZ
+Busca la apariencia de una captura con Canon EOS R5 Mark II, objetivo RF 85 mm, f/5.6, 1/160 s, ISO 100. Estos valores describen una intención fotográfica, no metadatos reales de la generación. Iluminación y enfoque: softbox grande a 45 grados y ligeramente por encima de los ojos, reflector blanco del lado contrario y luz de separación tenue en los hombros. Mantén el plano de cámara coherente con la escena, sin perspectiva extrema que deforme al sujeto. Separa el fondo de forma natural y evita desenfoque artificial sobre contornos, cabello o detalles finos.
+
+COMPOSICIÓN Y ENTREGA
+Relación de aspecto 4:5. Resolución objetivo 2048 × 2560 píxeles, si la herramienta la permite; en caso contrario selecciona la mayor resolución nativa disponible y registra el tamaño real. No afirmes que un archivo tiene esa resolución solo porque figure en el prompt. Deja márgenes útiles para recorte y respeta la orientación de las referencias cuando sea relevante. Acabado fotográfico limpio, rango tonal equilibrado, textura natural y color sRGB para publicación web.
+
+CONTROL DE CALIDAD
+Sin rasgos faciales reconstruidos o embellecidos, manos o extremidades adicionales, geometría incoherente, texturas plásticas, halos de enfoque, fondos duplicados, texto inventado ni marcas de agua añadidas. Conserva los detalles del sujeto de referencia y cambia únicamente los elementos expresamente indicados. Si hay instrucciones incompatibles entre referencias, prioriza identidad y forma del sujeto principal.
+
+### La ciudad, a tu manera
+
+- Ficha: `src/content/prompts/retrato-urbano-nocturno.json`
+- Estado: draft
+- Categoría: Retratos
+- Descripción: Retrato personalizado de la persona de la imagen de referencia con chaqueta oscura de líneas sencillas, postura natural, encuadre de medio cuerpo y mirada a cámara.
+- Público: Personas que quieren retratos propios a partir de sus fotografías
+- Uso: Perfil creativo y retrato editorial nocturno
+- Relación sugerida: 3:2
+- Archivo propuesto: `miga-retrato-urbano-nocturno.webp`
+- Partes personalizables: Chaqueta; Ciudad y luces de fondo; Pose.
+
+**Prompt para probar en Flow**
+
+REFERENCIAS E IDENTIDAD
+Usa la imagen o las imágenes adjuntas como referencia principal de identidad. Si hay varias, la referencia 1 define a la persona; las otras vistas de esa misma persona sirven para confirmar rasgos, mientras que una referencia de vestuario, pose o entorno solo guía ese elemento. No mezcles rostros de personas diferentes. Conserva forma del rostro, distancia entre ojos, nariz, labios, mandíbula, tono de piel, línea de cabello, edad aparente y marcas distintivas. No rejuvenezcas, afines rasgos ni apliques embellecimiento. Cambia únicamente el entorno, la ropa, la pose o la luz indicados. Si no hay referencia facial, solicítala antes de sustituirla por una identidad inventada.
+
+DIRECCIÓN DE LA TOMA
+Retrata a la persona de la imagen de referencia con chaqueta oscura de líneas sencillas, postura natural, encuadre de medio cuerpo y mirada a cámara. Escenario: calle urbana al anochecer, luces ámbar y azules desenfocadas, pavimento con reflejos discretos y ausencia de carteles legibles.
+
+CÁMARA, ÓPTICA Y LUZ
+Busca la apariencia de una captura con Nikon Z8, objetivo NIKKOR Z 85 mm, f/2, 1/200 s, ISO 800. Estos valores describen una intención fotográfica, no metadatos reales de la generación. Iluminación y enfoque: fuente principal grande y suave de color neutro sobre el rostro, luces urbanas como acentos de fondo, sin teñir la piel de azul ni quemar los reflejos. Mantén el plano de cámara coherente con la escena, sin perspectiva extrema que deforme al sujeto. Separa el fondo de forma natural y evita desenfoque artificial sobre contornos, cabello o detalles finos.
+
+COMPOSICIÓN Y ENTREGA
+Relación de aspecto 3:2. Resolución objetivo 3072 × 2048 píxeles, si la herramienta la permite; en caso contrario selecciona la mayor resolución nativa disponible y registra el tamaño real. No afirmes que un archivo tiene esa resolución solo porque figure en el prompt. Deja márgenes útiles para recorte y respeta la orientación de las referencias cuando sea relevante. Acabado fotográfico limpio, rango tonal equilibrado, textura natural y color sRGB para publicación web.
+
+CONTROL DE CALIDAD
+Sin rasgos faciales reconstruidos o embellecidos, manos o extremidades adicionales, geometría incoherente, texturas plásticas, halos de enfoque, fondos duplicados, texto inventado ni marcas de agua añadidas. Conserva los detalles del sujeto de referencia y cambia únicamente los elementos expresamente indicados. Si hay instrucciones incompatibles entre referencias, prioriza identidad y forma del sujeto principal.
+
+### Un verano muy tuyo
+
+- Ficha: `src/content/prompts/retrato-verano-mediterraneo.json`
+- Estado: draft
+- Categoría: Retratos
+- Descripción: Retrato personalizado de la persona de la imagen de referencia con camisa de lino marfil, encuadre de medio cuerpo, hombros relajados y una expresión natural.
+- Público: Personas que quieren retratos propios a partir de sus fotografías
+- Uso: Retrato de verano para perfil y recuerdo personal
+- Relación sugerida: 4:5
+- Archivo propuesto: `miga-retrato-verano-mediterraneo.webp`
+- Partes personalizables: Vestuario; Entorno de verano; Paleta y hora del día.
+
+**Prompt para probar en Flow**
+
+REFERENCIAS E IDENTIDAD
+Usa la imagen o las imágenes adjuntas como referencia principal de identidad. Si hay varias, la referencia 1 define a la persona; las otras vistas de esa misma persona sirven para confirmar rasgos, mientras que una referencia de vestuario, pose o entorno solo guía ese elemento. No mezcles rostros de personas diferentes. Conserva forma del rostro, distancia entre ojos, nariz, labios, mandíbula, tono de piel, línea de cabello, edad aparente y marcas distintivas. No rejuvenezcas, afines rasgos ni apliques embellecimiento. Cambia únicamente el entorno, la ropa, la pose o la luz indicados. Si no hay referencia facial, solicítala antes de sustituirla por una identidad inventada.
+
+DIRECCIÓN DE LA TOMA
+Retrata a la persona de la imagen de referencia con camisa de lino marfil, encuadre de medio cuerpo, hombros relajados y una expresión natural. Escenario: terraza mediterránea durante el verano, vegetación suave, paredes claras y mar desenfocado sin elementos que atraviesen visualmente la cabeza.
+
+CÁMARA, ÓPTICA Y LUZ
+Busca la apariencia de una captura con Sony A7R V, objetivo FE 85 mm, f/2.8, 1/500 s, ISO 100. Estos valores describen una intención fotográfica, no metadatos reales de la generación. Iluminación y enfoque: sol de última hora lateral y ligeramente a contraluz, reflector blanco para mantener el rostro legible, piel neutra y calidez moderada en el entorno. Mantén el plano de cámara coherente con la escena, sin perspectiva extrema que deforme al sujeto. Separa el fondo de forma natural y evita desenfoque artificial sobre contornos, cabello o detalles finos.
+
+COMPOSICIÓN Y ENTREGA
+Relación de aspecto 4:5. Resolución objetivo 2048 × 2560 píxeles, si la herramienta la permite; en caso contrario selecciona la mayor resolución nativa disponible y registra el tamaño real. No afirmes que un archivo tiene esa resolución solo porque figure en el prompt. Deja márgenes útiles para recorte y respeta la orientación de las referencias cuando sea relevante. Acabado fotográfico limpio, rango tonal equilibrado, textura natural y color sRGB para publicación web.
+
+CONTROL DE CALIDAD
+Sin rasgos faciales reconstruidos o embellecidos, manos o extremidades adicionales, geometría incoherente, texturas plásticas, halos de enfoque, fondos duplicados, texto inventado ni marcas de agua añadidas. Conserva los detalles del sujeto de referencia y cambia únicamente los elementos expresamente indicados. Si hay instrucciones incompatibles entre referencias, prioriza identidad y forma del sujeto principal.
 
 ### Menos ruido, más producto
 
@@ -292,7 +513,20 @@ Retrato de una persona adulta con camisa de lino color marfil, expresión amable
 
 **Prompt para probar en Flow**
 
-Un frasco de sérum de vidrio verde translúcido sin marca, con cuentagotas crema, sobre un pedestal cilíndrico de piedra clara. Escenario: fondo menta continuo, una hoja fuera de foco proyecta una sombra delicada; etiqueta lisa sin texto. Tratamiento visual: Fotografía de producto de 90 mm, luz lateral de mañana, reflejos controlados, vidrio realista y foco en el frasco. Composición en relación 4:5, con un sujeto principal claramente reconocible. Mantén proporciones físicas creíbles y una composición limpia. Sin texto, marcas de agua ni logotipos. Si se usa una referencia autorizada, conserva sus rasgos esenciales sin añadir detalles que no estén presentes.
+REFERENCIAS E IDENTIDAD
+Usa la imagen o imágenes adjuntas como referencia del producto. La referencia 1 define el objeto; otras vistas del mismo objeto ayudan a conservar forma, escala, proporciones, materiales, color, piezas y detalles. Una referencia adicional de escenario o paleta solo guía el fondo. No mezcles diseños de productos distintos ni alteres su silueta. Si hay una etiqueta autorizada, conserva su diseño visible sin inventar texto ilegible; si no hay marca, mantén el envase sin marca. Si falta la referencia del producto, solicítala antes de inventar un reemplazo.
+
+DIRECCIÓN DE LA TOMA
+La escena siguiente orienta la composición: si el sujeto adjunto tiene otro color, material o apariencia, conserva los de la referencia y adapta el entorno. Un frasco de sérum de vidrio verde translúcido sin marca, con cuentagotas crema, sobre un pedestal cilíndrico de piedra clara. Escenario: fondo menta continuo, una hoja fuera de foco proyecta una sombra delicada; etiqueta lisa sin texto.
+
+CÁMARA, ÓPTICA Y LUZ
+Busca la apariencia de una captura con Hasselblad X2D 100C con objetivo macro de 90 mm, f/8, 1/125 s, ISO 100. Estos valores describen una intención fotográfica, no metadatos reales de la generación. Iluminación y enfoque: softbox lateral amplio, reflector opuesto y banderas para controlar reflejos; foco en las superficies relevantes y bordes limpios. Mantén el plano de cámara coherente con la escena, sin perspectiva extrema que deforme al sujeto. Separa el fondo de forma natural y evita desenfoque artificial sobre contornos, cabello o detalles finos.
+
+COMPOSICIÓN Y ENTREGA
+Relación de aspecto 4:5. Resolución objetivo 2048 × 2560 píxeles, si la herramienta la permite; en caso contrario selecciona la mayor resolución nativa disponible y registra el tamaño real. No afirmes que un archivo tiene esa resolución solo porque figure en el prompt. Deja márgenes útiles para recorte y respeta la orientación de las referencias cuando sea relevante. Acabado fotográfico limpio, rango tonal equilibrado, textura natural y color sRGB para publicación web.
+
+CONTROL DE CALIDAD
+Sin rasgos faciales reconstruidos o embellecidos, manos o extremidades adicionales, geometría incoherente, texturas plásticas, halos de enfoque, fondos duplicados, texto inventado ni marcas de agua añadidas. Conserva los detalles del sujeto de referencia y cambia únicamente los elementos expresamente indicados. Si hay instrucciones incompatibles entre referencias, prioriza identidad y forma del sujeto principal.
 
 ### Tu café, protagonista
 
@@ -308,7 +542,20 @@ Un frasco de sérum de vidrio verde translúcido sin marca, con cuentagotas crem
 
 **Prompt para probar en Flow**
 
-Taza de cerámica artesanal color lavanda con asa redonda, vacía y apoyada sobre una mesa crema. Escenario: fondo durazno mate, una servilleta de lino plegada a un lado, composición con mucho aire. Tratamiento visual: Objetivo de 70 mm, luz difusa de estudio, textura de esmalte visible, sombra corta y suave. Composición en relación 1:1, con un sujeto principal claramente reconocible. Mantén proporciones físicas creíbles y una composición limpia. Sin texto, marcas de agua ni logotipos. Si se usa una referencia autorizada, conserva sus rasgos esenciales sin añadir detalles que no estén presentes.
+REFERENCIAS E IDENTIDAD
+Usa la imagen o imágenes adjuntas como referencia del producto. La referencia 1 define el objeto; otras vistas del mismo objeto ayudan a conservar forma, escala, proporciones, materiales, color, piezas y detalles. Una referencia adicional de escenario o paleta solo guía el fondo. No mezcles diseños de productos distintos ni alteres su silueta. Si hay una etiqueta autorizada, conserva su diseño visible sin inventar texto ilegible; si no hay marca, mantén el envase sin marca. Si falta la referencia del producto, solicítala antes de inventar un reemplazo.
+
+DIRECCIÓN DE LA TOMA
+La escena siguiente orienta la composición: si el sujeto adjunto tiene otro color, material o apariencia, conserva los de la referencia y adapta el entorno. Taza de cerámica artesanal color lavanda con asa redonda, vacía y apoyada sobre una mesa crema. Escenario: fondo durazno mate, una servilleta de lino plegada a un lado, composición con mucho aire.
+
+CÁMARA, ÓPTICA Y LUZ
+Busca la apariencia de una captura con Hasselblad X2D 100C con objetivo macro de 90 mm, f/8, 1/125 s, ISO 100. Estos valores describen una intención fotográfica, no metadatos reales de la generación. Iluminación y enfoque: softbox lateral amplio, reflector opuesto y banderas para controlar reflejos; foco en las superficies relevantes y bordes limpios. Mantén el plano de cámara coherente con la escena, sin perspectiva extrema que deforme al sujeto. Separa el fondo de forma natural y evita desenfoque artificial sobre contornos, cabello o detalles finos.
+
+COMPOSICIÓN Y ENTREGA
+Relación de aspecto 1:1. Resolución objetivo 2048 × 2048 píxeles, si la herramienta la permite; en caso contrario selecciona la mayor resolución nativa disponible y registra el tamaño real. No afirmes que un archivo tiene esa resolución solo porque figure en el prompt. Deja márgenes útiles para recorte y respeta la orientación de las referencias cuando sea relevante. Acabado fotográfico limpio, rango tonal equilibrado, textura natural y color sRGB para publicación web.
+
+CONTROL DE CALIDAD
+Sin rasgos faciales reconstruidos o embellecidos, manos o extremidades adicionales, geometría incoherente, texturas plásticas, halos de enfoque, fondos duplicados, texto inventado ni marcas de agua añadidas. Conserva los detalles del sujeto de referencia y cambia únicamente los elementos expresamente indicados. Si hay instrucciones incompatibles entre referencias, prioriza identidad y forma del sujeto principal.
 
 ### Un paso de color
 
@@ -324,7 +571,20 @@ Taza de cerámica artesanal color lavanda con asa redonda, vacía y apoyada sobr
 
 **Prompt para probar en Flow**
 
-Una zapatilla deportiva sin logotipo en tonos crema y menta, de perfil y apoyada sobre un bloque lavanda. Escenario: fondo durazno continuo, composición horizontal con espacio libre a la izquierda. Tratamiento visual: Objetivo de 85 mm, luz de estudio suave con contorno lateral, textura de malla visible y suela realista. Composición en relación 3:2, con un sujeto principal claramente reconocible. Mantén proporciones físicas creíbles y una composición limpia. Sin texto, marcas de agua ni logotipos. Si se usa una referencia autorizada, conserva sus rasgos esenciales sin añadir detalles que no estén presentes.
+REFERENCIAS E IDENTIDAD
+Usa la imagen o imágenes adjuntas como referencia del producto. La referencia 1 define el objeto; otras vistas del mismo objeto ayudan a conservar forma, escala, proporciones, materiales, color, piezas y detalles. Una referencia adicional de escenario o paleta solo guía el fondo. No mezcles diseños de productos distintos ni alteres su silueta. Si hay una etiqueta autorizada, conserva su diseño visible sin inventar texto ilegible; si no hay marca, mantén el envase sin marca. Si falta la referencia del producto, solicítala antes de inventar un reemplazo.
+
+DIRECCIÓN DE LA TOMA
+La escena siguiente orienta la composición: si el sujeto adjunto tiene otro color, material o apariencia, conserva los de la referencia y adapta el entorno. Una zapatilla deportiva sin logotipo en tonos crema y menta, de perfil y apoyada sobre un bloque lavanda. Escenario: fondo durazno continuo, composición horizontal con espacio libre a la izquierda.
+
+CÁMARA, ÓPTICA Y LUZ
+Busca la apariencia de una captura con Hasselblad X2D 100C con objetivo macro de 90 mm, f/8, 1/125 s, ISO 100. Estos valores describen una intención fotográfica, no metadatos reales de la generación. Iluminación y enfoque: softbox lateral amplio, reflector opuesto y banderas para controlar reflejos; foco en las superficies relevantes y bordes limpios. Mantén el plano de cámara coherente con la escena, sin perspectiva extrema que deforme al sujeto. Separa el fondo de forma natural y evita desenfoque artificial sobre contornos, cabello o detalles finos.
+
+COMPOSICIÓN Y ENTREGA
+Relación de aspecto 3:2. Resolución objetivo 3072 × 2048 píxeles, si la herramienta la permite; en caso contrario selecciona la mayor resolución nativa disponible y registra el tamaño real. No afirmes que un archivo tiene esa resolución solo porque figure en el prompt. Deja márgenes útiles para recorte y respeta la orientación de las referencias cuando sea relevante. Acabado fotográfico limpio, rango tonal equilibrado, textura natural y color sRGB para publicación web.
+
+CONTROL DE CALIDAD
+Sin rasgos faciales reconstruidos o embellecidos, manos o extremidades adicionales, geometría incoherente, texturas plásticas, halos de enfoque, fondos duplicados, texto inventado ni marcas de agua añadidas. Conserva los detalles del sujeto de referencia y cambia únicamente los elementos expresamente indicados. Si hay instrucciones incompatibles entre referencias, prioriza identidad y forma del sujeto principal.
 
 ## Videos (10)
 
@@ -345,7 +605,23 @@ Una zapatilla deportiva sin logotipo en tonos crema y menta, de perfil y apoyada
 
 **Prompt para probar en Flow**
 
-Video de 8 segundos sugeridos, relación de aspecto 9:16. Escena: Una taza de cerámica lavanda sobre una mesa de madera clara. Acción: Un hilo fino de café cae desde una jarra parcialmente fuera de cuadro, sube lentamente el nivel y aparece un poco de vapor. Cámara: Plano cercano fijo a 45 grados, sin cortes ni movimientos bruscos. Tratamiento visual: Luz cálida de mañana, fluido natural sin salpicaduras exageradas. Una sola toma continua con identidad, geometría y luz consistentes durante todo el plano. Movimiento contenido y físicamente creíble. Sin texto, logotipos, marcas de agua, cortes ni transiciones. Sin diálogo; si la herramienta genera audio, buscar ambiente suave y registrarlo en las notas. La duración y el formato dependen de las opciones disponibles en el modelo: registrar los valores reales después de generar.
+REFERENCIAS Y CONTINUIDAD
+Usa la imagen o imágenes adjuntas como referencia del producto. La referencia 1 define el objeto; otras vistas del mismo objeto ayudan a conservar forma, escala, proporciones, materiales, color, piezas y detalles. Una referencia adicional de escenario o paleta solo guía el fondo. No mezcles diseños de productos distintos ni alteres su silueta. Si hay una etiqueta autorizada, conserva su diseño visible sin inventar texto ilegible; si no hay marca, mantén el envase sin marca. Si falta la referencia del producto, solicítala antes de inventar un reemplazo. Utiliza las imágenes de referencia como guía de continuidad visual, no como una secuencia de personajes distintos. Si se parte de una imagen aprobada, úsala como referencia de encuadre inicial cuando el modo de Flow lo permita.
+
+ESCENA Y ACCIÓN
+Una taza de cerámica lavanda sobre una mesa de madera clara. Acción: Un hilo fino de café cae desde una jarra parcialmente fuera de cuadro, sube lentamente el nivel y aparece un poco de vapor. La acción debe ser contenida, físicamente creíble y completarse sin transformaciones del sujeto. Conserva rostro, vestuario, producto, pelaje o ingredientes durante toda la toma, según corresponda.
+
+DIRECCIÓN DE FOTOGRAFÍA
+Apariencia cinematográfica de ARRI ALEXA 35 con óptica de 85 mm, apertura orientativa T4, cadencia objetivo de 24 fps y obturación visual equivalente a 180 grados para un desenfoque de movimiento natural. Son referencias estéticas, no ajustes ni metadatos garantizados por el generador. Softbox lateral amplio, reflector opuesto y banderas para controlar reflejos; foco en las superficies relevantes y bordes limpios. Mantén constante la exposición, el balance de blancos y la dirección de luz. Evita cambios de foco que oculten el sujeto o alteren su identidad.
+
+CÁMARA Y TIEMPO
+Plano cercano fijo a 45 grados, sin cortes ni movimientos bruscos. Una sola toma continua, sin cortes, fundidos ni saltos de posición. Duración sugerida de 8 segundos. Comienza con un breve instante estable y termina con una composición limpia. Si el modelo ofrece otra duración o cadencia, utiliza las opciones disponibles y registra las reales.
+
+FORMATO Y SONIDO
+Relación 9:16, resolución objetivo 2160 × 3840 píxeles solo si está disponible; si no, usa la máxima nativa y registra las dimensiones reales. Sin diálogo ni música. Si la herramienta genera audio, solicita únicamente ambiente suave coherente con la escena y documenta el resultado.
+
+REVISIÓN FINAL
+Sin deriva del rostro, cambios de identidad, variaciones de anatomía, deformación del producto, parpadeos de luz, objetos que aparecen o desaparecen, deslizamiento antinatural, texto inventado ni marcas de agua añadidas. Conserva sombras, reflejos, materiales y patrones de las referencias entre fotogramas.
 
 ### Después de la lluvia
 
@@ -364,14 +640,30 @@ Video de 8 segundos sugeridos, relación de aspecto 9:16. Escena: Una taza de ce
 
 **Prompt para probar en Flow**
 
-Video de 8 segundos sugeridos, relación de aspecto 16:9. Escena: Una calle estrecha vacía de noche con asfalto húmedo y un farol ámbar. Acción: Una lluvia muy fina cae de forma constante y crea pequeñas ondas en un charco; ningún vehículo entra en escena. Cámara: Travelling hacia delante muy lento y a baja altura, una única toma. Tratamiento visual: Contraste azul y ámbar, reflejos coherentes, sin carteles legibles ni parpadeos. Una sola toma continua con identidad, geometría y luz consistentes durante todo el plano. Movimiento contenido y físicamente creíble. Sin texto, logotipos, marcas de agua, cortes ni transiciones. Sin diálogo; si la herramienta genera audio, buscar ambiente suave y registrarlo en las notas. La duración y el formato dependen de las opciones disponibles en el modelo: registrar los valores reales después de generar.
+REFERENCIAS Y CONTINUIDAD
+Usa la imagen o imágenes adjuntas como referencia de personaje y entorno. Si aparece un personaje, la referencia 1 fija su identidad y rasgos; otras vistas de esa misma persona solo completan información. Las referencias de localización, vestuario o iluminación guían esos elementos sin cambiar el rostro. No mezcles identidades, no modifiques edad aparente ni proporciones faciales. Conserva los detalles importantes del escenario y la escala de los objetos. Si la toma requiere un personaje reconocible y no se adjuntó su referencia, solicítala antes de inventarlo. Utiliza las imágenes de referencia como guía de continuidad visual, no como una secuencia de personajes distintos. Si se parte de una imagen aprobada, úsala como referencia de encuadre inicial cuando el modo de Flow lo permita.
+
+ESCENA Y ACCIÓN
+Una calle estrecha vacía de noche con asfalto húmedo y un farol ámbar. Acción: Una lluvia muy fina cae de forma constante y crea pequeñas ondas en un charco; ningún vehículo entra en escena. La acción debe ser contenida, físicamente creíble y completarse sin transformaciones del sujeto. Conserva rostro, vestuario, producto, pelaje o ingredientes durante toda la toma, según corresponda.
+
+DIRECCIÓN DE FOTOGRAFÍA
+Apariencia cinematográfica de ARRI ALEXA 35 con óptica de 35 mm, apertura orientativa T4, cadencia objetivo de 24 fps y obturación visual equivalente a 180 grados para un desenfoque de movimiento natural. Son referencias estéticas, no ajustes ni metadatos garantizados por el generador. Composición con capas de profundidad, luces motivadas por la escena y separación suave entre sujeto y fondo; conservar detalle en luces y sombras. Mantén constante la exposición, el balance de blancos y la dirección de luz. Evita cambios de foco que oculten el sujeto o alteren su identidad.
+
+CÁMARA Y TIEMPO
+Travelling hacia delante muy lento y a baja altura, una única toma. Una sola toma continua, sin cortes, fundidos ni saltos de posición. Duración sugerida de 8 segundos. Comienza con un breve instante estable y termina con una composición limpia. Si el modelo ofrece otra duración o cadencia, utiliza las opciones disponibles y registra las reales.
+
+FORMATO Y SONIDO
+Relación 16:9, resolución objetivo 3840 × 2160 píxeles solo si está disponible; si no, usa la máxima nativa y registra las dimensiones reales. Sin diálogo ni música. Si la herramienta genera audio, solicita únicamente ambiente suave coherente con la escena y documenta el resultado.
+
+REVISIÓN FINAL
+Sin deriva del rostro, cambios de identidad, variaciones de anatomía, deformación del producto, parpadeos de luz, objetos que aparecen o desaparecen, deslizamiento antinatural, texto inventado ni marcas de agua añadidas. Conserva sombras, reflejos, materiales y patrones de las referencias entre fotogramas.
 
 ### Curiosidad en movimiento
 
 - Ficha: `src/content/prompts/gato-mira-ventana.json`
 - Estado: draft
 - Categoría: Mascotas
-- Descripción: Un gato naranja sentado cómodamente en el alféizar de una ventana. Una propuesta de movimiento para pequeño retrato animado.
+- Descripción: El gato de la imagen de referencia sentado cómodamente en el alféizar de una ventana. Una propuesta de movimiento para pequeño retrato animado.
 - Público: Familias y tiendas de mascotas
 - Uso: Pequeño retrato animado
 - Relación sugerida: 9:16
@@ -383,7 +675,23 @@ Video de 8 segundos sugeridos, relación de aspecto 16:9. Escena: Una calle estr
 
 **Prompt para probar en Flow**
 
-Video de 8 segundos sugeridos, relación de aspecto 9:16. Escena: Un gato naranja sentado cómodamente en el alféizar de una ventana. Acción: El gato mueve una oreja y gira lentamente la cabeza hacia una hoja que se mueve fuera de la ventana; el cuerpo permanece sentado. Cámara: Cámara fija a la altura de los ojos con profundidad de campo moderada. Tratamiento visual: Luz natural de tarde, pelaje estable, anatomía y número de patas constantes. Una sola toma continua con identidad, geometría y luz consistentes durante todo el plano. Movimiento contenido y físicamente creíble. Sin texto, logotipos, marcas de agua, cortes ni transiciones. Sin diálogo; si la herramienta genera audio, buscar ambiente suave y registrarlo en las notas. La duración y el formato dependen de las opciones disponibles en el modelo: registrar los valores reales después de generar.
+REFERENCIAS Y CONTINUIDAD
+Usa la imagen o imágenes adjuntas de la mascota como referencia de identidad. La referencia 1 define al animal; otras vistas de esa misma mascota permiten confirmar patrones del pelaje, color de ojos, hocico, orejas, tamaño y proporciones. Una referencia de entorno no debe cambiar esos rasgos. Conserva su apariencia individual, sin convertirla en otra raza, humanizarla ni exagerar ojos o expresiones. Respeta una anatomía natural. Si no hay referencia de la mascota, solicítala antes de inventar otra. Utiliza las imágenes de referencia como guía de continuidad visual, no como una secuencia de personajes distintos. Si se parte de una imagen aprobada, úsala como referencia de encuadre inicial cuando el modo de Flow lo permita.
+
+ESCENA Y ACCIÓN
+El gato de la imagen de referencia sentado cómodamente en el alféizar de una ventana. Acción: El gato mueve una oreja y gira lentamente la cabeza hacia una hoja que se mueve fuera de la ventana; el cuerpo permanece sentado. La acción debe ser contenida, físicamente creíble y completarse sin transformaciones del sujeto. Conserva rostro, vestuario, producto, pelaje o ingredientes durante toda la toma, según corresponda.
+
+DIRECCIÓN DE FOTOGRAFÍA
+Apariencia cinematográfica de ARRI ALEXA 35 con óptica de 85 mm, apertura orientativa T4, cadencia objetivo de 24 fps y obturación visual equivalente a 180 grados para un desenfoque de movimiento natural. Son referencias estéticas, no ajustes ni metadatos garantizados por el generador. Cámara a la altura de los ojos del animal, luz difusa, foco en ambos ojos y detalle del pelaje sin sobresaturación. Mantén constante la exposición, el balance de blancos y la dirección de luz. Evita cambios de foco que oculten el sujeto o alteren su identidad.
+
+CÁMARA Y TIEMPO
+Cámara fija a la altura de los ojos con profundidad de campo moderada. Una sola toma continua, sin cortes, fundidos ni saltos de posición. Duración sugerida de 8 segundos. Comienza con un breve instante estable y termina con una composición limpia. Si el modelo ofrece otra duración o cadencia, utiliza las opciones disponibles y registra las reales.
+
+FORMATO Y SONIDO
+Relación 9:16, resolución objetivo 2160 × 3840 píxeles solo si está disponible; si no, usa la máxima nativa y registra las dimensiones reales. Sin diálogo ni música. Si la herramienta genera audio, solicita únicamente ambiente suave coherente con la escena y documenta el resultado.
+
+REVISIÓN FINAL
+Sin deriva del rostro, cambios de identidad, variaciones de anatomía, deformación del producto, parpadeos de luz, objetos que aparecen o desaparecen, deslizamiento antinatural, texto inventado ni marcas de agua añadidas. Conserva sombras, reflejos, materiales y patrones de las referencias entre fotogramas.
 
 ### Un lugar por descubrir
 
@@ -396,13 +704,29 @@ Video de 8 segundos sugeridos, relación de aspecto 9:16. Escena: Un gato naranj
 - Relación sugerida: 16:9
 - Archivo propuesto: `miga-invernadero-espacial.mp4`
 - Partes personalizables: Edificio; Personaje; Iluminación.
-- Acción: Una astronauta adulta quieta frente al invernadero levanta lentamente la cabeza hacia las plantas; el paisaje permanece estable
+- Acción: El personaje de referencia con traje espacial quieta frente al invernadero levanta lentamente la cabeza hacia las plantas; el paisaje permanece estable
 - Cámara: Desplazamiento lateral muy lento que revela el invernadero, plano general continuo
 - Duración sugerida: 8 segundos.
 
 **Prompt para probar en Flow**
 
-Video de 8 segundos sugeridos, relación de aspecto 16:9. Escena: Un pequeño invernadero iluminado sobre una superficie lunar rocosa. Acción: Una astronauta adulta quieta frente al invernadero levanta lentamente la cabeza hacia las plantas; el paisaje permanece estable. Cámara: Desplazamiento lateral muy lento que revela el invernadero, plano general continuo. Tratamiento visual: Luz cálida interior y suelo frío, escala coherente, sin cambios de traje o arquitectura. Una sola toma continua con identidad, geometría y luz consistentes durante todo el plano. Movimiento contenido y físicamente creíble. Sin texto, logotipos, marcas de agua, cortes ni transiciones. Sin diálogo; si la herramienta genera audio, buscar ambiente suave y registrarlo en las notas. La duración y el formato dependen de las opciones disponibles en el modelo: registrar los valores reales después de generar.
+REFERENCIAS Y CONTINUIDAD
+Usa la imagen o imágenes adjuntas como referencia de personaje y entorno. Si aparece un personaje, la referencia 1 fija su identidad y rasgos; otras vistas de esa misma persona solo completan información. Las referencias de localización, vestuario o iluminación guían esos elementos sin cambiar el rostro. No mezcles identidades, no modifiques edad aparente ni proporciones faciales. Conserva los detalles importantes del escenario y la escala de los objetos. Si la toma requiere un personaje reconocible y no se adjuntó su referencia, solicítala antes de inventarlo. Utiliza las imágenes de referencia como guía de continuidad visual, no como una secuencia de personajes distintos. Si se parte de una imagen aprobada, úsala como referencia de encuadre inicial cuando el modo de Flow lo permita.
+
+ESCENA Y ACCIÓN
+Un pequeño invernadero iluminado sobre una superficie lunar rocosa. Acción: El personaje de referencia con traje espacial quieta frente al invernadero levanta lentamente la cabeza hacia las plantas; el paisaje permanece estable. La acción debe ser contenida, físicamente creíble y completarse sin transformaciones del sujeto. Conserva rostro, vestuario, producto, pelaje o ingredientes durante toda la toma, según corresponda.
+
+DIRECCIÓN DE FOTOGRAFÍA
+Apariencia cinematográfica de ARRI ALEXA 35 con óptica de 35 mm, apertura orientativa T4, cadencia objetivo de 24 fps y obturación visual equivalente a 180 grados para un desenfoque de movimiento natural. Son referencias estéticas, no ajustes ni metadatos garantizados por el generador. Composición con capas de profundidad, luces motivadas por la escena y separación suave entre sujeto y fondo; conservar detalle en luces y sombras. Mantén constante la exposición, el balance de blancos y la dirección de luz. Evita cambios de foco que oculten el sujeto o alteren su identidad.
+
+CÁMARA Y TIEMPO
+Desplazamiento lateral muy lento que revela el invernadero, plano general continuo. Una sola toma continua, sin cortes, fundidos ni saltos de posición. Duración sugerida de 8 segundos. Comienza con un breve instante estable y termina con una composición limpia. Si el modelo ofrece otra duración o cadencia, utiliza las opciones disponibles y registra las reales.
+
+FORMATO Y SONIDO
+Relación 16:9, resolución objetivo 3840 × 2160 píxeles solo si está disponible; si no, usa la máxima nativa y registra las dimensiones reales. Sin diálogo ni música. Si la herramienta genera audio, solicita únicamente ambiente suave coherente con la escena y documenta el resultado.
+
+REVISIÓN FINAL
+Sin deriva del rostro, cambios de identidad, variaciones de anatomía, deformación del producto, parpadeos de luz, objetos que aparecen o desaparecen, deslizamiento antinatural, texto inventado ni marcas de agua añadidas. Conserva sombras, reflejos, materiales y patrones de las referencias entre fotogramas.
 
 ### El toque final
 
@@ -421,14 +745,30 @@ Video de 8 segundos sugeridos, relación de aspecto 16:9. Escena: Un pequeño in
 
 **Prompt para probar en Flow**
 
-Video de 8 segundos sugeridos, relación de aspecto 9:16. Escena: Una tostada con yogur y fresas sobre un plato crema. Acción: Un hilo de miel cae sobre las fresas durante unos segundos y se detiene; los ingredientes permanecen en su posición. Cámara: Plano detalle fijo en ángulo de 45 grados. Tratamiento visual: Luz lateral difusa, miel translúcida y movimiento físico natural. Una sola toma continua con identidad, geometría y luz consistentes durante todo el plano. Movimiento contenido y físicamente creíble. Sin texto, logotipos, marcas de agua, cortes ni transiciones. Sin diálogo; si la herramienta genera audio, buscar ambiente suave y registrarlo en las notas. La duración y el formato dependen de las opciones disponibles en el modelo: registrar los valores reales después de generar.
+REFERENCIAS Y CONTINUIDAD
+Usa la imagen o imágenes adjuntas como referencia del plato, bebida o ingredientes. La referencia 1 define los elementos que deben conservarse; las imágenes adicionales de vajilla, composición o luz solo guían esos aspectos y no sustituyen la receta. Mantén ingredientes reconocibles, proporciones realistas, cocción, color y textura fieles al alimento mostrado. Si se adjuntan varias preparaciones distintas, toma la primera como plato principal y no las mezcles sin indicación. Si no hay referencia, solicita una foto del plato o de los ingredientes previstos. Utiliza las imágenes de referencia como guía de continuidad visual, no como una secuencia de personajes distintos. Si se parte de una imagen aprobada, úsala como referencia de encuadre inicial cuando el modo de Flow lo permita.
+
+ESCENA Y ACCIÓN
+Una tostada con yogur y fresas sobre un plato crema. Acción: Un hilo de miel cae sobre las fresas durante unos segundos y se detiene; los ingredientes permanecen en su posición. La acción debe ser contenida, físicamente creíble y completarse sin transformaciones del sujeto. Conserva rostro, vestuario, producto, pelaje o ingredientes durante toda la toma, según corresponda.
+
+DIRECCIÓN DE FOTOGRAFÍA
+Apariencia cinematográfica de ARRI ALEXA 35 con óptica de 85 mm, apertura orientativa T4, cadencia objetivo de 24 fps y obturación visual equivalente a 180 grados para un desenfoque de movimiento natural. Son referencias estéticas, no ajustes ni metadatos garantizados por el generador. Luz grande lateral y reflector tenue; foco en el alimento principal, texturas comestibles realistas y balance de blancos neutro. Mantén constante la exposición, el balance de blancos y la dirección de luz. Evita cambios de foco que oculten el sujeto o alteren su identidad.
+
+CÁMARA Y TIEMPO
+Plano detalle fijo en ángulo de 45 grados. Una sola toma continua, sin cortes, fundidos ni saltos de posición. Duración sugerida de 8 segundos. Comienza con un breve instante estable y termina con una composición limpia. Si el modelo ofrece otra duración o cadencia, utiliza las opciones disponibles y registra las reales.
+
+FORMATO Y SONIDO
+Relación 9:16, resolución objetivo 2160 × 3840 píxeles solo si está disponible; si no, usa la máxima nativa y registra las dimensiones reales. Sin diálogo ni música. Si la herramienta genera audio, solicita únicamente ambiente suave coherente con la escena y documenta el resultado.
+
+REVISIÓN FINAL
+Sin deriva del rostro, cambios de identidad, variaciones de anatomía, deformación del producto, parpadeos de luz, objetos que aparecen o desaparecen, deslizamiento antinatural, texto inventado ni marcas de agua añadidas. Conserva sombras, reflejos, materiales y patrones de las referencias entre fotogramas.
 
 ### Un paseo en calma
 
 - Ficha: `src/content/prompts/perro-camino.json`
 - Estado: draft
 - Categoría: Mascotas
-- Descripción: Un perro adulto mestizo caminando por un sendero seguro de parque. Una propuesta de movimiento para video de presentación de paseos.
+- Descripción: El perro de la imagen de referencia caminando por un sendero seguro de parque. Una propuesta de movimiento para video de presentación de paseos.
 - Público: Paseadores y familias
 - Uso: Video de presentación de paseos
 - Relación sugerida: 16:9
@@ -440,26 +780,58 @@ Video de 8 segundos sugeridos, relación de aspecto 9:16. Escena: Una tostada co
 
 **Prompt para probar en Flow**
 
-Video de 8 segundos sugeridos, relación de aspecto 16:9. Escena: Un perro adulto mestizo caminando por un sendero seguro de parque. Acción: El perro da pocos pasos tranquilos hacia delante, olfatea brevemente y sigue caminando. Cámara: Travelling lateral lento paralelo al perro, plano entero sin recortar las patas. Tratamiento visual: Luz suave de mañana, pasos naturales y fondo sin cambios abruptos. Una sola toma continua con identidad, geometría y luz consistentes durante todo el plano. Movimiento contenido y físicamente creíble. Sin texto, logotipos, marcas de agua, cortes ni transiciones. Sin diálogo; si la herramienta genera audio, buscar ambiente suave y registrarlo en las notas. La duración y el formato dependen de las opciones disponibles en el modelo: registrar los valores reales después de generar.
+REFERENCIAS Y CONTINUIDAD
+Usa la imagen o imágenes adjuntas de la mascota como referencia de identidad. La referencia 1 define al animal; otras vistas de esa misma mascota permiten confirmar patrones del pelaje, color de ojos, hocico, orejas, tamaño y proporciones. Una referencia de entorno no debe cambiar esos rasgos. Conserva su apariencia individual, sin convertirla en otra raza, humanizarla ni exagerar ojos o expresiones. Respeta una anatomía natural. Si no hay referencia de la mascota, solicítala antes de inventar otra. Utiliza las imágenes de referencia como guía de continuidad visual, no como una secuencia de personajes distintos. Si se parte de una imagen aprobada, úsala como referencia de encuadre inicial cuando el modo de Flow lo permita.
+
+ESCENA Y ACCIÓN
+El perro de la imagen de referencia caminando por un sendero seguro de parque. Acción: El perro da pocos pasos tranquilos hacia delante, olfatea brevemente y sigue caminando. La acción debe ser contenida, físicamente creíble y completarse sin transformaciones del sujeto. Conserva rostro, vestuario, producto, pelaje o ingredientes durante toda la toma, según corresponda.
+
+DIRECCIÓN DE FOTOGRAFÍA
+Apariencia cinematográfica de ARRI ALEXA 35 con óptica de 85 mm, apertura orientativa T4, cadencia objetivo de 24 fps y obturación visual equivalente a 180 grados para un desenfoque de movimiento natural. Son referencias estéticas, no ajustes ni metadatos garantizados por el generador. Cámara a la altura de los ojos del animal, luz difusa, foco en ambos ojos y detalle del pelaje sin sobresaturación. Mantén constante la exposición, el balance de blancos y la dirección de luz. Evita cambios de foco que oculten el sujeto o alteren su identidad.
+
+CÁMARA Y TIEMPO
+Travelling lateral lento paralelo al perro, plano entero sin recortar las patas. Una sola toma continua, sin cortes, fundidos ni saltos de posición. Duración sugerida de 8 segundos. Comienza con un breve instante estable y termina con una composición limpia. Si el modelo ofrece otra duración o cadencia, utiliza las opciones disponibles y registra las reales.
+
+FORMATO Y SONIDO
+Relación 16:9, resolución objetivo 3840 × 2160 píxeles solo si está disponible; si no, usa la máxima nativa y registra las dimensiones reales. Sin diálogo ni música. Si la herramienta genera audio, solicita únicamente ambiente suave coherente con la escena y documenta el resultado.
+
+REVISIÓN FINAL
+Sin deriva del rostro, cambios de identidad, variaciones de anatomía, deformación del producto, parpadeos de luz, objetos que aparecen o desaparecen, deslizamiento antinatural, texto inventado ni marcas de agua añadidas. Conserva sombras, reflejos, materiales y patrones de las referencias entre fotogramas.
 
 ### Una mirada que conecta
 
 - Ficha: `src/content/prompts/retrato-mirada-camara.json`
 - Estado: draft
 - Categoría: Retratos
-- Descripción: Una persona adulta con camisa marfil sentada en un estudio crema. Una propuesta de movimiento para cabecera breve de presentación.
+- Descripción: La persona de referencia con camisa marfil sentada en un estudio crema. Una propuesta de movimiento para cabecera breve de presentación.
 - Público: Profesionales y creadores
 - Uso: Cabecera breve de presentación
 - Relación sugerida: 4:5
 - Archivo propuesto: `miga-retrato-mirada-camara.mp4`
 - Partes personalizables: Persona; Vestuario; Fondo.
-- Acción: La persona gira suavemente la mirada hacia la cámara y termina con una sonrisa discreta; hombros estables y manos fuera de cuadro
+- Acción: La persona de referencia gira suavemente la mirada hacia la cámara y termina con una sonrisa discreta; hombros estables y manos fuera de cuadro
 - Cámara: Acercamiento muy lento y recto, sin cortes ni cambio de ángulo
 - Duración sugerida: 8 segundos.
 
 **Prompt para probar en Flow**
 
-Video de 8 segundos sugeridos, relación de aspecto 4:5. Escena: Una persona adulta con camisa marfil sentada en un estudio crema. Acción: La persona gira suavemente la mirada hacia la cámara y termina con una sonrisa discreta; hombros estables y manos fuera de cuadro. Cámara: Acercamiento muy lento y recto, sin cortes ni cambio de ángulo. Tratamiento visual: Luz de ventana suave y constante, piel natural, fondo inmóvil. Una sola toma continua con identidad, geometría y luz consistentes durante todo el plano. Movimiento contenido y físicamente creíble. Sin texto, logotipos, marcas de agua, cortes ni transiciones. Sin diálogo; si la herramienta genera audio, buscar ambiente suave y registrarlo en las notas. La duración y el formato dependen de las opciones disponibles en el modelo: registrar los valores reales después de generar.
+REFERENCIAS Y CONTINUIDAD
+Usa la imagen o las imágenes adjuntas como referencia principal de identidad. Si hay varias, la referencia 1 define a la persona; las otras vistas de esa misma persona sirven para confirmar rasgos, mientras que una referencia de vestuario, pose o entorno solo guía ese elemento. No mezcles rostros de personas diferentes. Conserva forma del rostro, distancia entre ojos, nariz, labios, mandíbula, tono de piel, línea de cabello, edad aparente y marcas distintivas. No rejuvenezcas, afines rasgos ni apliques embellecimiento. Cambia únicamente el entorno, la ropa, la pose o la luz indicados. Si no hay referencia facial, solicítala antes de sustituirla por una identidad inventada. Utiliza las imágenes de referencia como guía de continuidad visual, no como una secuencia de personajes distintos. Si se parte de una imagen aprobada, úsala como referencia de encuadre inicial cuando el modo de Flow lo permita.
+
+ESCENA Y ACCIÓN
+La persona de referencia con camisa marfil sentada en un estudio crema. Acción: La persona de referencia gira suavemente la mirada hacia la cámara y termina con una sonrisa discreta; hombros estables y manos fuera de cuadro. La acción debe ser contenida, físicamente creíble y completarse sin transformaciones del sujeto. Conserva rostro, vestuario, producto, pelaje o ingredientes durante toda la toma, según corresponda.
+
+DIRECCIÓN DE FOTOGRAFÍA
+Apariencia cinematográfica de ARRI ALEXA 35 con óptica de 85 mm, apertura orientativa T4, cadencia objetivo de 24 fps y obturación visual equivalente a 180 grados para un desenfoque de movimiento natural. Son referencias estéticas, no ajustes ni metadatos garantizados por el generador. Rostro enfocado, luz grande y suave a 45 grados, piel neutra, ojos con reflejos naturales y sin recortes de altas luces. Mantén constante la exposición, el balance de blancos y la dirección de luz. Evita cambios de foco que oculten el sujeto o alteren su identidad.
+
+CÁMARA Y TIEMPO
+Acercamiento muy lento y recto, sin cortes ni cambio de ángulo. Una sola toma continua, sin cortes, fundidos ni saltos de posición. Duración sugerida de 8 segundos. Comienza con un breve instante estable y termina con una composición limpia. Si el modelo ofrece otra duración o cadencia, utiliza las opciones disponibles y registra las reales.
+
+FORMATO Y SONIDO
+Relación 4:5, resolución objetivo 2048 × 2560 píxeles solo si está disponible; si no, usa la máxima nativa y registra las dimensiones reales. Sin diálogo ni música. Si la herramienta genera audio, solicita únicamente ambiente suave coherente con la escena y documenta el resultado.
+
+REVISIÓN FINAL
+Sin deriva del rostro, cambios de identidad, variaciones de anatomía, deformación del producto, parpadeos de luz, objetos que aparecen o desaparecen, deslizamiento antinatural, texto inventado ni marcas de agua añadidas. Conserva sombras, reflejos, materiales y patrones de las referencias entre fotogramas.
 
 ### Un giro para descubrirlo
 
@@ -478,7 +850,23 @@ Video de 8 segundos sugeridos, relación de aspecto 4:5. Escena: Una persona adu
 
 **Prompt para probar en Flow**
 
-Video de 8 segundos sugeridos, relación de aspecto 4:5. Escena: Un frasco verde de sérum sin marca sobre una plataforma crema y fondo menta. Acción: La plataforma gira lentamente un cuarto de vuelta, manteniendo el frasco rígido y centrado. Cámara: Cámara fija a la altura del producto, enfoque constante y sin zoom. Tratamiento visual: Iluminación de estudio difusa, reflejos controlados y vidrio consistente. Una sola toma continua con identidad, geometría y luz consistentes durante todo el plano. Movimiento contenido y físicamente creíble. Sin texto, logotipos, marcas de agua, cortes ni transiciones. Sin diálogo; si la herramienta genera audio, buscar ambiente suave y registrarlo en las notas. La duración y el formato dependen de las opciones disponibles en el modelo: registrar los valores reales después de generar.
+REFERENCIAS Y CONTINUIDAD
+Usa la imagen o imágenes adjuntas como referencia del producto. La referencia 1 define el objeto; otras vistas del mismo objeto ayudan a conservar forma, escala, proporciones, materiales, color, piezas y detalles. Una referencia adicional de escenario o paleta solo guía el fondo. No mezcles diseños de productos distintos ni alteres su silueta. Si hay una etiqueta autorizada, conserva su diseño visible sin inventar texto ilegible; si no hay marca, mantén el envase sin marca. Si falta la referencia del producto, solicítala antes de inventar un reemplazo. Utiliza las imágenes de referencia como guía de continuidad visual, no como una secuencia de personajes distintos. Si se parte de una imagen aprobada, úsala como referencia de encuadre inicial cuando el modo de Flow lo permita.
+
+ESCENA Y ACCIÓN
+Un frasco verde de sérum sin marca sobre una plataforma crema y fondo menta. Acción: La plataforma gira lentamente un cuarto de vuelta, manteniendo el frasco rígido y centrado. La acción debe ser contenida, físicamente creíble y completarse sin transformaciones del sujeto. Conserva rostro, vestuario, producto, pelaje o ingredientes durante toda la toma, según corresponda.
+
+DIRECCIÓN DE FOTOGRAFÍA
+Apariencia cinematográfica de ARRI ALEXA 35 con óptica de 85 mm, apertura orientativa T4, cadencia objetivo de 24 fps y obturación visual equivalente a 180 grados para un desenfoque de movimiento natural. Son referencias estéticas, no ajustes ni metadatos garantizados por el generador. Softbox lateral amplio, reflector opuesto y banderas para controlar reflejos; foco en las superficies relevantes y bordes limpios. Mantén constante la exposición, el balance de blancos y la dirección de luz. Evita cambios de foco que oculten el sujeto o alteren su identidad.
+
+CÁMARA Y TIEMPO
+Cámara fija a la altura del producto, enfoque constante y sin zoom. Una sola toma continua, sin cortes, fundidos ni saltos de posición. Duración sugerida de 8 segundos. Comienza con un breve instante estable y termina con una composición limpia. Si el modelo ofrece otra duración o cadencia, utiliza las opciones disponibles y registra las reales.
+
+FORMATO Y SONIDO
+Relación 4:5, resolución objetivo 2048 × 2560 píxeles solo si está disponible; si no, usa la máxima nativa y registra las dimensiones reales. Sin diálogo ni música. Si la herramienta genera audio, solicita únicamente ambiente suave coherente con la escena y documenta el resultado.
+
+REVISIÓN FINAL
+Sin deriva del rostro, cambios de identidad, variaciones de anatomía, deformación del producto, parpadeos de luz, objetos que aparecen o desaparecen, deslizamiento antinatural, texto inventado ni marcas de agua añadidas. Conserva sombras, reflejos, materiales y patrones de las referencias entre fotogramas.
 
 ### Una pausa de luz
 
@@ -497,7 +885,23 @@ Video de 8 segundos sugeridos, relación de aspecto 4:5. Escena: Un frasco verde
 
 **Prompt para probar en Flow**
 
-Video de 8 segundos sugeridos, relación de aspecto 9:16. Escena: Una pared de yeso crema con sombras de hojas de una planta fuera de cuadro. Acción: Las sombras oscilan suavemente como con una brisa ligera, sin aparecer elementos nuevos. Cámara: Cámara completamente fija, sin cambio de foco. Tratamiento visual: Luz de tarde estable, centro despejado y contraste bajo para texto posterior. Una sola toma continua con identidad, geometría y luz consistentes durante todo el plano. Movimiento contenido y físicamente creíble. Sin texto, logotipos, marcas de agua, cortes ni transiciones. Sin diálogo; si la herramienta genera audio, buscar ambiente suave y registrarlo en las notas. La duración y el formato dependen de las opciones disponibles en el modelo: registrar los valores reales después de generar.
+REFERENCIAS Y CONTINUIDAD
+Usa la imagen o imágenes adjuntas como referencia de paleta, material, formas y composición. La referencia 1 determina el motivo principal; las siguientes aportan únicamente la textura, luz o distribución indicadas. Conserva los elementos que se pidan mantener sin copiar marcas ni añadir texto. Si una referencia incluye una persona que deba permanecer, conserva sus rasgos y no combines identidades. Si no hay referencias, solicita una imagen visual o una paleta antes de definir una versión personalizada. Utiliza las imágenes de referencia como guía de continuidad visual, no como una secuencia de personajes distintos. Si se parte de una imagen aprobada, úsala como referencia de encuadre inicial cuando el modo de Flow lo permita.
+
+ESCENA Y ACCIÓN
+Una pared de yeso crema con sombras de hojas de una planta fuera de cuadro. Acción: Las sombras oscilan suavemente como con una brisa ligera, sin aparecer elementos nuevos. La acción debe ser contenida, físicamente creíble y completarse sin transformaciones del sujeto. Conserva rostro, vestuario, producto, pelaje o ingredientes durante toda la toma, según corresponda.
+
+DIRECCIÓN DE FOTOGRAFÍA
+Apariencia cinematográfica de ARRI ALEXA 35 con óptica de 35 mm, apertura orientativa T4, cadencia objetivo de 24 fps y obturación visual equivalente a 180 grados para un desenfoque de movimiento natural. Son referencias estéticas, no ajustes ni metadatos garantizados por el generador. Perspectiva limpia, profundidad de campo amplia y luz difusa; transiciones suaves sin bandas y detalle del material sin ruido artificial. Mantén constante la exposición, el balance de blancos y la dirección de luz. Evita cambios de foco que oculten el sujeto o alteren su identidad.
+
+CÁMARA Y TIEMPO
+Cámara completamente fija, sin cambio de foco. Una sola toma continua, sin cortes, fundidos ni saltos de posición. Duración sugerida de 8 segundos. Comienza con un breve instante estable y termina con una composición limpia. Si el modelo ofrece otra duración o cadencia, utiliza las opciones disponibles y registra las reales.
+
+FORMATO Y SONIDO
+Relación 9:16, resolución objetivo 2160 × 3840 píxeles solo si está disponible; si no, usa la máxima nativa y registra las dimensiones reales. Sin diálogo ni música. Si la herramienta genera audio, solicita únicamente ambiente suave coherente con la escena y documenta el resultado.
+
+REVISIÓN FINAL
+Sin deriva del rostro, cambios de identidad, variaciones de anatomía, deformación del producto, parpadeos de luz, objetos que aparecen o desaparecen, deslizamiento antinatural, texto inventado ni marcas de agua añadidas. Conserva sombras, reflejos, materiales y patrones de las referencias entre fotogramas.
 
 ### Calor de hogar
 
@@ -516,4 +920,20 @@ Video de 8 segundos sugeridos, relación de aspecto 9:16. Escena: Una pared de y
 
 **Prompt para probar en Flow**
 
-Video de 8 segundos sugeridos, relación de aspecto 4:5. Escena: Un cuenco de sopa de calabaza con una pequeña hoja verde en el centro. Acción: El vapor sube de forma delicada y dispersa; la superficie de la sopa permanece casi inmóvil. Cámara: Acercamiento frontal muy lento, una sola toma. Tratamiento visual: Luz cálida lateral, fondo de cocina desenfocado, textura cremosa sin burbujas excesivas. Una sola toma continua con identidad, geometría y luz consistentes durante todo el plano. Movimiento contenido y físicamente creíble. Sin texto, logotipos, marcas de agua, cortes ni transiciones. Sin diálogo; si la herramienta genera audio, buscar ambiente suave y registrarlo en las notas. La duración y el formato dependen de las opciones disponibles en el modelo: registrar los valores reales después de generar.
+REFERENCIAS Y CONTINUIDAD
+Usa la imagen o imágenes adjuntas como referencia del plato, bebida o ingredientes. La referencia 1 define los elementos que deben conservarse; las imágenes adicionales de vajilla, composición o luz solo guían esos aspectos y no sustituyen la receta. Mantén ingredientes reconocibles, proporciones realistas, cocción, color y textura fieles al alimento mostrado. Si se adjuntan varias preparaciones distintas, toma la primera como plato principal y no las mezcles sin indicación. Si no hay referencia, solicita una foto del plato o de los ingredientes previstos. Utiliza las imágenes de referencia como guía de continuidad visual, no como una secuencia de personajes distintos. Si se parte de una imagen aprobada, úsala como referencia de encuadre inicial cuando el modo de Flow lo permita.
+
+ESCENA Y ACCIÓN
+Un cuenco de sopa de calabaza con una pequeña hoja verde en el centro. Acción: El vapor sube de forma delicada y dispersa; la superficie de la sopa permanece casi inmóvil. La acción debe ser contenida, físicamente creíble y completarse sin transformaciones del sujeto. Conserva rostro, vestuario, producto, pelaje o ingredientes durante toda la toma, según corresponda.
+
+DIRECCIÓN DE FOTOGRAFÍA
+Apariencia cinematográfica de ARRI ALEXA 35 con óptica de 85 mm, apertura orientativa T4, cadencia objetivo de 24 fps y obturación visual equivalente a 180 grados para un desenfoque de movimiento natural. Son referencias estéticas, no ajustes ni metadatos garantizados por el generador. Luz grande lateral y reflector tenue; foco en el alimento principal, texturas comestibles realistas y balance de blancos neutro. Mantén constante la exposición, el balance de blancos y la dirección de luz. Evita cambios de foco que oculten el sujeto o alteren su identidad.
+
+CÁMARA Y TIEMPO
+Acercamiento frontal muy lento, una sola toma. Una sola toma continua, sin cortes, fundidos ni saltos de posición. Duración sugerida de 8 segundos. Comienza con un breve instante estable y termina con una composición limpia. Si el modelo ofrece otra duración o cadencia, utiliza las opciones disponibles y registra las reales.
+
+FORMATO Y SONIDO
+Relación 4:5, resolución objetivo 2048 × 2560 píxeles solo si está disponible; si no, usa la máxima nativa y registra las dimensiones reales. Sin diálogo ni música. Si la herramienta genera audio, solicita únicamente ambiente suave coherente con la escena y documenta el resultado.
+
+REVISIÓN FINAL
+Sin deriva del rostro, cambios de identidad, variaciones de anatomía, deformación del producto, parpadeos de luz, objetos que aparecen o desaparecen, deslizamiento antinatural, texto inventado ni marcas de agua añadidas. Conserva sombras, reflejos, materiales y patrones de las referencias entre fotogramas.
