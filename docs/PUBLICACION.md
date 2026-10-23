@@ -32,7 +32,13 @@ Para la activación inicial:
 
 Después, cada actualización de `main` vuelve a publicar automáticamente. Si el repositorio es privado y tu plan no ofrece Pages para repositorios privados, GitHub indicará esa limitación; revisa las opciones del plan o la visibilidad sin cambiarla automáticamente.
 
-El envío del workflow a GitHub no demuestra que Pages esté habilitado. Desde este entorno el proxy bloquea la API de GitHub y el subdominio del sitio, así que la activación y el estado remoto del despliegue deben comprobarse en esas pantallas. La versión pública mantiene los borradores ocultos: inicialmente verás portada, navegación y páginas informativas; las fichas aparecerán al publicar tus resultados reales.
+### Si aparece «404 File not found»
+
+Este proyecto contiene código fuente de Astro, no un `index.html` en la raíz de `main`. **Deploy from a branch → main → / (root)** publica el contenido equivocado. Selecciona **GitHub Actions** como Source y ejecuta el workflow anterior: la compilación genera `dist/index.html` y el workflow publica `dist/`.
+
+En la revisión del repositorio público se confirmó que Pages estaba en modo `legacy`, con `main` y `/`. La integración permite consultar ese estado, pero el intento de cambiarlo devuelve `403 Resource not accessible by integration`; el propietario debe seleccionar GitHub Actions en Settings → Pages. No hace falta crear un `index.html` manual ni mover los fuentes.
+
+La versión pública mantiene los borradores ocultos: inicialmente verás portada, navegación y páginas informativas; las fichas aparecerán al publicar tus resultados reales.
 
 Para comprobar la compilación de Pages localmente:
 

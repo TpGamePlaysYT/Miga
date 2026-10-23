@@ -76,3 +76,11 @@ Se guardaron `install_script` y `start_skill` como borrador de la configuración
 - El prototipo de Figma volvió a responder con un 403 del proxy antes de alcanzar Figma; no había herramientas para acceder a la pestaña compartida. No se afirma que esta revisión haya contrastado el archivo visual.
 
 Las capturas y la medición de Lighthouse de las secciones anteriores documentan la primera entrega; no se presentan como mediciones nuevas tras esta actualización de textos y rutas.
+
+## Revisión con las capturas de Figma y diagnóstico de Pages
+
+Se adaptaron la paleta crema/lavanda/menta/durazno, marca, anuncio superior, portada con búsqueda y collage, colecciones, pasos, pie y panel blanco del prompt a las capturas aportadas por el propietario. Se mantienen solo imágenes y videos. Las ilustraciones SVG son demostraciones, no resultados de Flow ni fotografías extraídas del diseño. Las capturas de portada y detalle en escritorio y móvil de `docs/capturas/` muestran la revisión actual en desarrollo, con borradores visibles.
+
+Validación: 8 pruebas de contenido y 10 pruebas de navegador correctas, incluida accesibilidad. Compilación correcta para `https://tpgameplaysyt.github.io/Miga/`. Revisión visual en 1440 y 390 px.
+
+El repositorio ya es público. La consulta de Pages devuelve `build_type: legacy`, rama `main`, carpeta `/`: sirve los fuentes y explica el 404 al no existir un index.html allí. El cambio por API a `workflow` está bloqueado por permisos de la integración (403). El propietario debe elegir GitHub Actions en Settings → Pages; consultar `PUBLICACION.md`. No se da por confirmado un despliegue público hasta terminar ese paso y comprobar el workflow.

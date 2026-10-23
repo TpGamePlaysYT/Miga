@@ -6,6 +6,7 @@ import '@fontsource/plus-jakarta-sans/latin-600.css';
 import '@fontsource/plus-jakarta-sans/latin-700.css';
 import '@fontsource/plus-jakarta-sans/latin-800.css';
 import '../styles/global.css';
+import '../styles/reference.css';
 import Icon from '../components/Icon.astro';
 const {
   title = 'Miga — Un buen prompt, mil posibilidades',
@@ -56,17 +57,20 @@ const path = Astro.url.pathname.slice(import.meta.env.BASE_URL.replace(/\/$/, ''
     <a class="skip-link" href="#main">
       Saltar al contenido
     </a>
+    <div class="announcement">✧ Tu próxima idea favorita está a un prompt de distancia.</div>
     <header class="site-header">
       <div class="header-inner container">
         <a class="logo" href={sitePath('/')} aria-label="Miga, inicio">
-          miga<span class="logo-dot">✳︎</span>
+          <span class="brand-mark" aria-hidden="true">
+            ✧
+          </span>
+          miga
         </a>
         <nav class="main-nav" aria-label="Navegación principal">
           <a href={sitePath('/#explorar')} aria-current={path === '/' ? 'page' : undefined}>
             Explorar
           </a>
-          <a href={sitePath('/?type=image#explorar')}>Imágenes</a>
-          <a href={sitePath('/?type=video#explorar')}>Videos</a>
+          <a href={sitePath('/#colecciones')}>Colecciones</a>
           <a
             href={sitePath('/como-funciona/')}
             aria-current={path === '/como-funciona/' ? 'page' : undefined}
@@ -110,7 +114,10 @@ const path = Astro.url.pathname.slice(import.meta.env.BASE_URL.replace(/\/$/, ''
       <div class="footer-top">
         <div>
           <a class="logo" href={sitePath('/')}>
-            miga<span class="logo-dot">✳︎</span>
+            <span class="brand-mark" aria-hidden="true">
+              ✧
+            </span>
+            miga
           </a>
           <p>
             Una pequeña idea.

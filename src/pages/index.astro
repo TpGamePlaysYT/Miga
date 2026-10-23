@@ -12,12 +12,12 @@ const entries = getCatalog();
   <section class="hero container">
     <div class="hero-copy">
       <span class="hero-label">
-        <span></span>Un lugar para tus próximas ideas
+        <span></span>TU RINCÓN CREATIVO CON IA
       </span>
       <h1>
-        Un buen prompt,
+        Un buen prompt.
         <br />
-        <span class="highlight">mil posibilidades.</span>
+        <span class="highlight">Mil posibilidades.</span>
         <svg class="hero-spark" viewBox="0 0 50 50" aria-hidden="true">
           <path d="M25 3v44M3 25h44M9 9l32 32M9 41 41 9" stroke="currentColor" stroke-width="5" />
         </svg>
@@ -26,14 +26,21 @@ const entries = getCatalog();
         Ideas para crear imágenes y videos que dicen algo.
         <br class="desktop-break" /> Explora, copia un prompt y hazlo tuyo.
       </p>
-      <div class="hero-actions">
-        <a href="#explorar" class="button dark">
-          Encuentra tu inspiración <Icon name="arrow" size={18} />
-        </a>
-        <a class="how-link" href={sitePath('/como-funciona/')}>
-          ¿Cómo funciona? <span aria-hidden="true">↗</span>
-        </a>
-      </div>
+      <form
+        class="hero-search"
+        action={sitePath('/#explorar')}
+        role="search"
+        aria-label="Buscar una idea"
+      >
+        <Icon name="search" size={20} />
+        <label class="sr-only" for="hero-search">
+          ¿Qué quieres crear hoy?
+        </label>
+        <input id="hero-search" name="q" type="search" placeholder="¿Qué quieres crear hoy?" />
+        <button class="button dark" type="submit">
+          Buscar <Icon name="arrow" size={17} />
+        </button>
+      </form>
       <div class="hero-footnote">
         <span class="mini-spark" aria-hidden="true">
           ✦
@@ -66,8 +73,8 @@ const entries = getCatalog();
       </div>
       <div class="hero-mini mini-main">
         <img
-          src={sitePath('/demo/cat.svg')}
-          alt="Ilustración de un gato sobre fondo lavanda"
+          src={sitePath('/demo/portrait.svg')}
+          alt="Ilustración de un retrato sobre fondo cálido"
           width="640"
           height="520"
           fetchpriority="high"
@@ -89,7 +96,7 @@ const entries = getCatalog();
       </div>
       <span class="art-caption">Ilustraciones de muestra · no son resultados de Flow</span>
       <span class="art-note" aria-hidden="true">
-        empieza con una idea{' '}
+        Copia. Cambia. Crea.{' '}
         <svg viewBox="0 0 80 45">
           <path
             d="M3 5q52 0 54 30m-12-6 13 9 12-13"
@@ -101,31 +108,59 @@ const entries = getCatalog();
       </span>
     </div>
   </section>
-  <div class="value-strip">
-    <div class="container">
-      <span>
-        <Icon name="sparkle" size={17} /> Ideas que puedes hacer tuyas
-      </span>
-      <span>
-        <Icon name="copy" size={17} /> Copia, adapta, crea
-      </span>
-      <span>
-        <Icon name="bookmark" size={17} /> Guarda para después
-      </span>
-    </div>
-  </div>
   <Catalog entries={entries} />
   <AdSlot />
-  <section class="bottom-banner container">
-    <div class="banner-symbol" aria-hidden="true">
-      ✳︎
+  <section id="colecciones" class="collections container">
+    <h2>Un universo para cada idea</h2>
+    <p>Pequeñas colecciones para perderle el miedo a la página en blanco.</p>
+    <div class="collection-grid">
+      <a href={sitePath('/?category=Retratos#explorar')}>
+        <Icon name="image" />
+        <h3>Tu mejor retrato</h3>
+        <p>Luz, estilo y personalidad.</p>
+        <span aria-hidden="true">→</span>
+      </a>
+      <a href={sitePath('/?category=Productos#explorar')}>
+        <Icon name="sparkle" />
+        <h3>Marcas con magia</h3>
+        <p>Productos que cuentan historias.</p>
+        <span aria-hidden="true">→</span>
+      </a>
+      <a href={sitePath('/?category=Cine#explorar')}>
+        <Icon name="video" />
+        <h3>Escenas de película</h3>
+        <p>Movimiento, atmósfera e imaginación.</p>
+        <span aria-hidden="true">→</span>
+      </a>
+    </div>
+  </section>
+  <section class="creation-steps container" aria-label="Cómo empezar">
+    <div>
+      <h2>Tu idea, en tres pasos.</h2>
+      <p>No hace falta saberlo todo para empezar.</p>
     </div>
     <div>
-      <span class="eyebrow">LA MEJOR PARTE LA PONES TÚ</span>
-      <h2>El prompt es solo el principio.</h2>
-      <p>Cambia un color, una luz, una historia. Haz espacio para tu versión.</p>
+      <span>1</span>
+      <h3>Encuentra tu inspiración</h3>
+      <p>Elige una idea que te guste.</p>
     </div>
-    <a href={sitePath('/como-funciona/')} class="button light">
+    <div>
+      <span>2</span>
+      <h3>Hazlo tuyo</h3>
+      <p>Copia y adapta sus detalles.</p>
+    </div>
+    <div>
+      <span>3</span>
+      <h3>Crea y experimenta</h3>
+      <p>Pruébala en tu herramienta de IA.</p>
+    </div>
+  </section>
+  <section class="bottom-banner container">
+    <div>
+      <h2>Las buenas ideas se comparten.</h2>
+      <p>Tu siguiente creación empieza con un pequeño cambio.</p>
+    </div>
+    <a href={sitePath('/como-funciona/')} class="button dark">
       Empieza a crear <Icon name="arrow" size={18} />
     </a>
   </section>
